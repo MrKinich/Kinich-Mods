@@ -1,0 +1,171 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_proselytize_in_china;Proselytize in [offmap_china.GetShortName] China;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_proselytize_in_china_desc;Ask [offmap_china.Ruler.GetTitle] [offmap_china.Ruler.GetDynName] for permission to send [Root.Religion.GetPriestTitle]s into the Middle Kingdom.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_stop_proselytizing_in_china;Stop proselytizing in the [offmap_china.GetName];FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_stop_proselytizing_in_china_desc;Supporting the [Root.Religion.GetPriestTitle]s isn't worth it anymore. We need to call them back.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_missionary_good;Aiding the spread of the [Root.Religion.GetName] faith;;;;;;;;;;;;;x
+kcc_missionary_great;Greatly aiding the spread of the [Root.Religion.GetName] faith;;;;;;;;;;;;;x
+kcc_missionary_fail;Sightly hindering the spread of the [Root.Religion.GetName] faith;;;;;;;;;;;;;x
+kcc_missionary_epic_fail;Greatly hindering the spread of the [Root.Religion.GetName] faith;;;;;;;;;;;;;x
+kcc_good_breeding;This option is available because you are of §Yexcellent breeding§!;;;;;;;;;;;;;x
+kcc_missionary_overwork;By working themselves to the bone your [Root.Religion.GetPriestTitle]s are sure to win converts, but the resulting exhaustion may have negative effects...;;;;;;;;;;;;;x
+kcc_known_as_holy;This option is available because you are §Yrenowned§! for your faith in §Y[Root.Religion.GetHighGodNameCap]§!;;;;;;;;;;;;;x
+kcc_lying_crusader;This option is available because you are willing to do §Yanything§!- even lie- in service to §Y[Root.Religion.GetHighGodNameCap]§!;;;;;;;;;;;;;x
+kcc_better_command;Your [Root.Religion.GetPriestTitle] relays tactical advice from the commander;;;;;;;;;;;;;x
+kcc_asian_courtier;Your [Root.Religion.GetPriestTitle]'s [KCCGetPilgrimCulture] friend joins you at court;;;;;;;;;;;;;x
+chinese_missionaries_good;Proselytizing in [offmap_china.GetShortName] China;;;;;;;;;;;;;x
+chinese_missionaries_good_desc;This character is sending [Root.Religion.GetPriestTitle]s to preach in [offmap_china.GetShortName] China, and has the support of the Emperor;;;;;;;;;;;;;x
+chinese_missionaries_bad;Proselytizing in [offmap_china.GetShortName] China;;;;;;;;;;;;;x
+chinese_missionaries_bad_desc;This character is sending [Root.Religion.GetPriestTitle]s to preach in [offmap_china.GetShortName] China against the wishes of the Emperor;;;;;;;;;;;;;x
+kcc_happy_china_merchant;[offmap_china.GetShortName] Trade Contacts;;;;;;;;;;;;;x
+kcc_happy_china_merchant_desc;[Root.GetTitledFirstName] has forged close ties with merchants from the Middle Kingdom, and is reaping the rewards;;;;;;;;;;;;;x
+kcc_angry_china_merchant;Insulted [offmap_china.GetShortName] Merchants;;;;;;;;;;;;;x
+kcc_angry_china_merchant_desc;[Root.GetTitledFirstName] is finding it harder to trade in the [offmap_china.GetName] after offending a prominent [offmap_china.Ruler.Culture.GetName] merchant;;;;;;;;;;;;;x
+kcc_socialist_good;Workers of the World, Unite!;;;;;;;;;;;;;x
+kcc_socialist_good_desc;The emperor was quite impressed by [Root.GetTitledFirstName]'s devotion to Mazdak's ideals;;;;;;;;;;;;;x
+kcc_socialist_bad;Workers of the World, Unite!;;;;;;;;;;;;;x
+kcc_socialist_bad_desc;[Root.GetTitledFirstName]'s devotion to Mazdak's ideals has strained relations with the [offmap_china.GetName];;;;;;;;;;;;;x
+kcc_socialist_horrible;Workers of the World, Unite!;;;;;;;;;;;;;x
+kcc_socialist_horrible_desc;The [offmap_china.GetShortName] Emperor is furious at [Root.GetTitledFirstName]'s actions taken in Mazdak's name;;;;;;;;;;;;;x
+kcc_sneaky_missionaries;Crafty [Root.Religion.GetPriestTitleCap]s;;;;;;;;;;;;;x
+kcc_sneaky_missionaries_desc;Your [Root.Religion.GetPriestTitle]s' clever wordplay has inspired you to focus more on intrigue;;;;;;;;;;;;;x
+kcc_honest_missionaries;Sincere [Root.Religion.GetPriestTitleCap]s;;;;;;;;;;;;;x
+kcc_honest_missionaries_desc;Your [Root.Religion.GetPriestTitle]s' integrity reflects well on you, their sponsor;;;;;;;;;;;;;x
+kcc_asian_diplomacy;[KCCGetPilgrimCulture] Advisor;;;;;;;;;;;;;x
+kcc_asian_diplomacy_desc;A pilgrim from the far east has joined [Root.GetTitledFirstName]'s court and now lurks in the background, providing [Root.GetHerHim] with advice;;;;;;;;;;;;;x
+kcc_asian_martial;[KCCGetPilgrimCulture] Advisor;;;;;;;;;;;;;x
+kcc_asian_martial_desc;A pilgrim from the far east has joined [Root.GetTitledFirstName]'s court and now lurks in the background, providing [Root.GetHerHim] with advice;;;;;;;;;;;;;x
+kcc_asian_stewardship;[KCCGetPilgrimCulture] Advisor;;;;;;;;;;;;;x
+kcc_asian_stewardship_desc;A pilgrim from the far east has joined [Root.GetTitledFirstName]'s court and now lurks in the background, providing [Root.GetHerHim] with advice;;;;;;;;;;;;;x
+kcc_asian_intrigue;[KCCGetPilgrimCulture] Advisor;;;;;;;;;;;;;x
+kcc_asian_intrigue_desc;A pilgrim from the far east has joined [Root.GetTitledFirstName]'s court and now lurks in the background, providing [Root.GetHerHim] with advice;;;;;;;;;;;;;x
+kcc_japanese_key;Japanese;;;;;;;;;;;;;x
+kcc_korean_key;Korean;;;;;;;;;;;;;x
+kcc_vietnamese_key;Kinh;;;;;;;;;;;;;x
+kcc_malayan_key;Orang Melayu;;;;;;;;;;;;;x
+kcc_nippon_key;Nippon;;;;;;;;;;;;;x
+kcc_choson_key;Choson;;;;;;;;;;;;;x
+kcc_vietnam_key;Dai Viet;;;;;;;;;;;;;x
+kcc_malaya_key;Malaya;;;;;;;;;;;;;x
+EVTDESC_kccpnews.0004;My [Root.Religion.GetPriestTitle]s won some converts to the [Root.Religion.GetName] faith.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0005;Joyous news, my expert [Root.Religion.GetPriestTitle]s won many converts to the [Root.Religion.GetName] faith!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0006;Curses! My [Root.Religion.GetPriestTitle]s turned some [offmap_china.GetShortName] away from the [Root.Religion.GetName] faith.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0007;Woe is me! My incompetent [Root.Religion.GetPriestTitle]s scared off many potential [offmap_china.GetShortName] converts.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0067;It seems my [Root.Religion.GetPriestTitle]s failed to make any real impact on the [offmap_china.GetShortName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0068;The [KCCGetPilgrimCulture] Pilgrim my lead [Root.Religion.GetPriestTitle] befriended has made it to my court with the letter.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0069;The letter is here, but my [Root.Religion.GetPriestTitle]'s [KCCGetPilgrimCulture] friend is nowhere to be seen...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0002;[offmap_china.Ruler.GetHerHisCap] Imperial Majesty, [offmap_china.Ruler.GetBestName], has decided to welcome the [Root.Religion.GetPriestTitle]s of [Root.GetDynName] into the middle kingdom. You of course understand what a privilege this is and will instruct your [Root.Religion.GetPriestTitle]s to be on their best behavior.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0002;Onwards to China!.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0003a;[offmap_china.Ruler.GetHerHisCap] Imperial Majesty, [offmap_china.Ruler.GetBestName], will never allow you to pollute the souls of the middle kingdom with your heathenous trash. Your [Root.Religion.GetPriestTitle]s will not be welcomed, and you can be sure that if you proceed regardless, we shall be opposing their efforts with every appropriate measure.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0003b;[offmap_china.Ruler.GetHerHisCap] Imperial Majesty, [offmap_china.Ruler.GetBestName], has decided that they will not be welcoming your [Root.Religion.GetPriestTitle]s into the middle kingdom. You of course understand that [Root.Religion.GetName] is a destabilizing influence, and we do not wish it to spread within our borders.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0003a;You can't stop me from sending as many [Root.Religion.GetPriestTitle]s into China as I like!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0003b;I understand and will respect [offmap_china.Ruler.GetBestName]'s wishes.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0004;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They passed through a small peasant village that has had a particularly bad harvest. The locals were starving, and a particularly young [Root.Religion.GetPriestTitle] with the expedition demanded they do something about it. The lead [Root.Religion.GetPriestTitle] gave it some thought, and decided to...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0004a;Distribute their food in the hopes that the display of generosity will win converts.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0004b;Demand the locals convert, using the [Root.Religion.GetPriestTitle]'s food as 'encouragement'.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0004c;Pray to [Root.Religion.GetRandomGodNameCap] for the peasants and move on.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0004d;Share some of the extra food I packed with the local [offmap_china.GetShortName]s.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0005;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. While travelling a well-worn path between two cities, they were ambushed by a troupe of bandits. The bandit leader demanded tribute in exchange for the [Root.Religion.GetPriestTitle]s' safe passage. Thankfully, the leader of the expedition is a level-headed [Root.Religion.GetPriestTitle], and they immediately...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0005a;Complied with the bandits' demands. My [Root.Religion.GetPriestTitle]s need additional supplies.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0005b;Used all their rhetorical skill to convert the bandits to the [Root.Religion.GetName] faith.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0005c;Told the bandits of the horrors I inflicts on my enemies...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0006a;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were leaving an administrative office when they found their path blocked by a Confucian scholar. The man observed my [Root.Religion.GetPriestTitle]s briefly before challenging them to a debate on the merits of their faith & how it could impact [offmap_china.GetShortName] society. The scholar looked confident. My [Root.Religion.GetPriestTitle]s agreed to the debate, and their primary argument was...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0006b;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were leaving an administrative office when they found their path blocked by a Confucian scholar. The man dully observed my [Root.Religion.GetPriestTitle]s briefly before challenging them to a debate on the merits of their faith & how it could impact [offmap_china.Ruler.Culture.GetName] society. The scholar looked inept. My [Root.Religion.GetPriestTitle]s agreed to the debate, and their primary argument was...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0006c;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were leaving an administrative office when they found their path blocked by a Confucian scholar. The man observed my [Root.Religion.GetPriestTitle]s briefly before challenging them to a debate on the merits of their faith & how it could impact [offmap_china.Ruler.Culture.GetName] society. My [Root.Religion.GetPriestTitle]s agreed to the debate, and their primary argument was...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0006a;The values of the [Root.Religion.GetName] faith, and how they'd benefit [offmap_china.GetShortName] society.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0006b;The administrative principles that naturally flow from [Root.Religion.GetName] values.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0006c;The filial piety that is so common to [Root.Religion.GetName]s, using me as an example.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0006d;A delaying tactic. They then conceded defeat as gracefully as they could.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0007;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were discussing some of the miracles attested to in [Root.Religion.GetScriptureName], when one of the craftier [Root.Religion.GetPriestTitle]s suggested making their own miracles happen. Surely a little lie could be forgiven if it leads the [offmap_china.Ruler.Culture.GetName] people to into [Root.Religion.GetHighGodNameCap]'s arms?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0007a;They impressed the [offmap_china.GetShortName] with their [Root.Religion.GetHighGodNameCap]-granted breath of fire!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0007b;They showed [Root.Religion.GetHighGodNameCap]'s power by communing with beasts!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0007c;They healed the sick with pure faith in [Root.Religion.GetHighGodNameCap]!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0007d;My [Root.Religion.GetPriestTitle]s berated their unworthy companion for their impiety.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0008;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. In their travels they'd come across a group of peasants working to erect some small cottages- apparently, a recent fire destroyed the homes of some [offmap_china.GetShortName] smallfolk. A particularly empathetic & diligent [Root.Religion.GetPriestTitle] suggested that the party could lead by example, and win converts through good works. My [Root.Religion.GetPriestTitle]s...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0008a;Went ahead & helped the peasants.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0008b;Showed them the diligence [Root.Religion.GetRandomGodNameCap] bestows on their followers.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0008c;Constructed a statue of the most holy [Root.Religion.GetName] ever to rule- me.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0009;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. While preaching in the square of a small town, a [offmap_china.GetShortName] woman stormed into the square and demanded to know how they could extoll the virtues of [Root.Religion.GetHighGodNameCap] when evil still existed in the world. Her young son was dead, and if [offmap_china.Ruler.Religion.GetHighGodNameCap] could not help him, why should anyone believe [Root.Religion.GetHighGodNameCap] could?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0009a;"[Root.Religion.GetHighGodNameCap] works in mysterious ways. I'm sure this is for the best.";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0009b;"[Root.Religion.GetHighGodNameCap] isn't the only actor- [Root.Religion.GetRandomEvilGodNameCap] is the root of evil.";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0009c;"[Root.Religion.GetHighGodNameCap] is always in need of valiant servants- obviously your son was chosen!";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0009d;My [Root.Religion.GetPriestTitle]s were unable to give an answer and beat a hasty retreat.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0010;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. During a discussion, the point was raised that there are but few [offmap_china.GetShortName]s who can comprehend the holy tongue, and this is hampering our efforts to spread the good word of [Root.Religion.GetHighGodNameCap] in the east. Perhaps translating the [Root.Religion.GetScriptureName] into the [offmap_china.GetShortName] language would be a good next step in their efforts? The head [Root.Religion.GetPriestTitle] looked at their underling and responded...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0010a;"That is an excellent idea! We should begin working on a translation immediately.";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0010b;"No, [Root.Religion.GetScriptureName] is meant to be experienced personally, not from stuffy tomes.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0010c;"We're {Root.Culture.GetName], we already have translations. Are you daft?";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0010d;"No, we will not profane [Root.Religion.GetScriptureName] with the [offmap_china.GetShortName] tongue.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0011;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were passing through a provincial [offmap_china.GetShortName] capital when a local governor invited them to meet. The official had heard that my holy men were spreading the [Root.Religion.GetName] faith, & wanted to find out whether [Root.Religion.GetName] ideas have any merit or if they're just another inferior outside influence. Exited, my [Root.Religion.GetPriestTitle]s...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0011a;Argued how [Root.Religion.GetName] principles inevitably lead to prosperity;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0011b;Argued that great rulers are the natural result of [Root.Religion.GetName] ideals;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0011c;Pointed out that ruling sometimes requires... less than honorable actions;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0011d;Declined the invitation with as much dignity as they could and left the city;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0012;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were approached by the servant of a merchant lord who wished to meet with the preachers. The trader had been increasingly dealing with [Root.Religion.GetName]s and was considering converting to improve relations. Once they heard that [Root.Religion.GetName] [Root.Religion.GetPriestTitle]s were in the city, they simply had to meet...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0012aa;"There is no conflict between wealth & [Root.Religion.GetName] principles.";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0012ab;My [Root.Religion.GetPriestTitle]s mislead the bourgeois, for the sake of furthering Mazdak's noble goals.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0012ba;My [Root.Religion.GetPriestTitle]s sternly rebuked the aspiring aristocrat of the folly of their greed.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0012bb;My [Root.Religion.GetPriestTitle]s launched into a tirade against the disgusting avarice of the fat tyrant.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0012c;Revolutionary zeal overwhelmed my [Root.Religion.GetPriestTitle]s- they stormed the manor with the local poor.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0013;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. While pondering the best way to spread the worship of [Root.Religion.GetHighGodNameCap] among the [offmap_china.GetShortName], several remarked that they were inspired to take up the mantle of [Root.Religion.GetPriestTitle] by displays of intense devotion- perhaps a similar display would work here?  At the very least, it couldn't hurt, right?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0013a;The [Root.Religion.GetPriestTitle]s fasted for a month to show their devotion to [Root.Religion.GetRandomGodNameCap].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0013b;The more pious among the [Root.Religion.GetPriestTitle]s whipped themselves to cleanse their sins.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0013c;The most zealous [Root.Religion.GetPriestTitle]s were overwhelmed by faith & immolated themselves!;FRENCH;GERMAN;;SPANISH;;;;;;;;;
+EVTDESC_kccmission.0014;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They had been preaching in a [offmap_china.GetShortName] city when a freak storm destroyed a nearby village. The [offmap_china.Ruler.Religion.GetName] [offmap_china.Ruler.Religion.GetPriestTitle]s have blamed the storm on my pious [Root.Religion.GetPriestTitle]s! They say that [offmap_china.Ruler.Religion.GetRandomGodNameCap] is displeased with the [offmap_china.GetShortName] for allowing foreign preachers to spread their ideas. What's worse, the townsfolk seem to be taking this claim seriously!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0014a;The [offmap_china.Ruler.Religion.GetPriestTitle]s couldn't prove a thing. My [Root.Religion.GetPriestTitle]s complained to the governor.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0014b;Words are wind- only action could prove the righteousness of the [Root.Religion.GetName] way.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0014c;My [Root.Religion.GetPriestTitle]s were crafty- sly rumors turned the tables on the [offmap_china.Ruler.Religion.GetPriestTitle]s.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0015;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were passing through a town when the Imperial Examinations were about to begin. If one of the [Root.Religion.GetPriestTitle]s could get a position in the [offmap_china.GetShortName] bureaucracy, they could work to further the spread of the [Root.Religion.GetName] faith from within the [offmap_china.GetName]. They were able to scrape together enough funds for the test, and they...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0015a;Treated the test with all the respect it deserved.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0015b;Cheated, of course. Such an opportunity is too great to leave to 'skill'.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0015c;I handpicked my [Root.Religion.GetPriestTitle]s for their skill- they passed.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0015d;Decided that the [offmap_china.GetShortName] test wasn't with taking.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0016a;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were preaching in a tavern- to 'Get at the heart of the local culture,' the letter says- when some [offmap_china.Ruler.Religion.GetName] [offmap_china.Ruler.Religion.GetPriestTitle]s entered the building. The letter assures me that these [offmap_china.Ruler.Religion.GetPriestTitle]s were drunken sots- not like my pious [Root.Religion.GetPriestTitle]s. One thing led to another, and the impromptu debate the groups were having took a much more... aggressive turn.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0016b;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were preaching in a town square when a group of drunken [offmap_china.Ruler.Religion.GetName] [offmap_china.Ruler.Religion.GetPriestTitle]s staggered out of a tavern. The barely coherent [offmap_china.Ruler.Religion.GetPriestTitle]s engaged my [Root.Religion.GetPriestTitle]s in an impromptu debate on the [Root.Religion.GetName] faith & how it is surely antithetical to all of [offmap_china.GetShortName] society. Owing to their sobriety, my [Root.Religion.GetPriestTitle]s easily won the debate. It seems the [offmap_china.Ruler.Religion.GetPriestTitle]s didn't take this well.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0016a;Good thing my [Root.Religion.GetPriestTitle]s know how to take a punch.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0016b;Good thing my [Root.Religion.GetPriestTitle]s know to aim below the belt.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0016c;Good thing my [Root.Religion.GetPriestTitle]s thought to hire bodyguards.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0016da;They were sober enough to consider optics. Their pacifism won converts.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0016db;They thought to consider optics. Their pacifism won converts.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0017;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. One of their number had seemed oddly irritable lately. When they came across some [offmap_china.GetShortName] peasants performing a [offmap_china.Ruler.Religion.GetName] ritual, the [Root.Religion.GetPriestTitle] snapped, & launched into a very loud, public condemnation of their 'sinful, heathenous ways.' Anger visible on the peasants' faces, the expedition leader stepped in &...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0017a;Assured them that the 'insults' were actually fair critiques lost in translation.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0017b;Accused the offending [Root.Religion.GetPriestTitle] of being planted by [offmap_china.Ruler.Religion.GetName] [offmap_china.Ruler.Religion.GetPriestTitle]s.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0017c;Tried to diffuse the situation by disputing the definition of the word 'sinful.';FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0017d;Praised their compatriot's honesty & denounced the locals' primitive religion.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0018;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. While they were seting up camp in the countryside, they were stumbled on by a patrolling garrison. The officer offered to escort them to the nearest town, where they'd be safe. The [Root.Religion.GetPriestTitle]s had ample opportunity to mingle with the soldiers during the trek & attempted to spread the [Root.Religion.GetName] faith by...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0018a;Praising the soldiers' bravery & sharing tales of [Root.Religion.GetGroupName] heroes in [Root.Religion.GetScriptureName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0018b;Extolling the virtues of mercy, for [Root.Religion.GetRandomGodNameCap] rewards the peaceful.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0018c;Claiming that [Root.Religion.GetHighGodNameCap] would surely grant them invincibility if they converted.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0018d;Multiple methods, leaving the soldiers more confused than impressed.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0019;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They had spent a few days preaching in a village near a garrison, and the officer in charge of the fort had heard of them & wished to meet with these strange & exotic outsiders. The lead [Root.Religion.GetPriestTitle]s met with the commander for a private meal, where they attempted to convert the officer by...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0019a;Outlining how [Root.Religion.GetName] values naturally lent themselves to command.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0019b;Faking a vision of the officer as a holy warrior, fighting for [Root.Religion.GetHighGodNameCap].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0019c;Discussing the campaigns the [Root.Religion.GetPriestTitle] has been on, for the expedition leader was an experienced commander.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0019d;Actually, they declined the invitation.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0020;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They were passing through a town near the [offmap_china.GetName]'s coast when a group of traditionalist scholars intercepted them.  These learned men demanded to know how these foreigners could dare to spread their impure, alien ideas within the [offmap_china.GetName]'s borders. The lead [Root.Religion.GetPriestTitle] responded...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0020a;"The [Root.Religion.GetName] faith is but a natural extension of your own";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0020b;"Your primitive religion isn't worthy of being called such!";FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0021;I received a letter from my [Root.Religion.GetPriestTitle]s in the middle kingdom today. They had encountered a traveler from the faraway land of [KCCGetPilgrimHomeland] on the road between two [offmap_china.GetName] towns. The traveler quickly struck up a friendship with the lead [Root.Religion.GetPriestTitle], and after a few days the expedition leader...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0021a;Converted their friend & charged them with spreading [Root.Religion.GetHighGodNameCap]'s word.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0021b;Urged them to make their way to my court, certain that I would welcome them.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0021c;Had a tearful goodbye & finally parted ways.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0022a;At last! The [Root.Religion.GetPriestTitle]s I sent into the [offmap_china.GetName] have returned! They experienced many weird & wonderful adventures in their quest to spread the [Root.Religion.GetName] faith and bring the middle kingdom into [Root.Religion.GetHighGodNameCap]'s embrace, and their efforts have borne fruit- communities of [Root.Religion.GetName]s have sprung up where none existed before, and the [offmap_china.Ruler.Culture.GetName] are that much closer to the truth!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0022b;Woe is me! My [Root.Religion.GetPriestTitle]s have returned from the [offmap_china.GetName] with disheartening news! Despite their best efforts, they have not managed to win many converts to the [Root.Religion.GetName] way, and what little successes they did find are even now slipping back into their [offmap_china.Ruler.Religion.GetName] ways. We have failed [Root.Religion.GetHighGodNameCap].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0022a;We have planted a sturdy [Root.Religion.GetName] seed. For [Root.Religion.GetHighGodNameCap]!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0022b;The [Root.Religion.GetName] community in the [offmap_china.GetName] is small for now but given time it will surely blossom.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0022c;Is this my fault, or is it the work of [Root.Religion.GetRandomEvilGodNameCap]?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0025a;[offmap_china.Ruler.GetHerHisCap] Imperial Majesty, [offmap_china.Ruler.GetBestName], had previously granted your predecessor the right to preach the [Root.Religion.GetName] faith in our borders. [offmap_china.Ruler.GetSheHe] is prepared to grant you the same right, so long as your [Root.Religion.GetPriestTitle]s continue to respect our laws.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0025b;[offmap_china.Ruler.GetHerHisCap] Imperial Majesty, [offmap_china.Ruler.GetBestName], had previously denied your predecessor the right to preach the [Root.Religion.GetName] faith in our borders- but the villain refused & proved the [Root.PrimaryTitle.GetFullName] an enemy of the [offmap_china.GetName]. Now is your chance to repair relations- choose wisely...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0025a;I will carry on my predecessor's noble work.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0025b;This isn't worth the trouble it will cause.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0025c;I will not pollute the souls of the [offmap_china.GetName] with my predecessor's false religion.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0026a;At last! The [Root.Religion.GetPriestTitle]s my predecessor sent into the [offmap_china.GetName] have returned! They experienced many weird & wonderful adventures in their quest to spread the [Root.Religion.GetName] faith and bring the middle kingdom into [Root.Religion.GetHighGodNameCap]'s embrace, and their efforts have borne fruit- communities of [Root.Religion.GetName]s have sprung up where none existed before, and the [offmap_china.Ruler.Culture.GetName] are that much closer to the truth!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0027a;Now that I no longer follow the [From.GetName] faith, there is no need for me to continue supporting the [From.GetPriestTitle]s I have sent into the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0027b;Unfortunately, now that I must practice the [Root.SecretReligion.GetName] faith in secret, I shall need to recall the [Root.SecretReligion.GetPriestTitle]s I have sent into the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0027a;Perhaps I can send some [Root.Religion.GetPriestTitle]s in their place...;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0027b;Wouldn't want to blow my cover now, would I?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0027c;I should focus on spreading the [Root.SecretReligion.GetName] faith at home before looking to the Middle Kingdom.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0028a;Unfortunately, I can no longer continue supporting the [Root.Religion.GetPriestTitle]s I have sent into the [offmap_china.GetName], as they are too far away.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0028b;Unfortunately, my recent loss in status means that I can no longer continue supporting the [Root.Religion.GetPriestTitle]s I have sent into the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0028;Curses!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccmission.0032;My predecessor [portrait_target.GetTitledName] had been supporting a group of preaching [portrait_target.Religion.GetPriestTitle]s in [offmap_china.GetShortName] China before [portrait_target.GetHerHis] death. I of course have no intention of supporting the efforts of those heathens & will be cutting all funding & diplomatic support immediately.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccmission.0032;I hope [portrait_target.GetFirstName] is rolling in [portrait_target.GetHerHis] grave.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x

@@ -1,0 +1,13 @@
+spriteTypes = {
+	
+	spriteType = {
+		name = "GFX_kcc_proselytize_in_china"
+		texturefile = "gfx\\interface\\decision_icon_employ_priest.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_kcc_stop_proselytizing_in_china"
+		texturefile = "gfx\\interface\\decision_icon_stop_cc_mission1.dds"
+	}
+		
+}

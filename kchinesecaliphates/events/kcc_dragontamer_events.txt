@@ -1,0 +1,336 @@
+namespace = kccdragontamer
+
+# Chinese Commander Traits
+character_event = {
+	id = kccdragontamer.1
+	desc = { #Bloodline
+		trigger = {
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_kcc_chinese_command
+				founder = { NOT = { character = ROOT } }
+			}
+		}
+		text = EVTDESCkccdragontamer.1a
+	}
+	desc = { #Not Bloodline
+		trigger = {
+			NOT = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_kcc_chinese_command
+					founder = { NOT = { character = ROOT } }
+				}
+			}
+		}
+		text = EVTDESCkccdragontamer.1b
+	}
+	picture = GFX_evt_china_invades
+	border = GFX_event_normal_frame_war
+	
+	has_dlc = "Jade Dragon"
+	is_triggered_only = yes
+	
+	trigger = {
+		NOT = {
+			calc_true_if = {
+				amount = 2
+				trait = logistics_expert
+				trait = master_of_flame
+				trait = sapper
+				trait = levy_coordinator
+			}
+		}
+		is_alive = yes
+		OR = {
+			culture_group = chinese_group
+			has_character_flag = originated_from_chinese_court
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_kcc_chinese_command
+				founder = { NOT = { character = ROOT } }
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_kcc_chinese_command
+					founder = { NOT = { character = ROOT } }
+				}
+			}
+			any_owned_bloodline = {
+				limit = {
+					has_bloodline_flag = bloodline_kcc_chinese_command
+					founder = { NOT = { character = ROOT } }
+				}
+				founder = {
+					save_event_target_as = target_kcc_dragonslayer
+				}
+			}
+		}
+		if = {
+			limit = {
+				NOR = {
+					culture_group = chinese_group
+					has_character_flag = taught_chinese_strategy
+					has_character_flag = originated_from_chinese_court
+				}
+			}
+			set_character_flag = taught_chinese_strategy
+		}
+	}
+	
+	weight_multiplier = {
+		days = 1
+		modifier = {
+			factor = 0
+			NOR = {
+				AND = {
+					martial = 13
+					OR = {
+						culture_group = chinese_group
+						has_character_flag = originated_from_chinese_court
+					}
+				}
+				any_owned_bloodline = {
+					has_bloodline_flag = bloodline_kcc_chinese_command
+					founder = { NOT = { character = ROOT } }
+				}
+			}
+		}
+		modifier = {
+			factor = 0
+			calc_true_if = {
+				amount = 2
+				trait = logistics_expert
+				trait = master_of_flame
+				trait = sapper
+				trait = levy_coordinator
+			}
+		}
+		modifier = {
+			factor = 1.5
+			any_owned_bloodline = {
+				has_bloodline_flag = bloodline_kcc_chinese_command
+				founder = { NOT = { character = ROOT } }
+			}
+		}
+		modifier = {
+			factor = 3
+			NOR = {
+				trait = master_of_flame
+				trait = logistics_expert
+				trait = levy_coordinator
+				trait = sapper
+			}
+		}
+		modifier = {
+			factor = 0.05
+			leader_traits = 2
+		}
+		modifier = {
+			factor = 0.2
+			leader_traits = 3
+		}
+		modifier = {
+			OR = {
+				trait = architect
+				trait = gamer
+				trait = hunter
+				trait = impaler
+				trait = strategist
+			}
+			factor = 1.33
+		}
+		modifier = {
+			factor = 1.5
+			trait = brave
+		}
+		modifier = {
+			factor = 0.5
+			trait = craven
+		}
+		modifier = {
+			trait = genius
+			factor = 1.5
+		}
+		modifier = {
+			OR = {
+				trait = quick
+				trait = shrewd
+			}
+			factor = 1.2
+		}	
+		modifier = {
+			OR = {
+				trait = slow
+				trait = dull
+			}
+			factor = 0.5
+		}
+		modifier = {
+			trait = imbecile
+			factor = 0.1
+		}
+		modifier = {
+			trait = inbred
+			factor = 0.7
+		}
+		modifier = {
+			is_strong_trigger = yes
+			factor = 1.2
+		}
+		modifier = {
+			is_weak_trigger = yes
+			factor = 0.8
+		}		
+		modifier = {
+			factor = 0.85
+			trait = stressed
+		}
+		modifier = {
+			factor = 0.85
+			trait = depressed
+		}
+		modifier = {
+			factor = 0.9
+			is_ill = yes
+		}
+		modifier = {
+			factor = 0.6
+			trait = infirm
+		}
+		modifier = {
+			factor = 0.9
+			trait = drunkard
+		}
+		modifier = {
+			factor = 1.1
+			martial = 13
+		}
+		modifier = {
+			factor = 1.1
+			martial = 15
+		}
+		modifier = {
+			factor = 1.1
+			martial = 17
+		}
+		modifier = {
+			factor = 1.1
+			martial = 19
+		}
+		modifier = {
+			factor = 1.1
+			martial = 21
+		}
+		modifier = {
+			factor = 1.1
+			martial = 23
+		}
+		modifier = {
+			factor = 1.1
+			martial = 25
+		}
+	}
+
+	option = {
+		name = EVTOPTkccdragontamer.1a  # Way of the Dragon
+		trigger = { NOT = { trait = master_of_flame } }
+		add_trait = master_of_flame
+	}
+	option = {
+		name = EVTOPTkccdragontamer.1b # Way of the Dog
+		trigger = { NOT = { trait = logistics_expert } }
+		add_trait = logistics_expert
+	}
+	option = {
+		name = EVTOPTkccdragontamer.1c # Way of the Tiger
+		trigger = { NOT = { trait = levy_coordinator } }
+		add_trait = levy_coordinator
+	}
+	option = {
+		name = EVTOPTkccdragontamer.1d # Way of the Leopard
+		trigger = { NOT = { trait = sapper } }
+		add_trait = sapper
+	}
+}
+
+## Give teen flag
+#character_event = {
+#	id = kccdragontamer.2
+#	hide_window = yes
+#	
+#	is_triggered_only = yes
+#	
+#	has_dlc = "Jade Dragon"
+#	
+#	trigger = {
+#		any_owned_bloodline = { has_bloodline_flag = bloodline_kcc_chinese_command }
+#		NOT = { has_character_flag = taught_chinese_strategy }
+#	}
+#	
+#	immediate = {
+#		set_character_flag = taught_chinese_strategy
+#	}
+#	
+#}
+
+# Persecution Causes Unrest
+character_event = {
+	id = kccdragontamer.3
+
+	has_dlc = "Jade Dragon"
+
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		offmap_china = {
+			set_offmap_flag = china_had_unrest
+			set_status = china_unrest # Players will be notified by JD.50030
+		}
+	}
+}
+
+# Persecution Fixes Unrest
+character_event = {
+	id = kccdragontamer.4
+
+	has_dlc = "Jade Dragon"
+
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		offmap_china = {
+			set_status = china_stable # Players will be notified by JD.50030
+		}
+	}
+}
+
+# Persecution Causes Civil War
+character_event = {
+	id = kccdragontamer.5
+
+	has_dlc = "Jade Dragon"
+
+	is_triggered_only = yes
+	hide_window = yes
+	
+	immediate = {
+		offmap_china = {
+			set_offmap_flag = no_status_news
+			set_status = china_civil_war
+			set_offmap_flag = china_civil_war
+			clr_offmap_flag = no_status_news
+		}
+		any_player = {
+			limit = {
+				has_offmap_news_enabled = offmap_china
+				offmap_china = { governor = { is_within_diplo_range = PREVPREV } }
+			}
+			narrative_event = { id = JD.50281 }
+		}
+	}
+}

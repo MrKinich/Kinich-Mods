@@ -1,0 +1,96 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+bloodline_effect_kcc_chinese_command;Characters can get §YChinese Commander Traits!§!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+chinese_group_opinion;Chinese Opinion;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+nick_the_dragontamer_kcc;the Tamer of the Dragon;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_dragontamer;Dragonsbane Blood of [From.Founder.GetFirstName];FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_dragontamer_desc;The great [From.Founder.GetFullName] is known the world over for invading the Middle Kingdom and forcing the mighty eastern dragon to bend the knee.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+nick_the_dragonslayer_kcc;the Dragonslayer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+nick_the_dragonlayer_kcc;the Dragonlayer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_military_secrets;[Root.GetTitledFirstName] will plunder militay secrets from the Middle Kingdom;;;;;;;;;;;;;x
+kccp_christian_key;Christian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_latin_key;western Christian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_catholic_key;Catholic;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_cathar_key;Cathar;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_fraticelli_key;Fraticelli;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_waldensian_key;Waldensian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_lollard_key;Lollard;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_byzantine_key;eastern Christian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_orthodox_key;Orthodox Christian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_bogomilist_key;Bogomilist;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_monothelite_key;Monothelite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_iconoclast_key;Iconoclast;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_paulician_key;Paulician;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_nonchalcedonian_key;non-Chalcedonian Christian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_miaphysite_key;Miaphysite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_monophysite_key;Monophysite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_nestorian_key;Nestorian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_messalian_key;Messalian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_muslim_key;Muslim;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_sunni_key;Sunni;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_shia_key;Shiite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_ibadi_key;Ibadi;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_all_mazdan_key;Mazdan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_no_zoro_mazdan_key;heretical Mazdayasnan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_zoroastrian_key;Zoroastrian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_mazdaki_key;Mazdaki;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_manichean_key;Manichean;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_india_key;Dharman;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_all_pagan_key;Pagan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_northern_pagan_key;Northern Pagan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_eastern_pagan_key;Asiatic Pagan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_classical_pagan_key;Classical Pagan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_african_key;African;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_aztec_key;Nahuatl;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_sheikh_key;Sheikh;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kc_caliph_key;Caliph;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_zikri_key;Zikri;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_qarmatian_key;Qarmatian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_hurufi_key;Hurufi;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_kharijite_key;Kharijite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_buddhist_key;Buddhist;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_jain_key;Jain;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_norse_key;Asatru;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_baltic_key;Romuva;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_slavic_key;Rodnover;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_finnish_key;Suomenusko;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_tengri_key;Tengri;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_zun_key;Zun;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_bon_key;Bon;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_hellenic_key;Hellenic;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_promethean_key;Promethean;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_celtic_key;Druidic;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_britannic_key;Britannic;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_egyptian_key;Kemetic;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_atenic_key;Atenic;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Christian Immersion
+kccp_adoptionist_key;Adoptionist;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_free_spirits_key;Free Spirits;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_barlaamite_key;Barlaamite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_judaizer_key;Judaizer;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_mandean_key;Mandean;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_chaldean_key;Chaldean;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_apollinarian_key;Apollinarian;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_yarsan_key;Yarsan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Last Vanilla Religions
+kccp_yadizi_key;Yadizi;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_druze_key;Druze;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_khurmazta_key;Khurmazta;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_jew_key;Jew;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_jewish_key;Jewish;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_samaritan_key;Samaritan;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kww_karaite_key;Karaite;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kccp_hindu_key;Hindu;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESCkccdragontamer.1a;The legendary blood of the great [target_kcc_dragonslayer.GetTitledName], who plundered military secrets from the Middle Kingdom, runs through my veins. These strategies have been passed down the family line ever since, and now I finally have a chance to put those ideas into practice- but what technique should I use?;;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESCkccdragontamer.1b;The lessons of the great general Sun Tzu remain applicable even today, more than a millenium after the man's death. I should look to him for inspiration when developing my own strategies.;;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPTkccdragontamer.1a;The forces I command will strike with the might & fury of a dragon!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPTkccdragontamer.1b;Tactics may win battles, but logistics wins wars.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPTkccdragontamer.1c;I will attack where the enemy is unprepared, & appear where I am not expected.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPTkccdragontamer.1d;Beating enemy armies is meaningless if we cannot breach their walls.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_get_chinese_commander_trait;Learn a Chinese Commander Trait.;;;;;;;;;;;;;x
+kcc_get_chinese_commander_trait_desc;Master an aspect of Chinese Tactics;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_you_can_preach;[Root.GetFirstName] follows a religion capable of preaching in the [offmap_china.GetName];;;;;;;;;;;;;x
+kcc_preach_rule;Chinese Caliphates Proselytizing;;;;;;;;;;;;;x
+kcc_preach_no.text;Restricted;;;;;;;;;;;;;x
+kcc_preach_no.desc;Only rulers of missionary religions can preach in China, including reformed pagan faiths with proselytizing.;;;;;;;;;;;;;x
+kcc_preach_yes.text;Unrestricted;;;;;;;;;;;;;x
+kcc_preach_yes.desc;All rulers may preach in China regardless of religion, unless they are Taoist or an unreformed pagan.;;;;;;;;;;;;;x

@@ -1,0 +1,1376 @@
+defined_text = {
+	name = KCCGetPrimaryPersecutedReligion
+
+	text = { #Christians
+		trigger = { has_global_flag = kcc_china_bullseye_christians }
+		localisation_key = kccp_christian_key
+	}
+	text = { #Latins
+		trigger = { has_global_flag = kcc_china_bullseye_latins }
+		localisation_key = kccp_latin_key
+	}
+	text = { #Catholics
+		trigger = { has_global_flag = kcc_china_bullseye_catholics }
+		localisation_key = kccp_catholic_key
+	}
+	text = { #Cathars
+		trigger = { has_global_flag = kcc_china_bullseye_cathars }
+		localisation_key = kccp_cathar_key
+	}
+	text = { #Fraticellis
+		trigger = { has_global_flag = kcc_china_bullseye_fraticellis }
+		localisation_key = kccp_fraticelli_key
+	}
+	text = { #Waldensians
+		trigger = { has_global_flag = kcc_china_bullseye_waldensians }
+		localisation_key = kccp_waldensian_key
+	}
+	text = { #Lollards
+		trigger = { has_global_flag = kcc_china_bullseye_lollards }
+		localisation_key = kccp_lollard_key
+	}
+	text = { #Byzantines
+		trigger = { has_global_flag = kcc_china_bullseye_byzantines }
+		localisation_key = kccp_byzantine_key
+	}
+	text = { #Orthodox
+		trigger = { has_global_flag = kcc_china_bullseye_orthodoxy }
+		localisation_key = kccp_orthodox_key
+	}
+	text = { #Bogomilists
+		trigger = { has_global_flag = kcc_china_bullseye_bogomilists }
+		localisation_key = kccp_bogomilist_key
+	}
+	text = { #Monothelites
+		trigger = { has_global_flag = kcc_china_bullseye_monothelites }
+		localisation_key = kccp_monothelite_key
+	}
+	text = { #Iconoclasts
+		trigger = { has_global_flag = kcc_china_bullseye_iconoclasts }
+		localisation_key = kccp_iconoclast_key
+	}
+	text = { #Paulicians
+		trigger = { has_global_flag = kcc_china_bullseye_paulicians }
+		localisation_key = kccp_paulician_key
+	}
+	text = { #Non-Chalcedonians
+		trigger = { has_global_flag = kcc_china_bullseye_nonchalcedonians }
+		localisation_key = kccp_nonchalcedonian_key
+	}
+	text = { #Miaphysites
+		trigger = { has_global_flag = kcc_china_bullseye_miaphysites }
+		localisation_key = kccp_miaphysite_key
+	}
+	text = { #Monophysites
+		trigger = { has_global_flag = kcc_china_bullseye_monophysites }
+		localisation_key = kccp_monophysite_key
+	}
+	text = { #Nestorians
+		trigger = { has_global_flag = kcc_china_bullseye_nestorians }
+		localisation_key = kccp_nestorian_key
+	}
+	text = { #Messalians
+		trigger = { has_global_flag = kcc_china_bullseye_messalians }
+		localisation_key = kccp_messalian_key
+	}
+	text = { #Muslims
+		trigger = { has_global_flag = kcc_china_bullseye_muslims }
+		localisation_key = kccp_muslim_key
+	}
+	text = { #Sunnis
+		trigger = { has_global_flag = kcc_china_bullseye_sunnis }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Shias
+		trigger = { has_global_flag = kcc_china_bullseye_shias }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Ibadis
+		trigger = { has_global_flag = kcc_china_bullseye_ibadis }
+		localisation_key = kccp_ibadi_key
+	}
+	text = { #Mazdans
+		trigger = { has_global_flag = kcc_china_bullseye_mazdans }
+		localisation_key = kccp_all_mazdan_key
+	}
+	text = { #Non-Zoro Mazdans
+		trigger = { has_global_flag = kcc_zoro_china_bullseye_mazdans }
+		localisation_key = kccp_no_zoro_mazdan_key
+	}
+	text = { #Zoroastrians
+		trigger = { has_global_flag = kcc_china_bullseye_zoroastrians }
+		localisation_key = kccp_zoroastrian_key
+	}
+	text = { #Mazdakis
+		trigger = { has_global_flag = kcc_china_bullseye_mazdakis }
+		localisation_key = kccp_mazdaki_key
+	}
+	text = { #Manicheans
+		trigger = { has_global_flag = kcc_china_bullseye_manicheans }
+		localisation_key = kccp_manichean_key
+	}
+	text = { #Dharmans
+		trigger = { has_global_flag = kcc_china_bullseye_dharmans }
+		localisation_key = kccp_india_key
+	}
+	text = { #All Pagans
+		trigger = { has_global_flag = kcc_china_bullseye_pagans }
+		localisation_key = kccp_all_pagan_key
+	}
+	text = { #Northern Pagans
+		trigger = { has_global_flag = kcc_china_bullseye_northern_pagans }
+		localisation_key = kccp_northern_pagan_key
+	}
+	text = { #Eastern Pagans
+		trigger = { has_global_flag = kcc_china_bullseye_eastern_pagans }
+		localisation_key = kccp_eastern_pagan_key
+	}
+	text = { #Classical Pagans
+		trigger = { has_global_flag = kcc_china_bullseye_classical_pagans }
+		localisation_key = kccp_classical_pagan_key
+	}
+	text = { #Africans
+		trigger = { has_global_flag = kcc_china_bullseye_africans }
+		localisation_key = kccp_african_key
+	}
+	text = { #Aztecs
+		trigger = { has_global_flag = kcc_china_bullseye_aztecs }
+		localisation_key = kccp_aztec_key
+	}
+	#Christian Immersion
+	text = { #Adoptionists
+		trigger = { has_global_flag = kcc_china_bullseye_adoptionists }
+		localisation_key = kccp_adoptionist_key
+	}
+	text = { #Free Spirits
+		trigger = { has_global_flag = kcc_china_bullseye_free_spirits }
+		localisation_key = kccp_free_spirits_key
+	}
+	text = { #Barlaamites
+		trigger = { has_global_flag = kcc_china_bullseye_barlaamites }
+		localisation_key = kccp_barlaamite_key
+	}
+	text = { #Judaizers
+		trigger = { has_global_flag = kcc_china_bullseye_judaizers }
+		localisation_key = kccp_judaizer_key
+	}
+	text = { #Mandeans
+		trigger = { has_global_flag = kcc_china_bullseye_mandeans }
+		localisation_key = kccp_mandean_key
+	}
+	text = { #Chaldeans
+		trigger = { has_global_flag = kcc_china_bullseye_chaldeans }
+		localisation_key = kccp_chaldean_key
+	}
+	text = { #Apollinarians
+		trigger = { has_global_flag = kcc_china_bullseye_apollinarians }
+		localisation_key = kccp_apollinarian_key
+	}
+	#Last Vanilla Religions
+	text = { #Yazidis
+		trigger = { has_global_flag = kcc_china_bullseye_yazidis }
+		localisation_key = kccp_yadizi_key
+	}
+	text = { #Khurmazta
+		trigger = { has_global_flag = kcc_china_bullseye_khurmaztas }
+		localisation_key = kccp_khurmazta_key
+	}
+	text = { #Jews
+		trigger = { has_global_flag = kcc_china_bullseye_jews }
+		localisation_key = kccp_jew_key
+	}
+}
+
+defined_text = {
+	name = KCCGetCollateralPersecutedReligion
+
+	text = { #Christians
+		trigger = { has_global_flag = kcc_china_collateral_christians }
+		localisation_key = kccp_christian_key
+	}
+	text = { #Latins
+		trigger = { has_global_flag = kcc_china_collateral_latins }
+		localisation_key = kccp_latin_key
+	}
+	text = { #Byzantines
+		trigger = { has_global_flag = kcc_china_collateral_byzantines }
+		localisation_key = kccp_byzantine_key
+	}
+	text = { #Non-Chalcedonians
+		trigger = { has_global_flag = kcc_china_collateral_nonchalcedonians }
+		localisation_key = kccp_nonchalcedonian_key
+	}
+	text = { #Muslims
+		trigger = { has_global_flag = kcc_china_collateral_muslims }
+		localisation_key = kccp_muslim_key
+	}
+	text = { #Sunnis
+		trigger = { has_global_flag = kcc_china_collateral_sunnis }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Shias
+		trigger = { has_global_flag = kcc_china_collateral_shias }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Mazdans
+		trigger = { has_global_flag = kcc_china_collateral_mazdans }
+		localisation_key = kccp_all_mazdan_key
+	}
+	text = { #Non-Zoro Mazdans
+		trigger = { has_global_flag = kcc_zoro_china_collateral_mazdans }
+		localisation_key = kccp_no_zoro_mazdan_key
+	}
+	text = { #Dharmans
+		trigger = { has_global_flag = kcc_china_collateral_dharmans }
+		localisation_key = kccp_india_key
+	}
+	text = { #Dharmans
+		trigger = { has_global_flag = kcc_china_collateral_dharmans }
+		localisation_key = kccp_india_key
+	}
+	text = { #All Pagans
+		trigger = { has_global_flag = kcc_china_collateral_pagans }
+		localisation_key = kccp_all_pagan_key
+	}
+	text = { #Northern Pagans
+		trigger = { has_global_flag = kcc_china_collateral_northern_pagans }
+		localisation_key = kccp_northern_pagan_key
+	}
+	text = { #Eastern Pagans
+		trigger = { has_global_flag = kcc_china_collateral_eastern_pagans }
+		localisation_key = kccp_eastern_pagan_key
+	}
+	text = { #Classical Pagans
+		trigger = { has_global_flag = kcc_china_collateral_classical_pagans }
+		localisation_key = kccp_classical_pagan_key
+	}
+	text = { #Africans
+		trigger = { has_global_flag = kcc_china_collateral_africans }
+		localisation_key = kccp_african_key
+	}
+	text = { #Aztecs
+		trigger = { has_global_flag = kcc_china_collateral_aztecs }
+		localisation_key = kccp_aztec_key
+	}
+	#Last Vanilla Religions
+	text = { #Jews
+		trigger = { has_global_flag = kcc_china_collateral_jews }
+		localisation_key = kccp_jew_key
+	}
+}
+
+defined_text = {
+	name = k_chinese_caliph
+	
+	use_first_valid = yes
+
+	text = { #Hurufi Sheikhdom
+		trigger = { offmap_china = { offmap_ruler = { religion = hurufi } } }
+		localisation_key = kcc_sheikh_key
+	}
+	text = { #Other Muslim Caliphate
+		trigger = { offmap_china = { offmap_ruler = { religion_group = muslim } } }
+		localisation_key = kc_caliph_key
+	}
+}
+
+defined_text = {
+	name = KCCGetGoodWaxWaneReligion
+
+	text = { #Catholics
+		trigger = { has_global_flag = kcc_waxwane_catholics }
+		localisation_key = kccp_catholic_key
+	}
+	text = { #Cathars
+		trigger = { has_global_flag = kcc_waxwane_cathars }
+		localisation_key = kccp_cathar_key
+	}
+	text = { #Fraticellis
+		trigger = { has_global_flag = kcc_waxwane_fraticellis }
+		localisation_key = kccp_fraticelli_key
+	}
+	text = { #Waldensians
+		trigger = { has_global_flag = kcc_waxwane_waldensians }
+		localisation_key = kccp_waldensian_key
+	}
+	text = { #Byzantines
+		trigger = { has_global_flag = kcc_waxwane_byzantines }
+		localisation_key = kccp_byzantine_key
+	}
+	text = { #Orthodox
+		trigger = { has_global_flag = kcc_waxwane_orthodoxy }
+		localisation_key = kccp_orthodox_key
+	}
+	text = { #Bogomilists
+		trigger = { has_global_flag = kcc_waxwane_bogomilists }
+		localisation_key = kccp_bogomilist_key
+	}
+	text = { #Monothelites
+		trigger = { has_global_flag = kcc_waxwane_monothelites }
+		localisation_key = kccp_monothelite_key
+	}
+	text = { #Iconoclasts
+		trigger = { has_global_flag = kcc_waxwane_iconoclasts }
+		localisation_key = kccp_iconoclast_key
+	}
+	text = { #Paulicians
+		trigger = { has_global_flag = kcc_waxwane_paulicians }
+		localisation_key = kccp_paulician_key
+	}
+	text = { #Miaphysites
+		trigger = { has_global_flag = kcc_waxwane_miaphysites }
+		localisation_key = kccp_miaphysite_key
+	}
+	text = { #Monophysites
+		trigger = { has_global_flag = kcc_waxwane_monophysites }
+		localisation_key = kccp_monophysite_key
+	}
+	text = { #Nestorians
+		trigger = { has_global_flag = kcc_waxwane_nestorians }
+		localisation_key = kccp_nestorian_key
+	}
+	text = { #Messalians
+		trigger = { has_global_flag = kcc_waxwane_messalians }
+		localisation_key = kccp_messalian_key
+	}
+	text = { #Sunnis
+		trigger = { has_global_flag = kcc_waxwane_sunnis }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Zikris
+		trigger = { has_global_flag = kcc_waxwane_zikris }
+		localisation_key = kww_zikri_key
+	}
+	text = { #Shias
+		trigger = { has_global_flag = kcc_waxwane_shiites }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Qarmatians
+		trigger = { has_global_flag = kcc_waxwane_qarmatian }
+		localisation_key = kww_qarmatian_key
+	}
+	text = { #Hurufis
+		trigger = { has_global_flag = kcc_waxwane_hurufis }
+		localisation_key = kww_hurufi_key
+	}
+	text = { #Ibadis
+		trigger = { has_global_flag = kcc_waxwane_ibadis }
+		localisation_key = kccp_ibadi_key
+	}
+	text = { #Kharijites
+		trigger = { has_global_flag = kcc_waxwane_kharijites }
+		localisation_key = kww_kharijite_key
+	}
+	text = { #Zoroastrians
+		trigger = { has_global_flag = kcc_waxwane_zoroastrians }
+		localisation_key = kccp_zoroastrian_key
+	}
+	text = { #Mazdakis
+		trigger = { has_global_flag = kcc_waxwane_mazdakis }
+		localisation_key = kccp_mazdaki_key
+	}
+	text = { #Manicheans
+		trigger = { has_global_flag = kcc_waxwane_manicheans }
+		localisation_key = kccp_manichean_key
+	}
+	text = { #Buddhists
+		trigger = { has_global_flag = kcc_waxwane_buddhists }
+		localisation_key = kww_buddhist_key
+	}
+	text = { #Jains
+		trigger = { has_global_flag = kcc_waxwane_jains }
+		localisation_key = kww_jain_key
+	}
+	text = { #Norse
+		trigger = { has_global_flag = kcc_waxwane_norse }
+		localisation_key = kww_norse_key
+	}
+	text = { #Baltics
+		trigger = { has_global_flag = kcc_waxwane_baltic }
+		localisation_key = kww_baltic_key
+	}
+	text = { #Slavics
+		trigger = { has_global_flag = kcc_waxwane_slavic }
+		localisation_key = kww_slavic_key
+	}
+	text = { #Finnish
+		trigger = { has_global_flag = kcc_waxwane_finnish }
+		localisation_key = kww_finnish_key
+	}
+	text = { #Tengri
+		trigger = { has_global_flag = kcc_waxwane_tengri }
+		localisation_key = kww_tengri_key
+	}
+	text = { #Zun
+		trigger = { has_global_flag = kcc_waxwane_zun }
+		localisation_key = kww_zun_key
+	}
+	text = { #Bon
+		trigger = { has_global_flag = kcc_waxwane_bon }
+		localisation_key = kww_bon_key
+	}
+	text = { #Hellenics
+		trigger = { has_global_flag = kcc_waxwane_hellenics }
+		localisation_key = kww_hellenic_key
+	}
+	text = { #Prometheans
+		trigger = { has_global_flag = kcc_waxwane_prometheans }
+		localisation_key = kww_promethean_key
+	}
+	text = { #Celtics
+		trigger = { has_global_flag = kcc_waxwane_celtics }
+		localisation_key = kww_celtic_key
+	}
+	text = { #Britannics
+		trigger = { has_global_flag = kcc_waxwane_britannics }
+		localisation_key = kww_britannic_key
+	}
+	text = { #Egyptians
+		trigger = { has_global_flag = kcc_waxwane_egyptians }
+		localisation_key = kww_egyptian_key
+	}
+	text = { #Atenics
+		trigger = { has_global_flag = kcc_waxwane_atenics }
+		localisation_key = kww_atenic_key
+	}
+	text = { #Africans
+		trigger = { has_global_flag = kcc_waxwane_africans }
+		localisation_key = kccp_african_key
+	}
+	text = { #Aztecs
+		trigger = { has_global_flag = kcc_waxwane_aztecs }
+		localisation_key = kccp_aztec_key
+	}
+	#Christian Immersion
+	text = { #Adoptionists
+		trigger = { has_global_flag = kcc_waxwane_adoptionists }
+		localisation_key = kccp_adoptionist_key
+	}
+	text = { #Free Spirits
+		trigger = { has_global_flag = kcc_waxwane_free_spirits }
+		localisation_key = kccp_free_spirits_key
+	}
+	text = { #Barlaamites
+		trigger = { has_global_flag = kcc_waxwane_barlaamites }
+		localisation_key = kccp_barlaamite_key
+	}
+	text = { #Judaizers
+		trigger = { has_global_flag = kcc_waxwane_judaizers }
+		localisation_key = kccp_judaizer_key
+	}
+	text = { #Mandeans
+		trigger = { has_global_flag = kcc_waxwane_mandeans }
+		localisation_key = kccp_mandean_key
+	}
+	text = { #Chaldeans
+		trigger = { has_global_flag = kcc_waxwane_chaldeans }
+		localisation_key = kccp_chaldean_key
+	}
+	text = { #Apollinarians
+		trigger = { has_global_flag = kcc_waxwane_apollinarians }
+		localisation_key = kccp_apollinarian_key
+	}
+	text = { #Yarsans
+		trigger = { has_global_flag = kcc_waxwane_yarsans }
+		localisation_key = kww_yarsan_key
+	}
+	#Last Vanilla Religions
+	text = { #Yazidis
+		trigger = { has_global_flag = kcc_waxwane_yazidis }
+		localisation_key = kccp_yadizi_key
+	}
+	text = { #Druze
+		trigger = { has_global_flag = kcc_waxwane_druze }
+		localisation_key = kww_druze_key
+	}
+	text = { #Khurmazta
+		trigger = { has_global_flag = kcc_waxwane_khurmaztas }
+		localisation_key = kccp_khurmazta_key
+	}
+	text = { #Jewish
+		trigger = { has_global_flag = kcc_waxwane_jews }
+		localisation_key = kww_jewish_key
+	}
+	text = { #Samaritans
+		trigger = { has_global_flag = kcc_waxwane_samaritans }
+		localisation_key = kww_samaritan_key
+	}
+	text = { #Karaites
+		trigger = { has_global_flag = kcc_waxwane_karaites }
+		localisation_key = kww_karaite_key
+	}
+	text = { #Hindus
+		trigger = { has_global_flag = kcc_waxwane_hindus }
+		localisation_key = kccp_hindu_key
+	}
+}
+
+defined_text = {
+	name = KCCGetBadWaxWaneReligion
+
+	text = { #Catholics
+		trigger = { has_global_flag = kcc_wwdropped_catholics }
+		localisation_key = kccp_catholic_key
+	}
+	text = { #Cathars
+		trigger = { has_global_flag = kcc_wwdropped_cathars }
+		localisation_key = kccp_cathar_key
+	}
+	text = { #Fraticellis
+		trigger = { has_global_flag = kcc_wwdropped_fraticellis }
+		localisation_key = kccp_fraticelli_key
+	}
+	text = { #Waldensians
+		trigger = { has_global_flag = kcc_wwdropped_waldensians }
+		localisation_key = kccp_waldensian_key
+	}
+	text = { #Byzantines
+		trigger = { has_global_flag = kcc_wwdropped_byzantines }
+		localisation_key = kccp_byzantine_key
+	}
+	text = { #Orthodox
+		trigger = { has_global_flag = kcc_wwdropped_orthodoxy }
+		localisation_key = kccp_orthodox_key
+	}
+	text = { #Bogomilists
+		trigger = { has_global_flag = kcc_wwdropped_bogomilists }
+		localisation_key = kccp_bogomilist_key
+	}
+	text = { #Monothelites
+		trigger = { has_global_flag = kcc_wwdropped_monothelites }
+		localisation_key = kccp_monothelite_key
+	}
+	text = { #Iconoclasts
+		trigger = { has_global_flag = kcc_wwdropped_iconoclasts }
+		localisation_key = kccp_iconoclast_key
+	}
+	text = { #Paulicians
+		trigger = { has_global_flag = kcc_wwdropped_paulicians }
+		localisation_key = kccp_paulician_key
+	}
+	text = { #Miaphysites
+		trigger = { has_global_flag = kcc_wwdropped_miaphysites }
+		localisation_key = kccp_miaphysite_key
+	}
+	text = { #Monophysites
+		trigger = { has_global_flag = kcc_wwdropped_monophysites }
+		localisation_key = kccp_monophysite_key
+	}
+	text = { #Nestorians
+		trigger = { has_global_flag = kcc_wwdropped_nestorians }
+		localisation_key = kccp_nestorian_key
+	}
+	text = { #Messalians
+		trigger = { has_global_flag = kcc_wwdropped_messalians }
+		localisation_key = kccp_messalian_key
+	}
+	text = { #Sunnis
+		trigger = { has_global_flag = kcc_wwdropped_sunnis }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Zikris
+		trigger = { has_global_flag = kcc_wwdropped_zikris }
+		localisation_key = kww_zikri_key
+	}
+	text = { #Shias
+		trigger = { has_global_flag = kcc_wwdropped_shiites }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Qarmatians
+		trigger = { has_global_flag = kcc_wwdropped_qarmatian }
+		localisation_key = kww_qarmatian_key
+	}
+	text = { #Hurufis
+		trigger = { has_global_flag = kcc_wwdropped_hurufis }
+		localisation_key = kww_hurufi_key
+	}
+	text = { #Ibadis
+		trigger = { has_global_flag = kcc_wwdropped_ibadis }
+		localisation_key = kccp_ibadi_key
+	}
+	text = { #Kharijites
+		trigger = { has_global_flag = kcc_wwdropped_kharijites }
+		localisation_key = kww_kharijite_key
+	}
+	text = { #Zoroastrians
+		trigger = { has_global_flag = kcc_wwdropped_zoroastrians }
+		localisation_key = kccp_zoroastrian_key
+	}
+	text = { #Mazdakis
+		trigger = { has_global_flag = kcc_wwdropped_mazdakis }
+		localisation_key = kccp_mazdaki_key
+	}
+	text = { #Manicheans
+		trigger = { has_global_flag = kcc_wwdropped_manicheans }
+		localisation_key = kccp_manichean_key
+	}
+	text = { #Buddhists
+		trigger = { has_global_flag = kcc_wwdropped_buddhists }
+		localisation_key = kww_buddhist_key
+	}
+	text = { #Jains
+		trigger = { has_global_flag = kcc_wwdropped_jains }
+		localisation_key = kww_jain_key
+	}
+	text = { #Norse
+		trigger = { has_global_flag = kcc_wwdropped_norse }
+		localisation_key = kww_norse_key
+	}
+	text = { #Baltics
+		trigger = { has_global_flag = kcc_wwdropped_baltic }
+		localisation_key = kww_baltic_key
+	}
+	text = { #Slavics
+		trigger = { has_global_flag = kcc_wwdropped_slavic }
+		localisation_key = kww_slavic_key
+	}
+	text = { #Finnish
+		trigger = { has_global_flag = kcc_wwdropped_finnish }
+		localisation_key = kww_finnish_key
+	}
+	text = { #Tengri
+		trigger = { has_global_flag = kcc_wwdropped_tengri }
+		localisation_key = kww_tengri_key
+	}
+	text = { #Zun
+		trigger = { has_global_flag = kcc_wwdropped_zun }
+		localisation_key = kww_zun_key
+	}
+	text = { #Bon
+		trigger = { has_global_flag = kcc_wwdropped_bon }
+		localisation_key = kww_bon_key
+	}
+	text = { #Hellenics
+		trigger = { has_global_flag = kcc_wwdropped_hellenics }
+		localisation_key = kww_hellenic_key
+	}
+	text = { #Prometheans
+		trigger = { has_global_flag = kcc_wwdropped_prometheans }
+		localisation_key = kww_promethean_key
+	}
+	text = { #Celtics
+		trigger = { has_global_flag = kcc_wwdropped_celtics }
+		localisation_key = kww_celtic_key
+	}
+	text = { #Britannics
+		trigger = { has_global_flag = kcc_wwdropped_britannics }
+		localisation_key = kww_britannic_key
+	}
+	text = { #Egyptians
+		trigger = { has_global_flag = kcc_wwdropped_egyptians }
+		localisation_key = kww_egyptian_key
+	}
+	text = { #Atenics
+		trigger = { has_global_flag = kcc_wwdropped_atenics }
+		localisation_key = kww_atenic_key
+	}
+	text = { #Africans
+		trigger = { has_global_flag = kcc_wwdropped_africans }
+		localisation_key = kccp_african_key
+	}
+	text = { #Aztecs
+		trigger = { has_global_flag = kcc_wwdropped_aztecs }
+		localisation_key = kccp_aztec_key
+	}
+	#Christian Immersion
+	text = { #Adoptionists
+		trigger = { has_global_flag = kcc_wwdropped_adoptionists }
+		localisation_key = kccp_adoptionist_key
+	}
+	text = { #Free Spirits
+		trigger = { has_global_flag = kcc_wwdropped_free_spirits }
+		localisation_key = kccp_free_spirits_key
+	}
+	text = { #Barlaamites
+		trigger = { has_global_flag = kcc_wwdropped_barlaamites }
+		localisation_key = kccp_barlaamite_key
+	}
+	text = { #Judaizers
+		trigger = { has_global_flag = kcc_wwdropped_judaizers }
+		localisation_key = kccp_judaizer_key
+	}
+	text = { #Mandeans
+		trigger = { has_global_flag = kcc_wwdropped_mandeans }
+		localisation_key = kccp_mandean_key
+	}
+	text = { #Chaldeans
+		trigger = { has_global_flag = kcc_wwdropped_chaldeans }
+		localisation_key = kccp_chaldean_key
+	}
+	text = { #Apollinarians
+		trigger = { has_global_flag = kcc_wwdropped_apollinarians }
+		localisation_key = kccp_apollinarian_key
+	}
+	text = { #Yarsans
+		trigger = { has_global_flag = kcc_wwdropped_yarsans }
+		localisation_key = kww_yarsan_key
+	}
+	#Last Vanilla Religions
+	text = { #Yazidis
+		trigger = { has_global_flag = kcc_wwdropped_yazidis }
+		localisation_key = kccp_yadizi_key
+	}
+	text = { #Druze
+		trigger = { has_global_flag = kcc_wwdropped_druze }
+		localisation_key = kww_druze_key
+	}
+	text = { #Khurmazta
+		trigger = { has_global_flag = kcc_wwdropped_khurmaztas }
+		localisation_key = kccp_khurmazta_key
+	}
+	text = { #Jewish
+		trigger = { has_global_flag = kcc_wwdropped_jews }
+		localisation_key = kww_jewish_key
+	}
+	text = { #Samaritans
+		trigger = { has_global_flag = kcc_wwdropped_samaritans }
+		localisation_key = kww_samaritan_key
+	}
+	text = { #Karaites
+		trigger = { has_global_flag = kcc_wwdropped_karaites }
+		localisation_key = kww_karaite_key
+	}
+	text = { #Hindus
+		trigger = { has_global_flag = kcc_wwdropped_hindus }
+		localisation_key = kccp_hindu_key
+	}
+}
+
+defined_text = {
+	name = KCCGetGhostTownReligion
+
+	text = { #Catholics
+		trigger = { has_global_flag = kcc_ghosttown_catholics }
+		localisation_key = kccp_catholic_key
+	}
+	text = { #Cathars
+		trigger = { has_global_flag = kcc_ghosttown_cathars }
+		localisation_key = kccp_cathar_key
+	}
+	text = { #Fraticellis
+		trigger = { has_global_flag = kcc_ghosttown_fraticellis }
+		localisation_key = kccp_fraticelli_key
+	}
+	text = { #Waldensians
+		trigger = { has_global_flag = kcc_ghosttown_waldensians }
+		localisation_key = kccp_waldensian_key
+	}
+	text = { #Byzantines
+		trigger = { has_global_flag = kcc_ghosttown_lollards }
+		localisation_key = kccp_lollard_key
+	}
+	text = { #Orthodox
+		trigger = { has_global_flag = kcc_ghosttown_orthodoxy }
+		localisation_key = kccp_orthodox_key
+	}
+	text = { #Bogomilists
+		trigger = { has_global_flag = kcc_ghosttown_bogomilists }
+		localisation_key = kccp_bogomilist_key
+	}
+	text = { #Monothelites
+		trigger = { has_global_flag = kcc_ghosttown_monothelites }
+		localisation_key = kccp_monothelite_key
+	}
+	text = { #Iconoclasts
+		trigger = { has_global_flag = kcc_ghosttown_iconoclasts }
+		localisation_key = kccp_iconoclast_key
+	}
+	text = { #Paulicians
+		trigger = { has_global_flag = kcc_ghosttown_paulicians }
+		localisation_key = kccp_paulician_key
+	}
+	text = { #Miaphysites
+		trigger = { has_global_flag = kcc_ghosttown_miaphysites }
+		localisation_key = kccp_miaphysite_key
+	}
+	text = { #Monophysites
+		trigger = { has_global_flag = kcc_ghosttown_monophysites }
+		localisation_key = kccp_monophysite_key
+	}
+	text = { #Nestorians
+		trigger = { has_global_flag = kcc_ghosttown_nestorians }
+		localisation_key = kccp_nestorian_key
+	}
+	text = { #Messalians
+		trigger = { has_global_flag = kcc_ghosttown_messalians }
+		localisation_key = kccp_messalian_key
+	}
+	text = { #Sunnis
+		trigger = { has_global_flag = kcc_ghosttown_sunnis }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Zikris
+		trigger = { has_global_flag = kcc_ghosttown_zikris }
+		localisation_key = kww_zikri_key
+	}
+	text = { #Shias
+		trigger = { has_global_flag = kcc_ghosttown_shiites }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Qarmatians
+		trigger = { has_global_flag = kcc_ghosttown_qarmatian }
+		localisation_key = kww_qarmatian_key
+	}
+	text = { #Hurufis
+		trigger = { has_global_flag = kcc_ghosttown_hurufis }
+		localisation_key = kww_hurufi_key
+	}
+	text = { #Ibadis
+		trigger = { has_global_flag = kcc_ghosttown_ibadis }
+		localisation_key = kccp_ibadi_key
+	}
+	text = { #Kharijites
+		trigger = { has_global_flag = kcc_ghosttown_kharijites }
+		localisation_key = kww_kharijite_key
+	}
+	text = { #Zoroastrians
+		trigger = { has_global_flag = kcc_ghosttown_zoroastrians }
+		localisation_key = kccp_zoroastrian_key
+	}
+	text = { #Mazdakis
+		trigger = { has_global_flag = kcc_ghosttown_mazdakis }
+		localisation_key = kccp_mazdaki_key
+	}
+	text = { #Manicheans
+		trigger = { has_global_flag = kcc_ghosttown_manicheans }
+		localisation_key = kccp_manichean_key
+	}
+	text = { #Buddhists
+		trigger = { has_global_flag = kcc_ghosttown_buddhists }
+		localisation_key = kww_buddhist_key
+	}
+	text = { #Jains
+		trigger = { has_global_flag = kcc_ghosttown_jains }
+		localisation_key = kww_jain_key
+	}
+	text = { #Norse
+		trigger = { has_global_flag = kcc_ghosttown_norse }
+		localisation_key = kww_norse_key
+	}
+	text = { #Baltics
+		trigger = { has_global_flag = kcc_ghosttown_baltic }
+		localisation_key = kww_baltic_key
+	}
+	text = { #Slavics
+		trigger = { has_global_flag = kcc_ghosttown_slavic }
+		localisation_key = kww_slavic_key
+	}
+	text = { #Finnish
+		trigger = { has_global_flag = kcc_ghosttown_finnish }
+		localisation_key = kww_finnish_key
+	}
+	text = { #Tengri
+		trigger = { has_global_flag = kcc_ghosttown_tengri }
+		localisation_key = kww_tengri_key
+	}
+	text = { #Zun
+		trigger = { has_global_flag = kcc_ghosttown_zun }
+		localisation_key = kww_zun_key
+	}
+	text = { #Bon
+		trigger = { has_global_flag = kcc_ghosttown_bon }
+		localisation_key = kww_bon_key
+	}
+	text = { #Hellenics
+		trigger = { has_global_flag = kcc_ghosttown_hellenics }
+		localisation_key = kww_hellenic_key
+	}
+	text = { #Prometheans
+		trigger = { has_global_flag = kcc_ghosttown_prometheans }
+		localisation_key = kww_promethean_key
+	}
+	text = { #Celtics
+		trigger = { has_global_flag = kcc_ghosttown_celtics }
+		localisation_key = kww_celtic_key
+	}
+	text = { #Britannics
+		trigger = { has_global_flag = kcc_ghosttown_britannics }
+		localisation_key = kww_britannic_key
+	}
+	text = { #Egyptians
+		trigger = { has_global_flag = kcc_ghosttown_egyptians }
+		localisation_key = kww_egyptian_key
+	}
+	text = { #Atenics
+		trigger = { has_global_flag = kcc_ghosttown_atenics }
+		localisation_key = kww_atenic_key
+	}
+	text = { #Africans
+		trigger = { has_global_flag = kcc_ghosttown_africans }
+		localisation_key = kccp_african_key
+	}
+	text = { #Aztecs
+		trigger = { has_global_flag = kcc_ghosttown_aztecs }
+		localisation_key = kccp_aztec_key
+	}
+	#Christian Immersion
+	text = { #Adoptionists
+		trigger = { has_global_flag = kcc_ghosttown_adoptionists }
+		localisation_key = kccp_adoptionist_key
+	}
+	text = { #Free Spirits
+		trigger = { has_global_flag = kcc_ghosttown_free_spirits }
+		localisation_key = kccp_free_spirits_key
+	}
+	text = { #Barlaamites
+		trigger = { has_global_flag = kcc_ghosttown_barlaamites }
+		localisation_key = kccp_barlaamite_key
+	}
+	text = { #Judaizers
+		trigger = { has_global_flag = kcc_ghosttown_judaizers }
+		localisation_key = kccp_judaizer_key
+	}
+	text = { #Mandeans
+		trigger = { has_global_flag = kcc_ghosttown_mandeans }
+		localisation_key = kccp_mandean_key
+	}
+	text = { #Chaldeans
+		trigger = { has_global_flag = kcc_ghosttown_chaldeans }
+		localisation_key = kccp_chaldean_key
+	}
+	text = { #Apollinarians
+		trigger = { has_global_flag = kcc_ghosttown_apollinarians }
+		localisation_key = kccp_apollinarian_key
+	}
+	text = { #Yarsans
+		trigger = { has_global_flag = kcc_ghosttown_yarsans }
+		localisation_key = kww_yarsan_key
+	}
+	#Last Vanilla Religions
+	text = { #Yazidis
+		trigger = { has_global_flag = kcc_ghosttown_yazidis }
+		localisation_key = kccp_yadizi_key
+	}
+	text = { #Druze
+		trigger = { has_global_flag = kcc_ghosttown_druze }
+		localisation_key = kww_druze_key
+	}
+	text = { #Khurmazta
+		trigger = { has_global_flag = kcc_ghosttown_khurmaztas }
+		localisation_key = kccp_khurmazta_key
+	}
+	text = { #Jewish
+		trigger = { has_global_flag = kcc_ghosttown_jews }
+		localisation_key = kww_jewish_key
+	}
+	text = { #Samaritans
+		trigger = { has_global_flag = kcc_ghosttown_samaritans }
+		localisation_key = kww_samaritan_key
+	}
+	text = { #Karaites
+		trigger = { has_global_flag = kcc_ghosttown_karaites }
+		localisation_key = kww_karaite_key
+	}
+	text = { #Hindus
+		trigger = { has_global_flag = kcc_ghosttown_hindus }
+		localisation_key = kccp_hindu_key
+	}
+}
+
+defined_text = {
+	name = KCCGetPilgrimCulture
+
+	text = { #Japanese
+		trigger = { has_character_flag = kcc_wandering_japanese }
+		localisation_key = kcc_japanese_key
+	}
+	text = { #Korean
+		trigger = { has_character_flag = kcc_wandering_korean }
+		localisation_key = kcc_korean_key
+	}
+	text = { #Vietnamese
+		trigger = { has_character_flag = kcc_wandering_vietnamese }
+		localisation_key = kcc_vietnamese_key
+	}
+	text = { #Malayan
+		trigger = { has_character_flag = kcc_wandering_malayan }
+		localisation_key = kcc_malayan_key
+	}
+	
+}
+
+defined_text = {
+	name = KCCGetPilgrimHomeland
+
+	text = { #Japan
+		trigger = { has_character_flag = kcc_wandering_japanese }
+		localisation_key = kcc_nippon_key
+	}
+	text = { #Korea
+		trigger = { has_character_flag = kcc_wandering_korean }
+		localisation_key = kcc_choson_key
+	}
+	text = { #Vietnam
+		trigger = { has_character_flag = kcc_wandering_vietnamese }
+		localisation_key = kcc_vietnam_key
+	}
+	text = { #Malaya
+		trigger = { has_character_flag = kcc_wandering_malayan }
+		localisation_key = kcc_malaya_key
+	}
+	
+}
+
+defined_text = {
+	name = KCCGet1stCurrentPersecution
+	use_first_valid = yes
+
+	text = { #Christians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_christians } }
+		localisation_key = kccp_christian_key
+	}
+	text = { #Latins
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_latins } }
+		localisation_key = kccp_latin_key
+	}
+	text = { #Catholics
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_catholics } }
+		localisation_key = kccp_catholic_key
+	}
+	text = { #Cathars
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_cathars } }
+		localisation_key = kccp_cathar_key
+	}
+	text = { #Fraticellis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_fraticellis } }
+		localisation_key = kccp_fraticelli_key
+	}
+	text = { #Waldensians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_waldensians } }
+		localisation_key = kccp_waldensian_key
+	}
+	text = { #Lollards
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_lollards } }
+		localisation_key = kccp_lollard_key
+	}
+	text = { #Adoptionists
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_adoptionists } }
+		localisation_key = kccp_adoptionist_key
+	}
+	text = { #Free Spirits
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_free_spirits } }
+		localisation_key = kccp_free_spirits_key
+	}
+	text = { #Byzantines
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_byzantines } }
+		localisation_key = kccp_byzantine_key
+	}
+	text = { #Orthodox
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_orthodoxy } }
+		localisation_key = kccp_orthodox_key
+	}
+	text = { #Bogomilists
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_bogomilists } }
+		localisation_key = kccp_bogomilist_key
+	}
+	text = { #Monothelites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_monothelites } }
+		localisation_key = kccp_monothelite_key
+	}
+	text = { #Iconoclasts
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_iconoclasts } }
+		localisation_key = kccp_iconoclast_key
+	}
+	text = { #Paulicians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_paulicians } }
+		localisation_key = kccp_paulician_key
+	}
+	text = { #Barlaamites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_barlaamites } }
+		localisation_key = kccp_barlaamite_key
+	}
+	text = { #Non-Chalcedonians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_nonchalcedonians } }
+		localisation_key = kccp_nonchalcedonian_key
+	}
+	text = { #Miaphysites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_miaphysites } }
+		localisation_key = kccp_miaphysite_key
+	}
+	text = { #Monophysites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_monophysites } }
+		localisation_key = kccp_monophysite_key
+	}
+	text = { #Judaizers
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_judaizers } }
+		localisation_key = kccp_judaizer_key
+	}
+	text = { #Mandeans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_mandeans } }
+		localisation_key = kccp_mandean_key
+	}
+	text = { #Nestorians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_nestorians } }
+		localisation_key = kccp_nestorian_key
+	}
+	text = { #Messalians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_messalians } }
+		localisation_key = kccp_messalian_key
+	}
+	text = { #Chaldeans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_chaldeans } }
+		localisation_key = kccp_chaldean_key
+	}
+	text = { #Apollinarians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_apollinarians } }
+		localisation_key = kccp_apollinarian_key
+	}
+	text = { #Muslims
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_muslims } }
+		localisation_key = kccp_muslim_key
+	}
+	text = { #Sunnis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_sunnis } }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Shias
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_shiites } }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Ibadis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_ibadis } }
+		localisation_key = kccp_ibadi_key
+	}
+	text = { #Jews
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_jews } }
+		localisation_key = kccp_jew_key
+	}
+	text = { #Mazdans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_mazdans } }
+		localisation_key = kccp_all_mazdan_key
+	}
+	text = { #Non-Zoro Mazdans
+		trigger = { 1513 = { has_province_modifier = kcc_zoro_china_persecuted_mazdans } }
+		localisation_key = kccp_no_zoro_mazdan_key
+	}
+	text = { #Zoroastrians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_zoroastrians } }
+		localisation_key = kccp_zoroastrian_key
+	}
+	text = { #Mazdakis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_mazdakis } }
+		localisation_key = kccp_mazdaki_key
+	}
+	text = { #Manicheans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_manicheans } }
+		localisation_key = kccp_manichean_key
+	}
+	text = { #Yazidis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_yazidis } }
+		localisation_key = kccp_yadizi_key
+	}
+	text = { #Khurmaztas
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_khurmaztas } }
+		localisation_key = kccp_khurmazta_key
+	}
+	text = { #Dharmans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_dharmans } }
+		localisation_key = kccp_india_key
+	}
+	text = { #All Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_pagans } }
+		localisation_key = kccp_all_pagan_key
+	}
+	text = { #Northern Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_northern_pagans } }
+		localisation_key = kccp_northern_pagan_key
+	}
+	text = { #Eastern Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_eastern_pagans } }
+		localisation_key = kccp_eastern_pagan_key
+	}
+	text = { #Classical Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_classical_pagans } }
+		localisation_key = kccp_classical_pagan_key
+	}
+	text = { #Africans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_africans } }
+		localisation_key = kccp_african_key
+	}
+	text = { #Aztecs
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_aztecs } }
+		localisation_key = kccp_aztec_key
+	}
+}
+
+defined_text = {
+	name = KCCGet2ndCurrentPersecution
+	use_first_valid = yes
+
+	text = { #Aztecs
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_aztecs } }
+		localisation_key = kccp_aztec_key
+	}
+	text = { #Africans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_africans } }
+		localisation_key = kccp_african_key
+	}
+	text = { #Classical Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_classical_pagans } }
+		localisation_key = kccp_classical_pagan_key
+	}
+	text = { #Eastern Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_eastern_pagans } }
+		localisation_key = kccp_eastern_pagan_key
+	}
+	text = { #Northern Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_northern_pagans } }
+		localisation_key = kccp_northern_pagan_key
+	}
+	text = { #All Pagans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_pagans } }
+		localisation_key = kccp_all_pagan_key
+	}
+	text = { #Dharmans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_dharmans } }
+		localisation_key = kccp_india_key
+	}
+	text = { #Khurmaztas
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_khurmaztas } }
+		localisation_key = kccp_khurmazta_key
+	}
+	text = { #Yazidis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_yazidis } }
+		localisation_key = kccp_yadizi_key
+	}
+	text = { #Manicheans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_manicheans } }
+		localisation_key = kccp_manichean_key
+	}
+	text = { #Mazdakis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_mazdakis } }
+		localisation_key = kccp_mazdaki_key
+	}
+	text = { #Zoroastrians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_zoroastrians } }
+		localisation_key = kccp_zoroastrian_key
+	}
+	text = { #Non-Zoro Mazdans
+		trigger = { 1513 = { has_province_modifier = kcc_zoro_china_persecuted_mazdans } }
+		localisation_key = kccp_no_zoro_mazdan_key
+	}
+	text = { #Mazdans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_mazdans } }
+		localisation_key = kccp_all_mazdan_key
+	}
+	text = { #Jews
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_jews } }
+		localisation_key = kccp_jew_key
+	}
+	text = { #Ibadis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_ibadis } }
+		localisation_key = kccp_ibadi_key
+	}
+	text = { #Shias
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_shiites } }
+		localisation_key = kccp_shia_key
+	}
+	text = { #Sunnis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_sunnis } }
+		localisation_key = kccp_sunni_key
+	}
+	text = { #Muslims
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_muslims } }
+		localisation_key = kccp_muslim_key
+	}
+	text = { #Apollinarians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_apollinarians } }
+		localisation_key = kccp_apollinarian_key
+	}
+	text = { #Chaldeans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_chaldeans } }
+		localisation_key = kccp_chaldean_key
+	}
+	text = { #Messalians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_messalians } }
+		localisation_key = kccp_messalian_key
+	}
+	text = { #Nestorians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_nestorians } }
+		localisation_key = kccp_nestorian_key
+	}
+	text = { #Mandeans
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_mandeans } }
+		localisation_key = kccp_mandean_key
+	}
+	text = { #Judaizers
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_judaizers } }
+		localisation_key = kccp_judaizer_key
+	}
+	text = { #Monophysites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_monophysites } }
+		localisation_key = kccp_monophysite_key
+	}
+	text = { #Miaphysites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_miaphysites } }
+		localisation_key = kccp_miaphysite_key
+	}
+	text = { #Non-Chalcedonians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_nonchalcedonians } }
+		localisation_key = kccp_nonchalcedonian_key
+	}
+	text = { #Barlaamites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_barlaamites } }
+		localisation_key = kccp_barlaamite_key
+	}
+	text = { #Paulicians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_paulicians } }
+		localisation_key = kccp_paulician_key
+	}
+	text = { #Iconoclasts
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_iconoclasts } }
+		localisation_key = kccp_iconoclast_key
+	}
+	text = { #Monothelites
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_monothelites } }
+		localisation_key = kccp_monothelite_key
+	}
+	text = { #Bogomilists
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_bogomilists } }
+		localisation_key = kccp_bogomilist_key
+	}
+	text = { #Orthodox
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_orthodoxy } }
+		localisation_key = kccp_orthodox_key
+	}
+	text = { #Byzantines
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_byzantines } }
+		localisation_key = kccp_byzantine_key
+	}
+	text = { #Free Spirits
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_free_spirits } }
+		localisation_key = kccp_free_spirits_key
+	}
+	text = { #Adoptionists
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_adoptionists } }
+		localisation_key = kccp_adoptionist_key
+	}
+	text = { #Lollards
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_lollards } }
+		localisation_key = kccp_lollard_key
+	}
+	text = { #Waldensians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_waldensians } }
+		localisation_key = kccp_waldensian_key
+	}
+	text = { #Fraticellis
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_fraticellis } }
+		localisation_key = kccp_fraticelli_key
+	}
+	text = { #Cathars
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_cathars } }
+		localisation_key = kccp_cathar_key
+	}
+	text = { #Catholics
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_catholics } }
+		localisation_key = kccp_catholic_key
+	}
+	text = { #Latins
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_latins } }
+		localisation_key = kccp_latin_key
+	}
+	text = { #Christians
+		trigger = { 1513 = { has_province_modifier = kcc_china_persecuted_christians } }
+		localisation_key = kccp_christian_key
+	}
+}

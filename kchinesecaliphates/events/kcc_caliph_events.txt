@@ -1,0 +1,1573 @@
+namespace = kccaliphate
+
+### Chinese Religious Heads
+
+#Collapse of Religion in West, Centered in China Now
+character_event = {
+	id = kccaliphate.0001
+	has_dlc = "Jade Dragon"
+	hide_window = yes
+	
+	only_playable = yes
+	only_independent = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = e_china_west_governor
+		OR = {
+			AND = {
+				offmap_china = { offmap_ruler = { religion = catholic } }
+				NOT = { has_character_flag = kcc_pope_cant_move_to_china }
+				NOT = { has_global_flag = pope_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = fraticelli } }
+				is_title_active = d_fraticelli
+				NOT = { has_character_flag = kcc_fraticelli_pope_cant_move_to_china }
+				NOT = { has_global_flag = fraticelli_pope_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = orthodox } }
+				NOT = { has_character_flag = kcc_orthodox_patriach_cant_move_to_china }
+				NOT = { has_global_flag = orthodox_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = monothelite } }
+				NOT = { has_character_flag = kcc_monothelite_patriach_cant_move_to_china }
+				NOT = { has_global_flag = monothelite_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = iconoclast } }
+				is_title_active = d_iconoclast
+				NOT = { has_character_flag = kcc_iconoclast_patriach_cant_move_to_china }
+				NOT = { has_global_flag = iconoclast_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = paulician } }
+				NOT = { has_character_flag = kcc_paulician_patriach_cant_move_to_china }
+				NOT = { has_global_flag = paulician_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = miaphysite } }
+				NOT = { has_character_flag = kcc_coptic_pope_cant_move_to_china }
+				NOT = { has_global_flag = coptic_pope_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = monophysite } }
+				NOT = { has_character_flag = kcc_monophysite_patriach_cant_move_to_china }
+				NOT = { has_global_flag = monophysite_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = nestorian } }
+				NOT = { has_character_flag = kcc_nestorian_patriach_cant_move_to_china }
+				NOT = { has_global_flag = nestorian_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = sunni } }
+				NOT = { has_character_flag = kcc_sunni_caliph_cant_be_chinese }
+				NOT = { has_global_flag = sunni_chinese_caliphate }
+				NOT = { is_title_active = d_sunni }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = shiite } }
+				NOT = { has_character_flag = kcc_shiite_caliph_cant_be_chinese }
+				NOT = { has_global_flag = shiite_chinese_caliphate }
+				NOT = { is_title_active = d_shiite }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = hurufi } }
+				NOT = { has_character_flag = kcc_hurufi_sheikh_cant_be_chinese }
+				NOT = { has_global_flag = hurufi_chinese_sheikhdom }
+				NOT = { is_title_active = d_hurufi }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = qarmatian } }
+				NOT = { has_character_flag = kcc_qarmatian_caliph_cant_be_chinese }
+				NOT = { has_global_flag = qarmatian_chinese_caliphate }
+				NOT = { is_title_active = d_qarmatian }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = ibadi } }
+				NOT = { has_character_flag = kcc_ibadi_caliph_cant_be_chinese }
+				NOT = { has_global_flag = ibadi_chinese_caliphate }
+				NOT = { is_title_active = d_ibadi }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = kharijite } }
+				NOT = { has_character_flag = kcc_kharijite_caliph_cant_be_chinese }
+				NOT = { has_global_flag = kharijite_chinese_caliphate }
+				NOT = { is_title_active = d_kharijite }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = zoroastrian } }
+				NOT = { has_character_flag = kcc_saoshyant_cant_be_chinese }
+				NOT = { has_global_flag = chinese_saoshyant }
+				NOT = { has_global_flag = saoshyant_appears }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = manichean } }
+				NOT = { has_character_flag = kcc_yamag_cant_move_to_china }
+				NOT = { has_global_flag = yamag_moved_to_china }
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = catholic } }
+				NOT = { has_character_flag = kcc_pope_cant_move_to_china }
+				NOT = { has_global_flag = pope_moved_to_china }
+			}
+			set_global_flag = pope_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			k_papal_state = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = catholic
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = fraticelli } }
+				is_title_active = d_fraticelli
+				NOT = { has_character_flag = kcc_fraticelli_pope_cant_move_to_china }
+				NOT = { has_global_flag = fraticelli_pope_moved_to_china }
+			}
+			set_global_flag = fraticelli_pope_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_fraticelli = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = fraticelli
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = orthodox } }
+				NOT = { has_character_flag = kcc_orthodox_patriach_cant_move_to_china }
+				NOT = { has_global_flag = orthodox_patriach_moved_to_china }
+			}
+			set_global_flag = orthodox_patriach_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			k_orthodox = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = orthodox
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = monothelite } }
+				NOT = { has_character_flag = kcc_monothelite_patriach_cant_move_to_china }
+				NOT = { has_global_flag = monothelite_patriach_moved_to_china }
+			}
+			set_global_flag = monothelite_patriach_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_monothelite = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = monothelite
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = iconoclast } }
+				is_title_active = d_iconoclast
+				NOT = { has_character_flag = kcc_iconoclast_patriach_cant_move_to_china }
+				NOT = { has_global_flag = iconoclast_patriach_moved_to_china }
+			}
+			set_global_flag = iconoclast_patriach_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_iconoclast = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = iconoclast
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = paulician } }
+				NOT = { has_character_flag = kcc_paulician_patriach_cant_move_to_china }
+				NOT = { has_global_flag = paulician_patriach_moved_to_china }
+			}
+			set_global_flag = paulician_patriach_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_paulician = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = paulician
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = miaphysite } }
+				NOT = { has_character_flag = kcc_coptic_pope_cant_move_to_china }
+				NOT = { has_global_flag = coptic_pope_moved_to_china }
+			}
+			set_global_flag = coptic_pope_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_miaphysite = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = miaphysite
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = monophysite } }
+				NOT = { has_character_flag = kcc_monophysite_patriach_cant_move_to_china }
+				NOT = { has_global_flag = monophysite_patriach_moved_to_china }
+			}
+			set_global_flag = monophysite_patriach_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_monophysite = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = monophysite
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = nestorian } }
+				NOT = { has_character_flag = kcc_nestorian_patriach_cant_move_to_china }
+				NOT = { has_global_flag = nestorian_patriach_moved_to_china }
+			}
+			set_global_flag = nestorian_patriach_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_nestorian = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = nestorian
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = sunni } }
+				NOT = { has_character_flag = kcc_sunni_caliph_cant_be_chinese }
+				NOT = { has_global_flag = sunni_chinese_caliphate }
+				NOT = { is_title_active = d_sunni }
+			}
+			set_global_flag = sunni_chinese_caliphate
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0003 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = sayyid
+					any_child_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+					any_sibling_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = shiite } }
+				NOT = { has_character_flag = kcc_shiite_caliph_cant_be_chinese }
+				NOT = { has_global_flag = shiite_chinese_caliphate }
+				NOT = { is_title_active = d_shiite }
+			}
+			set_global_flag = shiite_chinese_caliphate
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0003 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = sayyid
+					any_child_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+					any_sibling_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = hurufi } }
+				NOT = { has_character_flag = kcc_hurufi_sheikh_cant_be_chinese }
+				NOT = { has_global_flag = hurufi_chinese_sheikhdom }
+				NOT = { is_title_active = d_hurufi }
+			}
+			set_global_flag = hurufi_chinese_sheikhdom
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0003 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = sayyid
+					any_child_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+					any_sibling_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = qarmatian } }
+				NOT = { has_character_flag = kcc_qarmatian_caliph_cant_be_chinese }
+				NOT = { has_global_flag = qarmatian_chinese_caliphate }
+				NOT = { is_title_active = d_qarmatian }
+			}
+			set_global_flag = qarmatian_chinese_caliphate
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0003 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = sayyid
+					any_child_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+					any_sibling_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = ibadi } }
+				NOT = { has_character_flag = kcc_ibadi_caliph_cant_be_chinese }
+				NOT = { has_global_flag = ibadi_chinese_caliphate }
+				NOT = { is_title_active = d_ibadi }
+			}
+			set_global_flag = ibadi_chinese_caliphate
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0003 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = sayyid
+					any_child_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+					any_sibling_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = kharijite } }
+				NOT = { has_character_flag = kcc_kharijite_caliph_cant_be_chinese }
+				NOT = { has_global_flag = kharijite_chinese_caliphate }
+				NOT = { is_title_active = d_kharijite }
+			}
+			set_global_flag = kharijite_chinese_caliphate
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0003 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = sayyid
+					any_child_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+					any_sibling_even_if_dead = {
+						add_trait = sayyid
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = zoroastrian } }
+				NOT = { has_character_flag = kcc_saoshyant_cant_be_chinese }
+				NOT = { has_global_flag = chinese_saoshyant }
+				NOT = { has_global_flag = saoshyant_appears }
+			}
+			set_global_flag = chinese_saoshyant
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0004 days = 1 } }
+			offmap_china = {
+				offmap_ruler = {
+					add_trait = saoshyant
+					if = {
+						limit = {
+							is_female = yes
+							has_dlc = "Holy Fury"
+						}
+						create_bloodline = {
+							type = saoshyant_female
+						}
+						new_bloodline = {
+							set_description = "bloodline_desc_saoshyant"
+						}
+					}
+					if = {
+						limit = {
+							is_female = no
+							has_dlc = "Holy Fury"
+						}
+						create_bloodline = {
+							type = saoshyant_male
+						}
+						new_bloodline = {
+							set_description = "bloodline_desc_saoshyant"
+						}
+					}
+					any_child_even_if_dead = {
+						add_trait = saoshyant_descendant
+						any_child_even_if_dead = { character_event = { id = kccaliphate.0006 days = 1 } }
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = manichean } }
+				NOT = { has_character_flag = kcc_yamag_cant_move_to_china }
+				NOT = { has_global_flag = yamag_moved_to_china }
+			}
+			set_global_flag = yamag_moved_to_china
+			any_playable_ruler = { narrative_event = { id = kccaliphate.0002 days = 1 } }
+			d_manichean = {
+				set_preferred_capital = 1448
+				holder_scope = {
+					any_courtier_or_vassal = {
+						limit = {
+							culture_group = PREV
+							religion = manichean
+							prisoner = no
+						}
+						culture = han
+					}
+					culture = han
+				}
+			}
+		}
+	}
+}
+
+# Temporal Religious Head moves to China
+narrative_event = {
+	id = kccaliphate.0002
+	title = NEWS_FROM_CHINA
+	picture = GFX_evt_china_expansionist
+	desc = EVTDESC_kccaliphate.0002
+	window = EventWindowOffmap
+	background = GFX_event_window_news_from_china
+
+	has_dlc = "Jade Dragon"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		offmap_china = {
+			ruler = {
+				save_event_target_as = portrait_target
+			}
+		}
+	}
+	
+	portrait = event_target:portrait_target
+	
+	
+	option = {
+		name = EVTOPT_kccaliphate.0002
+	}
+}
+
+# Chinese Caliphate Declared
+narrative_event = {
+	id = kccaliphate.0003
+	title = NEWS_FROM_CHINA
+	picture = GFX_evt_china_expansionist
+	desc = EVTDESC_kccaliphate.0003
+	window = EventWindowOffmap
+	background = GFX_event_window_news_from_china
+
+	has_dlc = "Jade Dragon"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		offmap_china = {
+			ruler = {
+				save_event_target_as = portrait_target
+			}
+		}
+	}
+	
+	portrait = event_target:portrait_target
+	
+	
+	option = {
+		name = EVTOPT_kccaliphate.0002
+	}
+}
+
+# Chinese Saoshyant Proclaimed
+narrative_event = {
+	id = kccaliphate.0004
+	title = NEWS_FROM_CHINA
+	picture = GFX_evt_china_expansionist
+	desc = EVTDESC_kccaliphate.0004
+	window = EventWindowOffmap
+	background = GFX_event_window_news_from_china
+
+	has_dlc = "Jade Dragon"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		offmap_china = {
+			ruler = {
+				save_event_target_as = portrait_target
+			}
+		}
+	}
+	
+	portrait = event_target:portrait_target
+	
+	
+	option = {
+		name = EVTOPT_kccaliphate.0002
+	}
+}
+
+# Add Sayyid/Saoshyant Descendant to Chinese Princes/Princesses
+character_event = {
+	id = kccaliphate.0005
+	hide_window = yes
+
+	has_dlc = "Jade Dragon"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		FROM = { character = no }
+		offmap_china = { offmap_ruler = { dynasty = ROOT } }
+		OR = {
+			AND = {
+				offmap_china = { offmap_ruler = { religion = sunni } }
+				has_global_flag = sunni_chinese_caliphate
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = shiite } }
+				has_global_flag = shiite_chinese_caliphate
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = hurufi } }
+				has_global_flag = hurufi_chinese_sheikhdom
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = qarmatian } }
+				has_global_flag = qarmatian_chinese_caliphate
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = ibadi } }
+				has_global_flag = ibadi_chinese_caliphate
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = kharijite } }
+				has_global_flag = kharijite_chinese_caliphate
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = zoroastrian } }
+				has_global_flag = chinese_saoshyant
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						offmap_china = { offmap_ruler = { religion = sunni } }
+						has_global_flag = sunni_chinese_caliphate
+					}
+					AND = {
+						offmap_china = { offmap_ruler = { religion = shiite } }
+						has_global_flag = shiite_chinese_caliphate
+					}
+					AND = {
+						offmap_china = { offmap_ruler = { religion = hurufi } }
+						has_global_flag = hurufi_chinese_sheikhdom
+					}
+					AND = {
+						offmap_china = { offmap_ruler = { religion = qarmatian } }
+						has_global_flag = qarmatian_chinese_caliphate
+					}
+					AND = {
+						offmap_china = { offmap_ruler = { religion = ibadi } }
+						has_global_flag = ibadi_chinese_caliphate
+					}
+					AND = {
+						offmap_china = { offmap_ruler = { religion = kharijite } }
+						has_global_flag = kharijite_chinese_caliphate
+					}
+				}
+			}
+			add_trait = sayyid
+		}
+		else_if = {
+			limit = {
+				offmap_china = { offmap_ruler = { religion = zoroastrian } }
+				has_global_flag = chinese_saoshyant
+			}
+			add_trait = saoshyant_descendant
+		}
+	}
+}
+
+
+# Add Sayyid/Mirza/Saoshyant Descendant to descendents of Chinese Princes/Princesses
+character_event = {
+	id = kccaliphate.0006
+	hide_window = yes
+
+	has_dlc = "Jade Dragon"
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				father_even_if_dead = { trait = sayyid }
+			}
+			add_trait = sayyid
+			if = {
+				limit = {
+					trait = mirza
+				}
+				remove_trait = mirza
+			}
+		}
+		else_if = {
+			limit = {
+				mother_even_if_dead = { trait = sayyid }
+			}
+			add_trait = mirza
+		}
+		if = {
+			limit = {
+				OR = {
+					father_even_if_dead = { trait = saoshyant_descendant }
+					mother_even_if_dead = { trait = saoshyant_descendant }
+				}
+			}
+			add_trait = saoshyant_descendant
+		}
+	}
+	
+	after = {
+		any_child_even_if_dead = { character_event = { id = kccaliphate.0006 } }
+	}
+}
+
+# Check for 'X moved to China' conditions, Part 2
+province_event = {
+	id = kccaliphate.0007
+	hide_window = yes
+
+	has_dlc = "Jade Dragon"
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		OR = {
+			AND = {
+				offmap_china = { offmap_ruler = { religion = catholic } }
+				NOT = { has_global_flag = pope_moved_to_china }
+				OR = {
+					religion = catholic
+					owner = { religion = catholic }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = fraticelli } }
+				is_title_active = d_fraticelli
+				NOT = { has_global_flag = fraticelli_pope_moved_to_china }
+				OR = {
+					religion = fraticelli
+					owner = { religion = fraticelli }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = orthodox } }
+				NOT = { has_global_flag = orthodox_patriach_moved_to_china }
+				OR = {
+					religion = orthodox
+					owner = { religion = orthodox }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = monothelite } }
+				NOT = { has_global_flag = monothelite_patriach_moved_to_china }
+				OR = {
+					religion = monothelite
+					owner = { religion = monothelite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = iconoclast } }
+				is_title_active = d_iconoclast
+				NOT = { has_global_flag = iconoclast_patriach_moved_to_china }
+				OR = {
+					religion = iconoclast
+					owner = { religion = iconoclast }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = paulician } }
+				NOT = { has_global_flag = paulician_patriach_moved_to_china }
+				OR = {
+					religion = paulician
+					owner = { religion = paulician }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = miaphysite } }
+				NOT = { has_global_flag = coptic_pope_moved_to_china }
+				OR = {
+					religion = miaphysite
+					owner = { religion = miaphysite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = monophysite } }
+				NOT = { has_global_flag = monophysite_patriach_moved_to_china }
+				OR = {
+					religion = monophysite
+					owner = { religion = monophysite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = nestorian } }
+				NOT = { has_global_flag = nestorian_patriach_moved_to_china }
+				OR = {
+					religion = nestorian
+					owner = { religion = nestorian }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = sunni } }
+				NOT = { has_global_flag = sunni_chinese_caliphate }
+				NOT = { is_title_active = d_sunni }
+				OR = {
+					religion = sunni
+					owner = { religion = sunni }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = shiite } }
+				NOT = { has_global_flag = shiite_chinese_caliphate }
+				NOT = { is_title_active = d_shiite }
+				OR = {
+					religion = shiite
+					owner = { religion = shiite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = hurufi } }
+				NOT = { has_global_flag = hurufi_chinese_sheikhdom }
+				NOT = { is_title_active = d_hurufi }
+				OR = {
+					religion = hurufi
+					owner = { religion = hurufi }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = qarmatian } }
+				NOT = { has_global_flag = qarmatian_chinese_caliphate }
+				NOT = { is_title_active = d_qarmatian }
+				OR = {
+					religion = qarmatian
+					owner = { religion = qarmatian }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = ibadi } }
+				NOT = { has_global_flag = ibadi_chinese_caliphate }
+				NOT = { is_title_active = d_ibadi }
+				OR = {
+					religion = ibadi
+					owner = { religion = ibadi }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = kharijite } }
+				NOT = { has_global_flag = kharijite_chinese_caliphate }
+				NOT = { is_title_active = d_kharijite }
+				OR = {
+					religion = kharijite
+					owner = { religion = kharijite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = zoroastrian } }
+				NOT = { has_global_flag = chinese_saoshyant }
+				NOT = { has_global_flag = saoshyant_appears }
+				OR = {
+					religion = zoroastrian
+					owner = { religion = zoroastrian }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = manichean } }
+				NOT = { has_global_flag = yamag_moved_to_china }
+				OR = {
+					religion = manichean
+					owner = { religion = manichean }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = catholic }
+				}
+				NOT = { has_global_flag = pope_moved_to_china }
+				OR = {
+					religion = catholic
+					owner = { religion = catholic }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_pope_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = fraticelli }
+				}
+				is_title_active = d_fraticelli
+				NOT = { has_global_flag = fraticelli_pope_moved_to_china }
+				OR = {
+					religion = fraticelli
+					owner = { religion = fraticelli }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_fraticelli_pope_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = orthodox }
+				}
+				NOT = { has_global_flag = orthodox_patriach_moved_to_china }
+				OR = {
+					religion = orthodox
+					owner = { religion = orthodox }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_orthodox_patriach_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = monothelite }
+				}
+				NOT = { has_global_flag = monothelite_patriach_moved_to_china }
+				OR = {
+					religion = monothelite
+					owner = { religion = monothelite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_monothelite_patriach_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = iconoclast }
+				}
+				is_title_active = d_iconoclast
+				NOT = { has_global_flag = iconoclast_patriach_moved_to_china }
+				OR = {
+					religion = iconoclast
+					owner = { religion = iconoclast }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_iconoclast_patriach_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = paulician }
+				}
+				NOT = { has_global_flag = paulician_patriach_moved_to_china }
+				OR = {
+					religion = paulician
+					owner = { religion = paulician }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_paulician_patriach_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = miaphysite }
+				}
+				NOT = { has_global_flag = coptic_pope_moved_to_china }
+				OR = {
+					religion = miaphysite
+					owner = { religion = miaphysite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_coptic_pope_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = monophysite }
+				}
+				NOT = { has_global_flag = monophysite_patriach_moved_to_china }
+				OR = {
+					religion = monophysite
+					owner = { religion = monophysite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_monophysite_patriach_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = nestorian }
+				}
+				NOT = { has_global_flag = nestorian_patriach_moved_to_china }
+				OR = {
+					religion = nestorian
+					owner = { religion = nestorian }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_nestorian_patriach_cant_move_to_china } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = sunni }
+				}
+				NOT = { has_global_flag = sunni_chinese_caliphate }
+				NOT = { is_title_active = d_sunni }
+				OR = {
+					religion = sunni
+					owner = { religion = sunni }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_sunni_caliph_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = shiite }
+				}
+				NOT = { has_global_flag = shiite_chinese_caliphate }
+				NOT = { is_title_active = d_shiite }
+				OR = {
+					religion = shiite
+					owner = { religion = shiite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_shiite_caliph_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = hurufi }
+				}
+				NOT = { has_global_flag = hurufi_chinese_sheikhdom }
+				NOT = { is_title_active = d_hurufi }
+				OR = {
+					religion = hurufi
+					owner = { religion = hurufi }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_hurufi_sheikh_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = qarmatian }
+				}
+				NOT = { has_global_flag = qarmatian_chinese_caliphate }
+				NOT = { is_title_active = d_qarmatian }
+				OR = {
+					religion = qarmatian
+					owner = { religion = qarmatian }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_qarmatian_caliph_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = ibadi }
+				}
+				NOT = { has_global_flag = ibadi_chinese_caliphate }
+				NOT = { is_title_active = d_ibadi }
+				OR = {
+					religion = ibadi
+					owner = { religion = ibadi }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_ibadi_caliph_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = kharijite }
+				}
+				NOT = { has_global_flag = kharijite_chinese_caliphate }
+				NOT = { is_title_active = d_kharijite }
+				OR = {
+					religion = kharijite
+					owner = { religion = kharijite }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_kharijite_caliph_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = zoroastrian }
+				}
+				NOT = { has_global_flag = chinese_saoshyant }
+				NOT = { has_global_flag = saoshyant_appears }
+				OR = {
+					religion = zoroastrian
+					owner = { religion = zoroastrian }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_saoshyant_cant_be_chinese } }
+		}
+		if = {
+			limit = {
+				offmap_china = {
+					offmap_ruler = { religion = manichean }
+				}
+				NOT = { has_global_flag = yamag_moved_to_china }
+				OR = {
+					religion = manichean
+					owner = { religion = manichean }
+				}
+				owner = {
+					NOR = {
+						has_landed_title = e_china_west_governor
+						any_liege = { has_landed_title = e_china_west_governor }
+					}
+				}
+			}
+			offmap_china = { governor = { set_character_flag = kcc_yamag_cant_move_to_china } }
+		}
+	}
+}
+
+# Cleanup Event for Flags blocking Chinese Religious Head
+character_event = {
+	id = kccaliphate.0008
+	hide_window = yes
+
+	has_dlc = "Jade Dragon"
+	
+	only_playable = yes
+	only_independent = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		has_landed_title = e_china_west_governor
+		OR = {
+			has_character_flag = kcc_pope_cant_move_to_china
+			has_character_flag = kcc_fraticelli_pope_cant_move_to_china
+			has_character_flag = kcc_orthodox_patriach_cant_move_to_china
+			has_character_flag = kcc_monothelite_patriach_cant_move_to_china
+			has_character_flag = kcc_iconoclast_patriach_cant_move_to_china
+			has_character_flag = kcc_paulician_patriach_cant_move_to_china
+			has_character_flag = kcc_coptic_pope_cant_move_to_china
+			has_character_flag = kcc_monophysite_patriach_cant_move_to_china
+			has_character_flag = kcc_nestorian_patriach_cant_move_to_china
+			has_character_flag = kcc_sunni_caliph_cant_be_chinese
+			has_character_flag = kcc_shiite_caliph_cant_be_chinese
+			has_character_flag = kcc_hurufi_sheikh_cant_be_chinese
+			has_character_flag = kcc_qarmatian_caliph_cant_be_chinese
+			has_character_flag = kcc_ibadi_caliph_cant_be_chinese
+			has_character_flag = kcc_kharijite_caliph_cant_be_chinese
+			has_character_flag = kcc_saoshyant_cant_be_chinese
+			has_character_flag = kcc_yamag_cant_move_to_china
+		}
+	}
+	
+	immediate = {
+		if = {
+			limit = { has_character_flag = kcc_pope_cant_move_to_china }
+			clr_character_flag = kcc_pope_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_fraticelli_pope_cant_move_to_china }
+			clr_character_flag = kcc_fraticelli_pope_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_orthodox_patriach_cant_move_to_china }
+			clr_character_flag = kcc_orthodox_patriach_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_monothelite_patriach_cant_move_to_china }
+			clr_character_flag = kcc_monothelite_patriach_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_iconoclast_patriach_cant_move_to_china }
+			clr_character_flag = kcc_iconoclast_patriach_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_paulician_patriach_cant_move_to_china }
+			clr_character_flag = kcc_paulician_patriach_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_coptic_pope_cant_move_to_china }
+			clr_character_flag = kcc_coptic_pope_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_monophysite_patriach_cant_move_to_china }
+			clr_character_flag = kcc_monophysite_patriach_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_nestorian_patriach_cant_move_to_china }
+			clr_character_flag = kcc_nestorian_patriach_cant_move_to_china
+		}
+		if = {
+			limit = { has_character_flag = kcc_sunni_caliph_cant_be_chinese }
+			clr_character_flag = kcc_sunni_caliph_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_shiite_caliph_cant_be_chinese }
+			clr_character_flag = kcc_shiite_caliph_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_hurufi_sheikh_cant_be_chinese }
+			clr_character_flag = kcc_hurufi_sheikh_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_qarmatian_caliph_cant_be_chinese }
+			clr_character_flag = kcc_qarmatian_caliph_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_ibadi_caliph_cant_be_chinese }
+			clr_character_flag = kcc_ibadi_caliph_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_kharijite_caliph_cant_be_chinese }
+			clr_character_flag = kcc_kharijite_caliph_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_saoshyant_cant_be_chinese }
+			clr_character_flag = kcc_saoshyant_cant_be_chinese
+		}
+		if = {
+			limit = { has_character_flag = kcc_yamag_cant_move_to_china }
+			clr_character_flag = kcc_yamag_cant_move_to_china
+		}
+	}
+}
+
+# Check for 'X moved to China' conditions, Part 1
+character_event = {
+	id = kccaliphate.0009
+	hide_window = yes
+
+	has_dlc = "Jade Dragon"
+	is_triggered_only = yes
+	
+	religion = catholic
+	
+	trigger = {
+		controls_religion = yes
+		OR = {
+			AND = {
+				offmap_china = { offmap_ruler = { religion = catholic } }
+				NOT = { has_global_flag = pope_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = fraticelli } }
+				is_title_active = d_fraticelli
+				NOT = { has_global_flag = fraticelli_pope_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = orthodox } }
+				NOT = { has_global_flag = orthodox_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = monothelite } }
+				NOT = { has_global_flag = monothelite_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = iconoclast } }
+				is_title_active = d_iconoclast
+				NOT = { has_global_flag = iconoclast_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = paulician } }
+				NOT = { has_global_flag = paulician_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = miaphysite } }
+				NOT = { has_global_flag = coptic_pope_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = monophysite } }
+				NOT = { has_global_flag = monophysite_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = nestorian } }
+				NOT = { has_global_flag = nestorian_patriach_moved_to_china }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = sunni } }
+				NOT = { has_global_flag = sunni_chinese_caliphate }
+				NOT = { is_title_active = d_sunni }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = shiite } }
+				NOT = { has_global_flag = shiite_chinese_caliphate }
+				NOT = { is_title_active = d_shiite }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = hurufi } }
+				NOT = { has_global_flag = hurufi_chinese_sheikhdom }
+				NOT = { is_title_active = d_hurufi }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = qarmatian } }
+				NOT = { has_global_flag = qarmatian_chinese_caliphate }
+				NOT = { is_title_active = d_qarmatian }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = ibadi } }
+				NOT = { has_global_flag = ibadi_chinese_caliphate }
+				NOT = { is_title_active = d_ibadi }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = kharijite } }
+				NOT = { has_global_flag = kharijite_chinese_caliphate }
+				NOT = { is_title_active = d_kharijite }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = zoroastrian } }
+				NOT = { has_global_flag = chinese_saoshyant }
+				NOT = { has_global_flag = saoshyant_appears }
+			}
+			AND = {
+				offmap_china = { offmap_ruler = { religion = manichean } }
+				NOT = { has_global_flag = yamag_moved_to_china }
+			}
+		}
+	}
+	
+	immediate = {
+		any_province = {
+			limit = {
+				OR = {
+					NOT = { holding_type = nomad }
+					owner = {
+						is_nomadic = yes
+						population_and_manpower >= 10000
+					}
+				}
+			}
+			province_event = {
+				id = kccaliphate.0007
+			}
+		}
+	}
+	
+	after = {
+		offmap_china = {
+			governor = {
+				character_event = { id = kccaliphate.0001 days = 100 }
+				character_event = { id = kccaliphate.0008 months = 12 }
+			}
+		}
+	}
+}

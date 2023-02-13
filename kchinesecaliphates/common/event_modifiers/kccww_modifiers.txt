@@ -1,0 +1,301 @@
+##################################################################################################
+# scriptable and usable for event-system below.
+##################################################################################################
+#
+# ICONS:
+#
+# Good 			<=> 		Bad
+#
+#  1 - Martial 				- 19
+#  2 - Learning 			- 20
+#  3 - Diplomacy 			- 21
+#  4 - Stewardship 			- 22
+#  5 - Intrigue 			- 23
+#  6 - Money 				- 24
+#  7 - Prestige 			- 25
+#  8 - Piety 				- 26
+#  9 - Titles 				- 27
+# 10 - Council 				- 28 
+# 11 - Laws 				- 29
+# 12 - Tech 				- 30 
+# 13 - Military 			- 31
+# 14 - Plots 				- 32
+# 15 - Messages 			- 33
+# 16 - Diplomatic actions 	- 34
+# 17 - Church 				- 35
+# 18 - Characters 			- 36
+# 37 - Prison 				- 38
+# 39 - Love 				- 40
+# 41 - Death 				- 42
+# 43 - Indian religion 		- 44
+# 45 - Dog					- 65
+# 46 - Cat					- 66
+# 47 - Owl					- 67
+# 48 - Pagan religion       - 49
+# 50 - Staff of Asclepius   - 51
+# 52 - Mystic               - 53
+# 54 - Bonesaw              - 55
+# 56 - Horseshoe            - 57
+# 58 - Parrot				- 68
+# 59 - Ham					- 60
+# 61 - Anchor				- 62
+# 63 - Jewish religion		- 64
+# 69 - Bed					- 70
+# 71 - Wolf					- 72
+# 73 - Raven				- 74
+# 75 - Demon horns			- 76
+# 77 - Trident				- 78
+# 79 - Stars				- 80
+# 81 - Eye					- 82
+# 83 - Test-tubes			- 84
+# 85 - Science flask		- 86
+# 87 - Flower				- 88
+# 89 - Rats		 			- 90
+# 91 - Otter				- 92
+# 93 - Hedgehog				- 94
+# 95 - Taoist				- 96
+# 97 - Paper				- 98
+# 99 - Bamboo Book			- 100
+# 101 - Pagoda				- 102
+# 103 - Firework			- 104
+# 105 - Torch				- 106
+# 107 - Panda				- 108
+# 109 - Dragon				- 110
+# 111 - Eagle				- 112
+# 113 - Pregnancy			- 114
+# 115 - Evil Sword			- 116
+# 117 - Combat Skill		- 118
+# 119 - Broken Bone			- 120
+# 121 - Chicken				- 122
+# 123 - Combat Skill (New)	- 124
+# 125 - Bear 				- 126
+# 127 - Lion 				- 128
+# 129 - Rain Good           - 130
+# 131 - Rain Storm          - 132
+# 133 - Sun   	            - 134
+
+kcc_recent_catholic_mission = {
+	icon = 2
+}
+
+kcc_recent_cathar_mission = {
+	icon = 2
+}
+
+kcc_recent_fraticelli_mission = {
+	icon = 2
+}
+
+kcc_recent_waldensian_mission = {
+	icon = 2
+}
+
+kcc_recent_lollard_mission = {
+	icon = 2
+}
+
+kcc_recent_orthodox_mission = {
+	icon = 2
+}
+
+kcc_recent_miaphysite_mission = {
+	icon = 2
+}
+
+kcc_recent_monophysite_mission = {
+	icon = 2
+}
+
+kcc_recent_bogomilist_mission = {
+	icon = 2
+}
+
+kcc_recent_monothelite_mission = {
+	icon = 2
+}
+
+kcc_recent_iconoclast_mission = {
+	icon = 2
+}
+
+kcc_recent_paulician_mission = {
+	icon = 2
+}
+
+kcc_recent_nestorian_mission = {
+	icon = 2
+}
+
+kcc_recent_messalian_mission = {
+	icon = 2
+}
+
+kcc_recent_sunni_mission = {
+	icon = 2
+}
+
+kcc_recent_zikri_mission = {
+	icon = 2
+}
+
+kcc_recent_ibadi_mission = {
+	icon = 2
+}
+
+kcc_recent_kharijite_mission = {
+	icon = 2
+}
+
+kcc_recent_shiite_mission = {
+	icon = 2
+}
+
+kcc_recent_qarmatian_mission = {
+	icon = 2
+}
+
+kcc_recent_hurufi_mission = {
+	icon = 2
+}
+
+kcc_recent_zoroastrian_mission = {
+	icon = 2
+}
+
+kcc_recent_mazdaki_mission = {
+	icon = 2
+}
+
+kcc_recent_manichean_mission = {
+	icon = 2
+}
+
+kcc_recent_buddhist_mission = {
+	icon = 2
+}
+
+kcc_recent_jain_mission = {
+	icon = 2
+}
+
+kcc_recent_atenic_mission = {
+	icon = 2
+}
+
+kcc_recent_britannic_mission = {
+	icon = 2
+}
+
+kcc_recent_promethean_mission = {
+	icon = 2
+}
+
+kcc_recent_bon_mission = {
+	icon = 2
+}
+
+kcc_recent_norse_mission = {
+	icon = 2
+}
+
+kcc_recent_tengri_mission = {
+	icon = 2
+}
+
+kcc_recent_baltic_mission = {
+	icon = 2
+}
+
+kcc_recent_finnish_mission = {
+	icon = 2
+}
+
+kcc_recent_aztec_mission = {
+	icon = 2
+}
+
+kcc_recent_slavic_mission = {
+	icon = 2
+}
+
+kcc_recent_african_mission = {
+	icon = 2
+}
+
+kcc_recent_zun_mission = {
+	icon = 2
+}
+
+kcc_recent_hellenic_mission = {
+	icon = 2
+}
+
+kcc_recent_celtic_mission = {
+	icon = 2
+}
+
+kcc_recent_egyptian_mission = {
+	icon = 2
+}
+
+#Christian Immersion
+kcc_recent_adoptionist_mission = {
+	icon = 2
+}
+
+kcc_recent_free_spirits_mission = {
+	icon = 2
+}
+
+kcc_recent_barlaamite_mission = {
+	icon = 2
+}
+
+kcc_recent_judaizer_mission = {
+	icon = 2
+}
+
+kcc_recent_mandean_mission = {
+	icon = 2
+}
+
+kcc_recent_chaldean_mission = {
+	icon = 2
+}
+
+kcc_recent_apollinarian_mission = {
+	icon = 2
+}
+
+kcc_recent_yarsan_mission = {
+	icon = 2
+}
+
+#Last Vanilla Religions
+kcc_recent_yazidi_mission = {
+	icon = 2
+}
+
+kcc_recent_druze_mission = {
+	icon = 2
+}
+
+kcc_recent_khurmazta_mission = {
+	icon = 2
+}
+
+kcc_recent_jewish_mission = {
+	icon = 2
+}
+
+kcc_recent_samaritan_mission = {
+	icon = 2
+}
+
+kcc_recent_karaite_mission = {
+	icon = 2
+}
+
+kcc_recent_hindu_mission = {
+	icon = 2
+}

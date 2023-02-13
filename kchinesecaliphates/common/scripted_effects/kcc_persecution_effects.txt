@@ -1,0 +1,3632 @@
+# kcc_post_persecution_effect
+# kcc_persecute_christians_effect
+# kcc_overpersecute_christians_effect
+# kcc_persecute_latins_effect
+# kcc_overpersecute_latins_effect
+# kcc_persecute_byzantines_effect
+# kcc_overpersecute_byzantines_effect
+# kcc_persecute_nonchalcedonians_effect
+# kcc_overpersecute_nonchalcedonians_effect
+# kcc_persecute_muslims_effect
+# kcc_overpersecute_muslims_effect
+# kcc_persecute_sunnis_effect
+# kcc_overpersecute_sunnis_effect
+# kcc_persecute_shias_effect
+# kcc_overpersecute_shias_effect
+# kcc_persecute_mazdans_effect
+# kcc_overpersecute_mazdans_effect
+# kcc_zoro_persecute_mazdans_effect
+# kcc_zoro_overpersecute_mazdans_effect
+# kcc_persecute_dharmans_effect
+# kcc_overpersecute_dharmans_effect
+# kcc_persecute_all_pagans_effect
+# kcc_overpersecute_all_pagans_effect
+# kcc_persecute_northern_pagans_effect
+# kcc_overpersecute_northern_pagans_effect
+# kcc_persecute_eastern_pagans_effect
+# kcc_overpersecute_eastern_pagans_effect
+# kcc_persecute_classical_pagans_effect
+# kcc_overpersecute_classical_pagans_effect
+# kcc_persecute_africans_effect
+# kcc_overpersecute_africans_effect
+# kcc_persecute_aztecs_effect
+# kcc_overpersecute_aztecs_effect
+# kcc_persecute_jews_effect
+# kcc_overpersecute_jews_effect
+
+kcc_post_persecution_effect = {
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_catholics" value = 0 } }
+			has_global_flag = catholics_in_china
+		}
+		clr_global_flag = catholics_in_china
+		clr_global_flag = catholic_china_one
+		clr_global_flag = catholic_china_two
+		set_variable = { which = "global_chinese_catholics" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_catholics" value = 20 } }
+			has_global_flag = catholic_china_one
+		}
+		clr_global_flag = catholic_china_one
+		clr_global_flag = catholic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_catholics" value = 40 } }
+			has_global_flag = catholic_china_two
+		}
+		clr_global_flag = catholic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_catholics" value = 100 } }
+			has_global_flag = catholic_china_three
+		}
+		clr_global_flag = catholic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_catholics" value = 120 } }
+			has_global_flag = catholic_china_four
+		}
+		clr_global_flag = catholic_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_cathars" value = 0 } }
+			has_global_flag = cathars_in_china
+		}
+		clr_global_flag = cathars_in_china
+		clr_global_flag = cathar_china_one
+		clr_global_flag = cathar_china_two
+		set_variable = { which = "global_chinese_cathars" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_cathars" value = 20 } }
+			has_global_flag = cathar_china_one
+		}
+		clr_global_flag = cathar_china_one
+		clr_global_flag = cathar_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_cathars" value = 40 } }
+			has_global_flag = cathar_china_two
+		}
+		clr_global_flag = cathar_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_cathars" value = 100 } }
+			has_global_flag = cathar_china_three
+		}
+		clr_global_flag = cathar_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_cathars" value = 120 } }
+			has_global_flag = cathar_china_four
+		}
+		clr_global_flag = cathar_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_fraticellis" value = 0 } }
+			has_global_flag = fraticellis_in_china
+		}
+		clr_global_flag = fraticellis_in_china
+		clr_global_flag = fraticelli_china_one
+		clr_global_flag = fraticelli_china_two
+		set_variable = { which = "global_chinese_fraticellis" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_fraticellis" value = 20 } }
+			has_global_flag = fraticelli_china_one
+		}
+		clr_global_flag = fraticelli_china_one
+		clr_global_flag = fraticelli_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_fraticellis" value = 40 } }
+			has_global_flag = fraticelli_china_two
+		}
+		clr_global_flag = fraticelli_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_fraticellis" value = 100 } }
+			has_global_flag = fraticelli_china_three
+		}
+		clr_global_flag = fraticelli_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_fraticellis" value = 120 } }
+			has_global_flag = fraticelli_china_four
+		}
+		clr_global_flag = fraticelli_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_waldensians" value = 0 } }
+			has_global_flag = waldensians_in_china
+		}
+		clr_global_flag = waldensians_in_china
+		clr_global_flag = waldensian_china_one
+		clr_global_flag = waldensian_china_two
+		set_variable = { which = "global_chinese_waldensians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_waldensians" value = 20 } }
+			has_global_flag = waldensian_china_one
+		}
+		clr_global_flag = waldensian_china_one
+		clr_global_flag = waldensian_china_two
+		}
+	else_if = {
+			limit = {
+			NOT = { check_variable = { which = "global_chinese_waldensians" value = 40 } }
+			has_global_flag = waldensian_china_two
+			}
+		clr_global_flag = waldensian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_waldensians" value = 100 } }
+			has_global_flag = waldensian_china_three
+		}
+		clr_global_flag = waldensian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_waldensians" value = 120 } }
+			has_global_flag = waldensian_china_four
+		}
+		clr_global_flag = waldensian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_lollards" value = 0 } }
+			has_global_flag = lollards_in_china
+		}
+		clr_global_flag = lollards_in_china
+		clr_global_flag = lollard_china_one
+		clr_global_flag = lollard_china_two
+		set_variable = { which = "global_chinese_lollards" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_lollards" value = 20 } }
+			has_global_flag = lollard_china_one
+		}
+		clr_global_flag = lollard_china_one
+		clr_global_flag = lollard_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_lollards" value = 40 } }
+			has_global_flag = lollard_china_two
+		}
+		clr_global_flag = lollard_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_lollards" value = 100 } }
+			has_global_flag = lollard_china_three
+		}
+		clr_global_flag = lollard_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_lollards" value = 120 } }
+			has_global_flag = lollard_china_four
+		}
+		clr_global_flag = lollard_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_adoptionists" value = 0 } }
+			has_global_flag = adoptionists_in_china
+		}
+		clr_global_flag = adoptionists_in_china
+		clr_global_flag = adoptionist_china_one
+		clr_global_flag = adoptionist_china_two
+		set_variable = { which = "global_chinese_adoptionists" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_adoptionists" value = 20 } }
+			has_global_flag = adoptionist_china_one
+		}
+		clr_global_flag = adoptionist_china_one
+		clr_global_flag = adoptionist_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_adoptionists" value = 40 } }
+			has_global_flag = adoptionist_china_two
+		}
+		clr_global_flag = adoptionist_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_adoptionists" value = 100 } }
+			has_global_flag = adoptionist_china_three
+		}
+		clr_global_flag = adoptionist_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_adoptionists" value = 120 } }
+			has_global_flag = adoptionist_china_four
+		}
+		clr_global_flag = adoptionist_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_free_spirits" value = 0 } }
+			has_global_flag = free_spiritss_in_china
+		}
+		clr_global_flag = free_spiritss_in_china
+		clr_global_flag = free_spirits_china_one
+		clr_global_flag = free_spirits_china_two
+		set_variable = { which = "global_chinese_free_spirits" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_free_spirits" value = 20 } }
+			has_global_flag = free_spirits_china_one
+		}
+		clr_global_flag = free_spirits_china_one
+		clr_global_flag = free_spirits_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_free_spirits" value = 40 } }
+			has_global_flag = free_spirits_china_two
+		}
+		clr_global_flag = free_spirits_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_free_spirits" value = 100 } }
+			has_global_flag = free_spirits_china_three
+		}
+		clr_global_flag = free_spirits_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_free_spirits" value = 120 } }
+			has_global_flag = free_spirits_china_four
+		}
+		clr_global_flag = free_spirits_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_orthodoxs" value = 0 } }
+			has_global_flag = orthodoxy_in_china
+		}
+		clr_global_flag = orthodoxy_in_china
+		clr_global_flag = orthodox_china_one
+		clr_global_flag = orthodox_china_two
+		set_variable = { which = "global_chinese_orthodoxs" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_orthodoxs" value = 20 } }
+			has_global_flag = orthodox_china_one
+		}
+		clr_global_flag = orthodox_china_one
+		clr_global_flag = orthodox_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_orthodoxs" value = 40 } }
+			has_global_flag = orthodox_china_two
+		}
+		clr_global_flag = orthodox_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_orthodoxs" value = 100 } }
+			has_global_flag = orthodox_china_three
+		}
+		clr_global_flag = orthodox_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_orthodoxs" value = 120 } }
+			has_global_flag = orthodox_china_four
+		}
+		clr_global_flag = orthodox_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bogomilists" value = 0 } }
+			has_global_flag = bogomilists_in_china
+		}
+		clr_global_flag = bogomilists_in_china
+		clr_global_flag = bogomilist_china_one
+		clr_global_flag = bogomilist_china_two
+		set_variable = { which = "global_chinese_bogomilists" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bogomilists" value = 20 } }
+			has_global_flag = bogomilist_china_one
+		}
+		clr_global_flag = bogomilist_china_one
+		clr_global_flag = bogomilist_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bogomilists" value = 40 } }
+			has_global_flag = bogomilist_china_two
+		}
+		clr_global_flag = bogomilist_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bogomilists" value = 100 } }
+			has_global_flag = bogomilist_china_three
+		}
+		clr_global_flag = bogomilist_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bogomilists" value = 120 } }
+			has_global_flag = bogomilist_china_four
+		}
+		clr_global_flag = bogomilist_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monothelites" value = 0 } }
+			has_global_flag = monothelites_in_china
+		}
+		clr_global_flag = monothelites_in_china
+		clr_global_flag = monothelite_china_one
+		clr_global_flag = monothelite_china_two
+		set_variable = { which = "global_chinese_monothelites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monothelites" value = 20 } }
+			has_global_flag = monothelite_china_one
+		}
+		clr_global_flag = monothelite_china_one
+		clr_global_flag = monothelite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monothelites" value = 40 } }
+			has_global_flag = monothelite_china_two
+		}
+		clr_global_flag = monothelite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monothelites" value = 100 } }
+			has_global_flag = monothelite_china_three
+		}
+		clr_global_flag = monothelite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monothelites" value = 120 } }
+			has_global_flag = monothelite_china_four
+		}
+		clr_global_flag = monothelite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_iconoclasts" value = 0 } }
+			has_global_flag = iconoclasts_in_china
+		}
+		clr_global_flag = iconoclasts_in_china
+		clr_global_flag = iconoclast_china_one
+		clr_global_flag = iconoclast_china_two
+		set_variable = { which = "global_chinese_iconoclasts" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_iconoclasts" value = 20 } }
+			has_global_flag = iconoclast_china_one
+		}
+		clr_global_flag = iconoclast_china_one
+		clr_global_flag = iconoclast_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_iconoclasts" value = 40 } }
+			has_global_flag = iconoclast_china_two
+		}
+		clr_global_flag = iconoclast_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_iconoclasts" value = 100 } }
+			has_global_flag = iconoclast_china_three
+		}
+		clr_global_flag = iconoclast_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_iconoclasts" value = 120 } }
+			has_global_flag = iconoclast_china_four
+		}
+		clr_global_flag = iconoclast_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_paulicians" value = 0 } }
+			has_global_flag = paulicians_in_china
+		}
+		clr_global_flag = paulicians_in_china
+		clr_global_flag = paulician_china_one
+		clr_global_flag = paulician_china_two
+		set_variable = { which = "global_chinese_paulicians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_paulicians" value = 20 } }
+			has_global_flag = paulician_china_one
+		}
+		clr_global_flag = paulician_china_one
+		clr_global_flag = paulician_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_paulicians" value = 40 } }
+			has_global_flag = paulician_china_two
+		}
+		clr_global_flag = paulician_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_paulicians" value = 100 } }
+			has_global_flag = paulician_china_three
+		}
+		clr_global_flag = paulician_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_paulicians" value = 120 } }
+			has_global_flag = paulician_china_four
+		}
+		clr_global_flag = paulician_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_barlaamites" value = 0 } }
+			has_global_flag = barlaamites_in_china
+		}
+		clr_global_flag = barlaamites_in_china
+		clr_global_flag = barlaamite_china_one
+		clr_global_flag = barlaamite_china_two
+		set_variable = { which = "global_chinese_barlaamites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_barlaamites" value = 20 } }
+			has_global_flag = barlaamite_china_one
+		}
+		clr_global_flag = barlaamite_china_one
+		clr_global_flag = barlaamite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_barlaamites" value = 40 } }
+			has_global_flag = barlaamite_china_two
+		}
+		clr_global_flag = barlaamite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_barlaamites" value = 100 } }
+			has_global_flag = barlaamite_china_three
+		}
+		clr_global_flag = barlaamite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_barlaamites" value = 120 } }
+			has_global_flag = barlaamite_china_four
+		}
+		clr_global_flag = barlaamite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_miaphysites" value = 0 } }
+			has_global_flag = miaphysites_in_china
+		}
+		clr_global_flag = miaphysites_in_china
+		clr_global_flag = miaphysite_china_one
+		clr_global_flag = miaphysite_china_two
+		set_variable = { which = "global_chinese_miaphysites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_miaphysites" value = 20 } }
+			has_global_flag = miaphysite_china_one
+		}
+		clr_global_flag = miaphysite_china_one
+		clr_global_flag = miaphysite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_miaphysites" value = 40 } }
+			has_global_flag = miaphysite_china_two
+		}
+		clr_global_flag = miaphysite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_miaphysites" value = 100 } }
+			has_global_flag = miaphysite_china_three
+		}
+		clr_global_flag = miaphysite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_miaphysites" value = 120 } }
+			has_global_flag = miaphysite_china_four
+		}
+		clr_global_flag = miaphysite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monophysites" value = 0 } }
+			has_global_flag = monophysites_in_china
+		}
+		clr_global_flag = monophysites_in_china
+		clr_global_flag = monophysite_china_one
+		clr_global_flag = monophysite_china_two
+		set_variable = { which = "global_chinese_monophysites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monophysites" value = 20 } }
+			has_global_flag = monophysite_china_one
+		}
+		clr_global_flag = monophysite_china_one
+		clr_global_flag = monophysite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monophysites" value = 40 } }
+			has_global_flag = monophysite_china_two
+		}
+		clr_global_flag = monophysite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monophysites" value = 100 } }
+			has_global_flag = monophysite_china_three
+		}
+		clr_global_flag = monophysite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_monophysites" value = 120 } }
+			has_global_flag = monophysite_china_four
+		}
+		clr_global_flag = monophysite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_judaizers" value = 0 } }
+			has_global_flag = judaizers_in_china
+		}
+		clr_global_flag = judaizers_in_china
+		clr_global_flag = judaizer_china_one
+		clr_global_flag = judaizer_china_two
+		set_variable = { which = "global_chinese_judaizers" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_judaizers" value = 20 } }
+			has_global_flag = judaizer_china_one
+		}
+		clr_global_flag = judaizer_china_one
+		clr_global_flag = judaizer_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_judaizers" value = 40 } }
+			has_global_flag = judaizer_china_two
+		}
+		clr_global_flag = judaizer_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_judaizers" value = 100 } }
+			has_global_flag = judaizer_china_three
+		}
+		clr_global_flag = judaizer_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_judaizers" value = 120 } }
+			has_global_flag = judaizer_china_four
+		}
+		clr_global_flag = judaizer_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mandeans" value = 0 } }
+			has_global_flag = mandeans_in_china
+		}
+		clr_global_flag = mandeans_in_china
+		clr_global_flag = mandean_china_one
+		clr_global_flag = mandean_china_two
+		set_variable = { which = "global_chinese_mandeans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mandeans" value = 20 } }
+			has_global_flag = mandean_china_one
+		}
+		clr_global_flag = mandean_china_one
+		clr_global_flag = mandean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mandeans" value = 40 } }
+			has_global_flag = mandean_china_two
+		}
+		clr_global_flag = mandean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mandeans" value = 100 } }
+			has_global_flag = mandean_china_three
+		}
+		clr_global_flag = mandean_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mandeans" value = 120 } }
+			has_global_flag = mandean_china_four
+		}
+		clr_global_flag = mandean_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_nestorians" value = 0 } }
+			has_global_flag = nestorians_in_china
+		}
+		clr_global_flag = nestorians_in_china
+		clr_global_flag = nestorian_china_one
+		clr_global_flag = nestorian_china_two
+		set_variable = { which = "global_chinese_nestorians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_nestorians" value = 20 } }
+			has_global_flag = nestorian_china_one
+		}
+		clr_global_flag = nestorian_china_one
+		clr_global_flag = nestorian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_nestorians" value = 40 } }
+			has_global_flag = nestorian_china_two
+		}
+		clr_global_flag = nestorian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_nestorians" value = 100 } }
+			has_global_flag = nestorian_china_three
+		}
+		clr_global_flag = nestorian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_nestorians" value = 120 } }
+			has_global_flag = nestorian_china_four
+		}
+		clr_global_flag = nestorian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_messalians" value = 0 } }
+			has_global_flag = messalians_in_china
+		}
+		clr_global_flag = messalians_in_china
+		clr_global_flag = messalian_china_one
+		clr_global_flag = messalian_china_two
+		set_variable = { which = "global_chinese_messalians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_messalians" value = 20 } }
+			has_global_flag = messalian_china_one
+		}
+		clr_global_flag = messalian_china_one
+		clr_global_flag = messalian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_messalians" value = 40 } }
+			has_global_flag = messalian_china_two
+		}
+		clr_global_flag = messalian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_messalians" value = 100 } }
+			has_global_flag = messalian_china_three
+		}
+		clr_global_flag = messalian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_messalians" value = 120 } }
+			has_global_flag = messalian_china_four
+		}
+		clr_global_flag = messalian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_apollinarians" value = 0 } }
+			has_global_flag = apollinarians_in_china
+		}
+		clr_global_flag = apollinarians_in_china
+		clr_global_flag = apollinarian_china_one
+		clr_global_flag = apollinarian_china_two
+		set_variable = { which = "global_chinese_apollinarians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_apollinarians" value = 20 } }
+			has_global_flag = apollinarian_china_one
+		}
+		clr_global_flag = apollinarian_china_one
+		clr_global_flag = apollinarian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_apollinarians" value = 40 } }
+			has_global_flag = apollinarian_china_two
+		}
+		clr_global_flag = apollinarian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_apollinarians" value = 100 } }
+			has_global_flag = apollinarian_china_three
+		}
+		clr_global_flag = apollinarian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_apollinarians" value = 120 } }
+			has_global_flag = apollinarian_china_four
+		}
+		clr_global_flag = apollinarian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_chaldeans" value = 0 } }
+			has_global_flag = chaldeans_in_china
+		}
+		clr_global_flag = chaldeans_in_china
+		clr_global_flag = chaldean_china_one
+		clr_global_flag = chaldean_china_two
+		set_variable = { which = "global_chinese_chaldeans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_chaldeans" value = 20 } }
+			has_global_flag = chaldean_china_one
+		}
+		clr_global_flag = chaldean_china_one
+		clr_global_flag = chaldean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_chaldeans" value = 40 } }
+			has_global_flag = chaldean_china_two
+		}
+		clr_global_flag = chaldean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_chaldeans" value = 100 } }
+			has_global_flag = chaldean_china_three
+		}
+		clr_global_flag = chaldean_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_chaldeans" value = 120 } }
+			has_global_flag = chaldean_china_four
+		}
+		clr_global_flag = chaldean_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_sunnis" value = 0 } }
+			has_global_flag = sunnis_in_china
+		}
+		clr_global_flag = sunnis_in_china
+		clr_global_flag = sunni_china_one
+		clr_global_flag = sunni_china_two
+		set_variable = { which = "global_chinese_sunnis" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_sunnis" value = 20 } }
+			has_global_flag = sunni_china_one
+		}
+		clr_global_flag = sunni_china_one
+		clr_global_flag = sunni_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_sunnis" value = 40 } }
+			has_global_flag = sunni_china_two
+		}
+		clr_global_flag = sunni_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_sunnis" value = 100 } }
+			has_global_flag = sunni_china_three
+		}
+		clr_global_flag = sunni_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_sunnis" value = 120 } }
+			has_global_flag = sunni_china_four
+		}
+		clr_global_flag = sunni_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zikris" value = 0 } }
+			has_global_flag = zikris_in_china
+		}
+		clr_global_flag = zikris_in_china
+		clr_global_flag = zikri_china_one
+		clr_global_flag = zikri_china_two
+		set_variable = { which = "global_chinese_zikris" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zikris" value = 20 } }
+			has_global_flag = zikri_china_one
+		}
+		clr_global_flag = zikri_china_one
+		clr_global_flag = zikri_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zikris" value = 40 } }
+			has_global_flag = zikri_china_two
+		}
+		clr_global_flag = zikri_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zikris" value = 100 } }
+			has_global_flag = zikri_china_three
+		}
+		clr_global_flag = zikri_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zikris" value = 120 } }
+			has_global_flag = zikri_china_four
+		}
+		clr_global_flag = zikri_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yarsans" value = 0 } }
+			has_global_flag = yarsans_in_china
+		}
+		clr_global_flag = yarsans_in_china
+		clr_global_flag = yarsan_china_one
+		clr_global_flag = yarsan_china_two
+		set_variable = { which = "global_chinese_yarsans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yarsans" value = 20 } }
+			has_global_flag = yarsan_china_one
+		}
+		clr_global_flag = yarsan_china_one
+		clr_global_flag = yarsan_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yarsans" value = 40 } }
+			has_global_flag = yarsan_china_two
+		}
+		clr_global_flag = yarsan_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yarsans" value = 100 } }
+			has_global_flag = yarsan_china_three
+		}
+		clr_global_flag = yarsan_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yarsans" value = 120 } }
+			has_global_flag = yarsan_china_four
+		}
+		clr_global_flag = yarsan_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_shiites" value = 0 } }
+			has_global_flag = shiites_in_china
+		}
+		clr_global_flag = shiites_in_china
+		clr_global_flag = shiite_china_one
+		clr_global_flag = shiite_china_two
+		set_variable = { which = "global_chinese_shiites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_shiites" value = 20 } }
+			has_global_flag = shiite_china_one
+		}
+		clr_global_flag = shiite_china_one
+		clr_global_flag = shiite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_shiites" value = 40 } }
+			has_global_flag = shiite_china_two
+		}
+		clr_global_flag = shiite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_shiites" value = 100 } }
+			has_global_flag = shiite_china_three
+		}
+		clr_global_flag = shiite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_shiites" value = 120 } }
+			has_global_flag = shiite_china_four
+		}
+		clr_global_flag = shiite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_qarmatians" value = 0 } }
+			has_global_flag = qarmatian_in_china
+		}
+		clr_global_flag = qarmatian_in_china
+		clr_global_flag = qarmatian_china_one
+		clr_global_flag = qarmatian_china_two
+		set_variable = { which = "global_chinese_qarmatians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_qarmatians" value = 20 } }
+			has_global_flag = qarmatian_china_one
+		}
+		clr_global_flag = qarmatian_china_one
+		clr_global_flag = qarmatian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_qarmatians" value = 40 } }
+			has_global_flag = qarmatian_china_two
+		}
+		clr_global_flag = qarmatian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_qarmatians" value = 100 } }
+			has_global_flag = qarmatian_china_three
+		}
+		clr_global_flag = qarmatian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_qarmatians" value = 120 } }
+			has_global_flag = qarmatian_china_four
+		}
+		clr_global_flag = qarmatian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hurufis" value = 0 } }
+			has_global_flag = hurufis_in_china
+		}
+		clr_global_flag = hurufis_in_china
+		clr_global_flag = hurufi_china_one
+		clr_global_flag = hurufi_china_two
+		set_variable = { which = "global_chinese_hurufis" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hurufis" value = 20 } }
+			has_global_flag = hurufi_china_one
+		}
+		clr_global_flag = hurufi_china_one
+		clr_global_flag = hurufi_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hurufis" value = 40 } }
+			has_global_flag = hurufi_china_two
+		}
+		clr_global_flag = hurufi_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hurufis" value = 100 } }
+			has_global_flag = hurufi_china_three
+		}
+		clr_global_flag = hurufi_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hurufis" value = 120 } }
+			has_global_flag = hurufi_china_four
+		}
+		clr_global_flag = hurufi_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_ibadis" value = 0 } }
+			has_global_flag = ibadis_in_china
+		}
+		clr_global_flag = ibadis_in_china
+		clr_global_flag = ibadi_china_one
+		clr_global_flag = ibadi_china_two
+		set_variable = { which = "global_chinese_ibadis" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_ibadis" value = 20 } }
+			has_global_flag = ibadi_china_one
+		}
+		clr_global_flag = ibadi_china_one
+		clr_global_flag = ibadi_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_ibadis" value = 40 } }
+			has_global_flag = ibadi_china_two
+		}
+		clr_global_flag = ibadi_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_ibadis" value = 100 } }
+			has_global_flag = ibadi_china_three
+		}
+		clr_global_flag = ibadi_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_ibadis" value = 120 } }
+			has_global_flag = ibadi_china_four
+		}
+		clr_global_flag = ibadi_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_kharijites" value = 0 } }
+			has_global_flag = kharijites_in_china
+		}
+		clr_global_flag = kharijites_in_china
+		clr_global_flag = kharijite_china_one
+		clr_global_flag = kharijite_china_two
+		set_variable = { which = "global_chinese_kharijites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_kharijites" value = 20 } }
+			has_global_flag = kharijite_china_one
+		}
+		clr_global_flag = kharijite_china_one
+		clr_global_flag = kharijite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_kharijites" value = 40 } }
+			has_global_flag = kharijite_china_two
+		}
+		clr_global_flag = kharijite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_kharijites" value = 100 } }
+			has_global_flag = kharijite_china_three
+		}
+		clr_global_flag = kharijite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_kharijites" value = 120 } }
+			has_global_flag = kharijite_china_four
+		}
+		clr_global_flag = kharijite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zoroastrians" value = 0 } }
+			has_global_flag = zoroastrians_in_china
+		}
+		clr_global_flag = zoroastrians_in_china
+		clr_global_flag = zoroastrian_china_one
+		clr_global_flag = zoroastrian_china_two
+		set_variable = { which = "global_chinese_zoroastrians" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zoroastrians" value = 20 } }
+			has_global_flag = zoroastrian_china_one
+		}
+		clr_global_flag = zoroastrian_china_one
+		clr_global_flag = zoroastrian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zoroastrians" value = 40 } }
+			has_global_flag = zoroastrian_china_two
+		}
+		clr_global_flag = zoroastrian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zoroastrians" value = 100 } }
+			has_global_flag = zoroastrian_china_three
+		}
+		clr_global_flag = zoroastrian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zoroastrians" value = 120 } }
+			has_global_flag = zoroastrian_china_four
+		}
+		clr_global_flag = zoroastrian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mazdakis" value = 0 } }
+			has_global_flag = mazdakis_in_china
+		}
+		clr_global_flag = mazdakis_in_china
+		clr_global_flag = mazdaki_china_one
+		clr_global_flag = mazdaki_china_two
+		set_variable = { which = "global_chinese_mazdakis" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mazdakis" value = 20 } }
+			has_global_flag = mazdaki_china_one
+		}
+		clr_global_flag = mazdaki_china_one
+		clr_global_flag = mazdaki_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mazdakis" value = 40 } }
+			has_global_flag = mazdaki_china_two
+		}
+		clr_global_flag = mazdaki_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mazdakis" value = 100 } }
+			has_global_flag = mazdaki_china_three
+		}
+		clr_global_flag = mazdaki_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_mazdakis" value = 120 } }
+			has_global_flag = mazdaki_china_four
+		}
+		clr_global_flag = mazdaki_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_manicheans" value = 0 } }
+			has_global_flag = manicheans_in_china
+		}
+		clr_global_flag = manicheans_in_china
+		clr_global_flag = manichean_china_one
+		clr_global_flag = manichean_china_two
+		set_variable = { which = "global_chinese_manicheans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_manicheans" value = 20 } }
+			has_global_flag = manichean_china_one
+		}
+		clr_global_flag = manichean_china_one
+		clr_global_flag = manichean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_manicheans" value = 40 } }
+			has_global_flag = manichean_china_two
+		}
+		clr_global_flag = manichean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_manicheans" value = 100 } }
+			has_global_flag = manichean_china_three
+		}
+		clr_global_flag = manichean_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_manicheans" value = 120 } }
+			has_global_flag = manichean_china_four
+		}
+		clr_global_flag = manichean_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_buddhists" value = 0 } }
+			has_global_flag = buddhists_in_china
+		}
+		clr_global_flag = buddhists_in_china
+		clr_global_flag = buddhist_china_one
+		clr_global_flag = buddhist_china_two
+		set_variable = { which = "global_chinese_buddhists" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_buddhists" value = 20 } }
+			has_global_flag = buddhist_china_one
+		}
+		clr_global_flag = buddhist_china_one
+		clr_global_flag = buddhist_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_buddhists" value = 40 } }
+			has_global_flag = buddhist_china_two
+		}
+		clr_global_flag = buddhist_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_buddhists" value = 100 } }
+			has_global_flag = buddhist_china_three
+		}
+		clr_global_flag = buddhist_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_buddhists" value = 120 } }
+			has_global_flag = buddhist_china_four
+		}
+		clr_global_flag = buddhist_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jains" value = 0 } }
+			has_global_flag = jains_in_china
+		}
+		clr_global_flag = jains_in_china
+		clr_global_flag = jain_china_one
+		clr_global_flag = jain_china_two
+		set_variable = { which = "global_chinese_jains" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jains" value = 20 } }
+			has_global_flag = jain_china_one
+		}
+		clr_global_flag = jain_china_one
+		clr_global_flag = jain_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jains" value = 40 } }
+			has_global_flag = jain_china_two
+		}
+		clr_global_flag = jain_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jains" value = 100 } }
+			has_global_flag = jain_china_three
+		}
+		clr_global_flag = jain_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jains" value = 120 } }
+			has_global_flag = jain_china_four
+		}
+		clr_global_flag = jain_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_norse_pagan_reformeds" value = 0 } }
+			has_global_flag = norse_in_china
+		}
+		clr_global_flag = norse_in_china
+		clr_global_flag = norse_china_one
+		clr_global_flag = norse_china_two
+		set_variable = { which = "global_chinese_norse_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_norse_pagan_reformeds" value = 20 } }
+			has_global_flag = norse_china_one
+		}
+		clr_global_flag = norse_china_one
+		clr_global_flag = norse_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_norse_pagan_reformeds" value = 40 } }
+			has_global_flag = norse_china_two
+		}
+		clr_global_flag = norse_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_norse_pagan_reformeds" value = 100 } }
+			has_global_flag = norse_china_three
+		}
+		clr_global_flag = norse_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_norse_pagan_reformeds" value = 120 } }
+			has_global_flag = norse_china_four
+		}
+		clr_global_flag = norse_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_tengri_pagan_reformeds" value = 0 } }
+			has_global_flag = tengri_in_china
+		}
+		clr_global_flag = tengri_in_china
+		clr_global_flag = tengri_china_one
+		clr_global_flag = tengri_china_two
+		set_variable = { which = "global_chinese_tengri_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_tengri_pagan_reformeds" value = 20 } }
+			has_global_flag = tengri_china_one
+		}
+		clr_global_flag = tengri_china_one
+		clr_global_flag = tengri_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_tengri_pagan_reformeds" value = 40 } }
+			has_global_flag = tengri_china_two
+		}
+		clr_global_flag = tengri_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_tengri_pagan_reformeds" value = 100 } }
+			has_global_flag = tengri_china_three
+		}
+		clr_global_flag = tengri_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_tengri_pagan_reformeds" value = 120 } }
+			has_global_flag = tengri_china_four
+		}
+		clr_global_flag = tengri_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_baltic_pagan_reformeds" value = 0 } }
+			has_global_flag = baltics_in_china
+		}
+		clr_global_flag = baltics_in_china
+		clr_global_flag = baltic_china_one
+		clr_global_flag = baltic_china_two
+		set_variable = { which = "global_chinese_baltic_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_baltic_pagan_reformeds" value = 20 } }
+			has_global_flag = baltic_china_one
+		}
+		clr_global_flag = baltic_china_one
+		clr_global_flag = baltic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_baltic_pagan_reformeds" value = 40 } }
+			has_global_flag = baltic_china_two
+		}
+		clr_global_flag = baltic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_baltic_pagan_reformeds" value = 100 } }
+			has_global_flag = baltic_china_three
+		}
+		clr_global_flag = baltic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_baltic_pagan_reformeds" value = 120 } }
+			has_global_flag = baltic_china_four
+		}
+		clr_global_flag = baltic_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_finnish_pagan_reformeds" value = 0 } }
+			has_global_flag = finnish_in_china
+		}
+		clr_global_flag = finnish_in_china
+		clr_global_flag = finnish_china_one
+		clr_global_flag = finnish_china_two
+		set_variable = { which = "global_chinese_finnish_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_finnish_pagan_reformeds" value = 20 } }
+			has_global_flag = finnish_china_one
+		}
+		clr_global_flag = finnish_china_one
+		clr_global_flag = finnish_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_finnish_pagan_reformeds" value = 40 } }
+			has_global_flag = finnish_china_two
+		}
+		clr_global_flag = finnish_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_finnish_pagan_reformeds" value = 100 } }
+			has_global_flag = finnish_china_three
+		}
+		clr_global_flag = finnish_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_finnish_pagan_reformeds" value = 120 } }
+			has_global_flag = finnish_china_four
+		}
+		clr_global_flag = finnish_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_slavic_pagan_reformeds" value = 0 } }
+			has_global_flag = slavs_in_china
+		}
+		clr_global_flag = slavs_in_china
+		clr_global_flag = slavic_china_one
+		clr_global_flag = slavic_china_two
+		set_variable = { which = "global_chinese_slavic_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_slavic_pagan_reformeds" value = 20 } }
+			has_global_flag = slavic_china_one
+		}
+		clr_global_flag = slavic_china_one
+		clr_global_flag = slavic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_slavic_pagan_reformeds" value = 40 } }
+			has_global_flag = slavic_china_two
+		}
+		clr_global_flag = slavic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_slavic_pagan_reformeds" value = 100 } }
+			has_global_flag = slavic_china_three
+		}
+		clr_global_flag = slavic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_slavic_pagan_reformeds" value = 120 } }
+			has_global_flag = slavic_china_four
+		}
+		clr_global_flag = slavic_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aztec_reformeds" value = 0 } }
+			has_global_flag = aztecs_in_china
+		}
+		clr_global_flag = aztecs_in_china
+		clr_global_flag = aztec_china_one
+		clr_global_flag = aztec_china_two
+		set_variable = { which = "global_chinese_aztec_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aztec_reformeds" value = 20 } }
+			has_global_flag = aztec_china_one
+		}
+		clr_global_flag = aztec_china_one
+		clr_global_flag = aztec_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aztec_reformeds" value = 40 } }
+			has_global_flag = aztec_china_two
+		}
+		clr_global_flag = aztec_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aztec_reformeds" value = 100 } }
+			has_global_flag = aztec_china_three
+		}
+		clr_global_flag = aztec_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aztec_reformeds" value = 120 } }
+			has_global_flag = aztec_china_four
+		}
+		clr_global_flag = aztec_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_west_african_pagan_reformeds" value = 0 } }
+			has_global_flag = africans_in_china
+		}
+		clr_global_flag = africans_in_china
+		clr_global_flag = african_china_one
+		clr_global_flag = african_china_two
+		set_variable = { which = "global_chinese_west_african_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_west_african_pagan_reformeds" value = 20 } }
+			has_global_flag = african_china_one
+		}
+		clr_global_flag = african_china_one
+		clr_global_flag = african_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_west_african_pagan_reformeds" value = 40 } }
+			has_global_flag = african_china_two
+		}
+		clr_global_flag = african_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_west_african_pagan_reformeds" value = 100 } }
+			has_global_flag = african_china_three
+		}
+		clr_global_flag = african_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_west_african_pagan_reformeds" value = 120 } }
+			has_global_flag = african_china_four
+		}
+		clr_global_flag = african_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zun_pagan_reformeds" value = 0 } }
+			has_global_flag = zun_in_china
+		}
+		clr_global_flag = zun_in_china
+		clr_global_flag = zun_china_one
+		clr_global_flag = zun_china_two
+		set_variable = { which = "global_chinese_zun_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zun_pagan_reformeds" value = 20 } }
+			has_global_flag = zun_china_one
+		}
+		clr_global_flag = zun_china_one
+		clr_global_flag = zun_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zun_pagan_reformeds" value = 40 } }
+			has_global_flag = zun_china_two
+		}
+		clr_global_flag = zun_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zun_pagan_reformeds" value = 100 } }
+			has_global_flag = zun_china_three
+		}
+		clr_global_flag = zun_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_zun_pagan_reformeds" value = 120 } }
+			has_global_flag = zun_china_four
+		}
+		clr_global_flag = zun_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bon_reformeds" value = 0 } }
+			has_global_flag = bon_in_china
+		}
+		clr_global_flag = bon_in_china
+		clr_global_flag = bon_china_one
+		clr_global_flag = bon_china_two
+		set_variable = { which = "global_chinese_bon_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bon_reformeds" value = 20 } }
+			has_global_flag = bon_china_one
+		}
+		clr_global_flag = bon_china_one
+		clr_global_flag = bon_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bon_reformeds" value = 40 } }
+			has_global_flag = bon_china_two
+		}
+		clr_global_flag = bon_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bon_reformeds" value = 100 } }
+			has_global_flag = bon_china_three
+		}
+		clr_global_flag = bon_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_bon_reformeds" value = 120 } }
+			has_global_flag = bon_china_four
+		}
+		clr_global_flag = bon_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = 0 } }
+			has_global_flag = hellenics_in_china
+		}
+		clr_global_flag = hellenics_in_china
+		clr_global_flag = hellenic_china_one
+		clr_global_flag = hellenic_china_two
+		set_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = 20 } }
+			has_global_flag = hellenic_china_one
+		}
+		clr_global_flag = hellenic_china_one
+		clr_global_flag = hellenic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = 40 } }
+			has_global_flag = hellenic_china_two
+		}
+		clr_global_flag = hellenic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = 100 } }
+			has_global_flag = hellenic_china_three
+		}
+		clr_global_flag = hellenic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = 120 } }
+			has_global_flag = hellenic_china_four
+		}
+		clr_global_flag = hellenic_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_promethean_pagans" value = 0 } }
+			has_global_flag = prometheans_in_china
+		}
+		clr_global_flag = prometheans_in_china
+		clr_global_flag = promethean_china_one
+		clr_global_flag = promethean_china_two
+		set_variable = { which = "global_chinese_promethean_pagans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_promethean_pagans" value = 20 } }
+			has_global_flag = promethean_china_one
+		}
+		clr_global_flag = promethean_china_one
+		clr_global_flag = promethean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_promethean_pagans" value = 40 } }
+			has_global_flag = promethean_china_two
+		}
+		clr_global_flag = promethean_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_promethean_pagans" value = 100 } }
+			has_global_flag = promethean_china_three
+		}
+		clr_global_flag = promethean_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_promethean_pagans" value = 120 } }
+			has_global_flag = promethean_china_four
+		}
+		clr_global_flag = promethean_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druidic_reformeds" value = 0 } }
+			has_global_flag = celts_in_china
+		}
+		clr_global_flag = celts_in_china
+		clr_global_flag = celtic_china_one
+		clr_global_flag = celtic_china_two
+		set_variable = { which = "global_chinese_druidic_reformeds" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druidic_reformeds" value = 20 } }
+			has_global_flag = celtic_china_one
+		}
+		clr_global_flag = celtic_china_one
+		clr_global_flag = celtic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druidic_reformeds" value = 40 } }
+			has_global_flag = celtic_china_two
+		}
+		clr_global_flag = celtic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druidic_reformeds" value = 100 } }
+			has_global_flag = celtic_china_three
+		}
+		clr_global_flag = celtic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druidic_reformeds" value = 120 } }
+			has_global_flag = celtic_china_four
+		}
+		clr_global_flag = celtic_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_britannic_pagans" value = 0 } }
+			has_global_flag = britannics_in_china
+		}
+		clr_global_flag = britannics_in_china
+		clr_global_flag = britannic_china_one
+		clr_global_flag = britannic_china_two
+		set_variable = { which = "global_chinese_britannic_pagans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_britannic_pagans" value = 20 } }
+			has_global_flag = britannic_china_one
+		}
+		clr_global_flag = britannic_china_one
+		clr_global_flag = britannic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_britannic_pagans" value = 40 } }
+			has_global_flag = britannic_china_two
+		}
+		clr_global_flag = britannic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_britannic_pagans" value = 100 } }
+			has_global_flag = britannic_china_three
+		}
+		clr_global_flag = britannic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_britannic_pagans" value = 120 } }
+			has_global_flag = britannic_china_four
+		}
+		clr_global_flag = britannic_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_egyptian_pagans" value = 0 } }
+			has_global_flag = egyptians_in_china
+		}
+		clr_global_flag = egyptians_in_china
+		clr_global_flag = egyptian_china_one
+		clr_global_flag = egyptian_china_two
+		set_variable = { which = "global_chinese_egyptian_pagans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_egyptian_pagans" value = 20 } }
+			has_global_flag = egyptian_china_one
+		}
+		clr_global_flag = egyptian_china_one
+		clr_global_flag = egyptian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_egyptian_pagans" value = 40 } }
+			has_global_flag = egyptian_china_two
+		}
+		clr_global_flag = egyptian_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_egyptian_pagans" value = 100 } }
+			has_global_flag = egyptian_china_three
+		}
+		clr_global_flag = egyptian_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_egyptian_pagans" value = 120 } }
+			has_global_flag = egyptian_china_four
+		}
+		clr_global_flag = egyptian_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aten_pagans" value = 0 } }
+			has_global_flag = atenics_in_china
+		}
+		clr_global_flag = atenics_in_china
+		clr_global_flag = atenic_china_one
+		clr_global_flag = atenic_china_two
+		set_variable = { which = "global_chinese_aten_pagans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aten_pagans" value = 20 } }
+			has_global_flag = atenic_china_one
+		}
+		clr_global_flag = atenic_china_one
+		clr_global_flag = atenic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aten_pagans" value = 40 } }
+			has_global_flag = atenic_china_two
+		}
+		clr_global_flag = atenic_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aten_pagans" value = 100 } }
+			has_global_flag = atenic_china_three
+		}
+		clr_global_flag = atenic_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_aten_pagans" value = 120 } }
+			has_global_flag = atenic_china_four
+		}
+		clr_global_flag = atenic_china_four
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yazidis" value = 0 } }
+			has_global_flag = yazidis_in_china
+		}
+		clr_global_flag = yazidis_in_china
+		clr_global_flag = yazidi_china_one
+		clr_global_flag = yazidi_china_two
+		set_variable = { which = "global_chinese_yazidis" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yazidis" value = 20 } }
+			has_global_flag = yazidi_china_one
+		}
+		clr_global_flag = yazidi_china_one
+		clr_global_flag = yazidi_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yazidis" value = 40 } }
+			has_global_flag = yazidi_china_two
+		}
+		clr_global_flag = yazidi_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yazidis" value = 100 } }
+			has_global_flag = yazidi_china_three
+		}
+		clr_global_flag = yazidi_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_yazidis" value = 120 } }
+			has_global_flag = yazidi_china_four
+		}
+		clr_global_flag = yazidi_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druzes" value = 0 } }
+			has_global_flag = druzes_in_china
+		}
+		clr_global_flag = druze_in_china
+		clr_global_flag = druze_china_one
+		clr_global_flag = druze_china_two
+		set_variable = { which = "global_chinese_druzes" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druzes" value = 20 } }
+			has_global_flag = druze_china_one
+		}
+		clr_global_flag = druze_china_one
+		clr_global_flag = druze_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druzes" value = 40 } }
+			has_global_flag = druze_china_two
+		}
+		clr_global_flag = druze_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druzes" value = 100 } }
+			has_global_flag = druze_china_three
+		}
+		clr_global_flag = druze_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_druzes" value = 120 } }
+			has_global_flag = druze_china_four
+		}
+		clr_global_flag = druze_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_khurmaztas" value = 0 } }
+			has_global_flag = khurmaztas_in_china
+		}
+		clr_global_flag = khurmaztas_in_china
+		clr_global_flag = khurmazta_china_one
+		clr_global_flag = khurmazta_china_two
+		set_variable = { which = "global_chinese_khurmaztas" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_khurmaztas" value = 20 } }
+			has_global_flag = khurmazta_china_one
+		}
+		clr_global_flag = khurmazta_china_one
+		clr_global_flag = khurmazta_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_khurmaztas" value = 40 } }
+			has_global_flag = khurmazta_china_two
+		}
+		clr_global_flag = khurmazta_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_khurmaztas" value = 100 } }
+			has_global_flag = khurmazta_china_three
+		}
+		clr_global_flag = khurmazta_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_khurmaztas" value = 120 } }
+			has_global_flag = khurmazta_china_four
+		}
+		clr_global_flag = khurmazta_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jewishs" value = 0 } }
+			has_global_flag = jews_in_china
+		}
+		clr_global_flag = jews_in_china
+		clr_global_flag = jewish_china_one
+		clr_global_flag = jewish_china_two
+		set_variable = { which = "global_chinese_jewishs" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jewishs" value = 20 } }
+			has_global_flag = jewish_china_one
+		}
+		clr_global_flag = jewish_china_one
+		clr_global_flag = jewish_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jewishs" value = 40 } }
+			has_global_flag = jewish_china_two
+		}
+		clr_global_flag = jewish_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jewishs" value = 100 } }
+			has_global_flag = jewish_china_three
+		}
+		clr_global_flag = jewish_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_jewishs" value = 120 } }
+			has_global_flag = jewish_china_four
+		}
+		clr_global_flag = jewish_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_samaritans" value = 0 } }
+			has_global_flag = samaritans_in_china
+		}
+		clr_global_flag = samaritans_in_china
+		clr_global_flag = samaritan_china_one
+		clr_global_flag = samaritan_china_two
+		set_variable = { which = "global_chinese_samaritans" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_samaritans" value = 20 } }
+			has_global_flag = samaritan_china_one
+		}
+		clr_global_flag = samaritan_china_one
+		clr_global_flag = samaritan_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_samaritans" value = 40 } }
+			has_global_flag = samaritan_china_two
+		}
+		clr_global_flag = samaritan_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_samaritans" value = 100 } }
+			has_global_flag = samaritan_china_three
+		}
+		clr_global_flag = samaritan_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_samaritans" value = 120 } }
+			has_global_flag = samaritan_china_four
+		}
+		clr_global_flag = samaritan_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_karaites" value = 0 } }
+			has_global_flag = karaites_in_china
+		}
+		clr_global_flag = karaites_in_china
+		clr_global_flag = karaite_china_one
+		clr_global_flag = karaite_china_two
+		set_variable = { which = "global_chinese_karaites" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_karaites" value = 20 } }
+			has_global_flag = karaite_china_one
+		}
+		clr_global_flag = karaite_china_one
+		clr_global_flag = karaite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_karaites" value = 40 } }
+			has_global_flag = karaite_china_two
+		}
+		clr_global_flag = karaite_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_karaites" value = 100 } }
+			has_global_flag = karaite_china_three
+		}
+		clr_global_flag = karaite_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_karaites" value = 120 } }
+			has_global_flag = karaite_china_four
+		}
+		clr_global_flag = karaite_china_four
+	}
+	if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hindus" value = 0 } }
+			has_global_flag = hindus_in_china
+		}
+		clr_global_flag = hindus_in_china
+		clr_global_flag = hindu_china_one
+		clr_global_flag = hindu_china_two
+		set_variable = { which = "global_chinese_hindus" value = 0 }
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hindus" value = 20 } }
+			has_global_flag = hindu_china_one
+		}
+		clr_global_flag = hindu_china_one
+		clr_global_flag = hindu_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hindus" value = 40 } }
+			has_global_flag = hindu_china_two
+		}
+		clr_global_flag = hindu_china_two
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hindus" value = 100 } }
+			has_global_flag = hindu_china_three
+		}
+		clr_global_flag = hindu_china_three
+	}
+	else_if = {
+		limit = {
+			NOT = { check_variable = { which = "global_chinese_hindus" value = 120 } }
+			has_global_flag = hindu_china_four
+		}
+		clr_global_flag = hindu_china_four
+	}
+}
+
+kcc_persecute_christians_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_christians years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = catholics_in_china
+		}
+		change_variable = { which = "global_chinese_catholics" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = cathars_in_china
+		}
+		change_variable = { which = "global_chinese_cathars" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = fraticellis_in_china
+		}
+		change_variable = { which = "global_chinese_fraticellis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = waldensians_in_china
+		}
+		change_variable = { which = "global_chinese_waldensians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = lollards_in_china
+		}
+		change_variable = { which = "global_chinese_lollards" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = orthodoxy_in_china
+		}
+		change_variable = { which = "global_chinese_orthodoxsy" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bogomilists_in_china
+		}
+		change_variable = { which = "global_chinese_bogomilists" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monothelites_in_china
+		}
+		change_variable = { which = "global_chinese_monothelites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = iconoclasts_in_china
+		}
+		change_variable = { which = "global_chinese_iconoclasts" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = paulicians_in_china
+		}
+		change_variable = { which = "global_chinese_paulicians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = miaphysites_in_china
+		}
+		change_variable = { which = "global_chinese_miaphysites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monophysites_in_china
+		}
+		change_variable = { which = "global_chinese_monophysites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = nestorians_in_china
+		}
+		change_variable = { which = "global_chinese_nestorians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = messalians_in_china
+		}
+		change_variable = { which = "global_chinese_messalians" value = -30 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = adoptionists_in_china
+		}
+		change_variable = { which = "global_chinese_adoptionists" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = free_spirits_in_china
+		}
+		change_variable = { which = "global_chinese_free_spirits" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = barlaamites_in_china
+		}
+		change_variable = { which = "global_chinese_barlaamites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = judaizers_in_china
+		}
+		change_variable = { which = "global_chinese_judaizers" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = mandeans_in_china
+		}
+		change_variable = { which = "global_chinese_mandeans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = chaldeans_in_china
+		}
+		change_variable = { which = "global_chinese_chaldeans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = apollinarians_in_china
+		}
+		change_variable = { which = "global_chinese_apollinarians" value = -30 }
+	}
+}
+
+kcc_overpersecute_christians_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_christians years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = catholics_in_china
+		}
+		change_variable = { which = "global_chinese_catholics" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = cathars_in_china
+		}
+		change_variable = { which = "global_chinese_cathars" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = fraticellis_in_china
+		}
+		change_variable = { which = "global_chinese_fraticellis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = waldensians_in_china
+		}
+		change_variable = { which = "global_chinese_waldensians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = lollards_in_china
+		}
+		change_variable = { which = "global_chinese_lollards" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = orthodoxy_in_china
+		}
+		change_variable = { which = "global_chinese_orthodoxsy" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bogomilists_in_china
+		}
+		change_variable = { which = "global_chinese_bogomilists" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monothelites_in_china
+		}
+		change_variable = { which = "global_chinese_monothelites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = iconoclasts_in_china
+		}
+		change_variable = { which = "global_chinese_iconoclasts" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = paulicians_in_china
+		}
+		change_variable = { which = "global_chinese_paulicians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = miaphysites_in_china
+		}
+		change_variable = { which = "global_chinese_miaphysites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monophysites_in_china
+		}
+		change_variable = { which = "global_chinese_monophysites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = nestorians_in_china
+		}
+		change_variable = { which = "global_chinese_nestorians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = messalians_in_china
+		}
+		change_variable = { which = "global_chinese_messalians" value = -45 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = adoptionists_in_china
+		}
+		change_variable = { which = "global_chinese_adoptionists" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = free_spirits_in_china
+		}
+		change_variable = { which = "global_chinese_free_spirits" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = barlaamites_in_china
+		}
+		change_variable = { which = "global_chinese_barlaamites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = judaizers_in_china
+		}
+		change_variable = { which = "global_chinese_judaizers" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = mandeans_in_china
+		}
+		change_variable = { which = "global_chinese_mandeans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = chaldeans_in_china
+		}
+		change_variable = { which = "global_chinese_chaldeans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = apollinarians_in_china
+		}
+		change_variable = { which = "global_chinese_apollinarians" value = -45 }
+	}
+}
+
+kcc_persecute_latins_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_latins years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = catholics_in_china
+		}
+		change_variable = { which = "global_chinese_catholics" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = cathars_in_china
+		}
+		change_variable = { which = "global_chinese_cathars" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = fraticellis_in_china
+		}
+		change_variable = { which = "global_chinese_fraticellis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = waldensians_in_china
+		}
+		change_variable = { which = "global_chinese_waldensians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = lollards_in_china
+		}
+		change_variable = { which = "global_chinese_lollards" value = -30 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = adoptionists_in_china
+		}
+		change_variable = { which = "global_chinese_adoptionists" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = free_spirits_in_china
+		}
+		change_variable = { which = "global_chinese_free_spirits" value = -30 }
+	}
+}
+
+kcc_overpersecute_latins_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_latins years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = catholics_in_china
+		}
+		change_variable = { which = "global_chinese_catholics" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = cathars_in_china
+		}
+		change_variable = { which = "global_chinese_cathars" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = fraticellis_in_china
+		}
+		change_variable = { which = "global_chinese_fraticellis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = waldensians_in_china
+		}
+		change_variable = { which = "global_chinese_waldensians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = lollards_in_china
+		}
+		change_variable = { which = "global_chinese_lollards" value = -45 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = adoptionists_in_china
+		}
+		change_variable = { which = "global_chinese_adoptionists" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = free_spirits_in_china
+		}
+		change_variable = { which = "global_chinese_free_spirits" value = -45 }
+	}
+}
+
+kcc_persecute_byzantines_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_byzantines years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = orthodoxy_in_china
+		}
+		change_variable = { which = "global_chinese_orthodoxsy" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bogomilists_in_china
+		}
+		change_variable = { which = "global_chinese_bogomilists" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monothelites_in_china
+		}
+		change_variable = { which = "global_chinese_monothelites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = iconoclasts_in_china
+		}
+		change_variable = { which = "global_chinese_iconoclasts" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = paulicians_in_china
+		}
+		change_variable = { which = "global_chinese_paulicians" value = -30 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = barlaamites_in_china
+		}
+		change_variable = { which = "global_chinese_barlaamites" value = -30 }
+	}
+}
+
+kcc_overpersecute_byzantines_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_byzantines years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = orthodoxy_in_china
+		}
+		change_variable = { which = "global_chinese_orthodoxsy" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bogomilists_in_china
+		}
+		change_variable = { which = "global_chinese_bogomilists" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monothelites_in_china
+		}
+		change_variable = { which = "global_chinese_monothelites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = iconoclasts_in_china
+		}
+		change_variable = { which = "global_chinese_iconoclasts" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = paulicians_in_china
+		}
+		change_variable = { which = "global_chinese_paulicians" value = -45 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = barlaamites_in_china
+		}
+		change_variable = { which = "global_chinese_barlaamites" value = -45 }
+	}
+}
+
+kcc_persecute_nonchalcedonians_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_nonchalcedonians years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = miaphysites_in_china
+		}
+		change_variable = { which = "global_chinese_miaphysites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monophysites_in_china
+		}
+		change_variable = { which = "global_chinese_monophysites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = nestorians_in_china
+		}
+		change_variable = { which = "global_chinese_nestorians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = messalians_in_china
+		}
+		change_variable = { which = "global_chinese_messalians" value = -30 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = judaizers_in_china
+		}
+		change_variable = { which = "global_chinese_judaizers" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = mandeans_in_china
+		}
+		change_variable = { which = "global_chinese_mandeans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = chaldeans_in_china
+		}
+		change_variable = { which = "global_chinese_chaldeans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = apollinarians_in_china
+		}
+		change_variable = { which = "global_chinese_apollinarians" value = -30 }
+	}
+}
+
+kcc_overpersecute_nonchalcedonians_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_nonchalcedonians years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = miaphysites_in_china
+		}
+		change_variable = { which = "global_chinese_miaphysites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = monophysites_in_china
+		}
+		change_variable = { which = "global_chinese_monophysites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = nestorians_in_china
+		}
+		change_variable = { which = "global_chinese_nestorians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = messalians_in_china
+		}
+		change_variable = { which = "global_chinese_messalians" value = -45 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = judaizers_in_china
+		}
+		change_variable = { which = "global_chinese_judaizers" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = mandeans_in_china
+		}
+		change_variable = { which = "global_chinese_mandeans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = chaldeans_in_china
+		}
+		change_variable = { which = "global_chinese_chaldeans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = apollinarians_in_china
+		}
+		change_variable = { which = "global_chinese_apollinarians" value = -45 }
+	}
+}
+
+kcc_persecute_muslims_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_muslims years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = sunnis_in_china
+		}
+		change_variable = { which = "global_chinese_sunnis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zikris_in_china
+		}
+		change_variable = { which = "global_chinese_zikris" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = shiites_in_china
+		}
+		change_variable = { which = "global_chinese_shiites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = qarmatian_in_china
+		}
+		change_variable = { which = "global_chinese_qarmatians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = hurufis_in_china
+		}
+		change_variable = { which = "global_chinese_hurufis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = ibadis_in_china
+		}
+		change_variable = { which = "global_chinese_ibadis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = kharijites_in_china
+		}
+		change_variable = { which = "global_chinese_kharijites" value = -30 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = yarsans_in_china
+		}
+		change_variable = { which = "global_chinese_yarsans" value = -30 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			NOT = { has_global_flag = EMF }
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = druze_in_china
+		}
+		change_variable = { which = "global_chinese_druzes" value = -30 }
+	}
+}
+
+kcc_overpersecute_muslims_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_muslims years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = sunnis_in_china
+		}
+		change_variable = { which = "global_chinese_sunnis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zikris_in_china
+		}
+		change_variable = { which = "global_chinese_zikris" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = shiites_in_china
+		}
+		change_variable = { which = "global_chinese_shiites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = qarmatian_in_china
+		}
+		change_variable = { which = "global_chinese_qarmatians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = hurufis_in_china
+		}
+		change_variable = { which = "global_chinese_hurufis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = ibadis_in_china
+		}
+		change_variable = { which = "global_chinese_ibadis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = kharijites_in_china
+		}
+		change_variable = { which = "global_chinese_kharijites" value = -45 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = yarsans_in_china
+		}
+		change_variable = { which = "global_chinese_yarsans" value = -45 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			NOT = { has_global_flag = EMF }
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = druze_in_china
+		}
+		change_variable = { which = "global_chinese_druzes" value = -45 }
+	}
+}
+
+kcc_persecute_sunnis_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_sunnis years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = sunnis_in_china
+		}
+		change_variable = { which = "global_chinese_sunnis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zikris_in_china
+		}
+		change_variable = { which = "global_chinese_zikris" value = -30 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = yarsans_in_china
+		}
+		change_variable = { which = "global_chinese_yarsans" value = -30 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			NOT = { has_global_flag = EMF }
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -30 }
+	}
+}
+
+kcc_overpersecute_sunnis_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_sunnis years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = sunnis_in_china
+		}
+		change_variable = { which = "global_chinese_sunnis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zikris_in_china
+		}
+		change_variable = { which = "global_chinese_zikris" value = -45 }
+	}
+	#Christian Immersion
+	if = {
+		limit = {
+			has_global_flag = yarsans_in_china
+		}
+		change_variable = { which = "global_chinese_yarsans" value = -45 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			NOT = { has_global_flag = EMF }
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -45 }
+	}
+}
+
+kcc_persecute_shias_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_shiites years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = shiites_in_china
+		}
+		change_variable = { which = "global_chinese_shiites" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = qarmatian_in_china
+		}
+		change_variable = { which = "global_chinese_qarmatians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = hurufis_in_china
+		}
+		change_variable = { which = "global_chinese_hurufis" value = -30 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = druze_in_china
+		}
+		change_variable = { which = "global_chinese_druzes" value = -30 }
+	}
+}
+
+kcc_overpersecute_shias_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_shiites years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = shiites_in_china
+		}
+		change_variable = { which = "global_chinese_shiites" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = qarmatian_in_china
+		}
+		change_variable = { which = "global_chinese_qarmatians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = hurufis_in_china
+		}
+		change_variable = { which = "global_chinese_hurufis" value = -45 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = druze_in_china
+		}
+		change_variable = { which = "global_chinese_druzes" value = -45 }
+	}
+}
+
+kcc_persecute_mazdans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_mazdans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = zoroastrians_in_china
+		}
+		change_variable = { which = "global_chinese_zoroastrians" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = mazdakis_in_china
+		}
+		change_variable = { which = "global_chinese_mazdakis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = manicheans_in_china
+		}
+		change_variable = { which = "global_chinese_manicheans" value = -30 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = EMF
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = khurmaztas_in_china
+		}
+		change_variable = { which = "global_chinese_khurmaztas" value = -30 }
+	}
+}
+
+kcc_overpersecute_mazdans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_mazdans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = zoroastrians_in_china
+		}
+		change_variable = { which = "global_chinese_zoroastrians" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = mazdakis_in_china
+		}
+		change_variable = { which = "global_chinese_mazdakis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = manicheans_in_china
+		}
+		change_variable = { which = "global_chinese_manicheans" value = -45 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = EMF
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = khurmaztas_in_china
+		}
+		change_variable = { which = "global_chinese_khurmaztas" value = -45 }
+	}
+}
+
+kcc_zoro_persecute_mazdans_effect = {
+	1513 = { add_province_modifier = { name = kcc_zoro_china_persecuted_mazdans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = mazdakis_in_china
+		}
+		change_variable = { which = "global_chinese_mazdakis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = manicheans_in_china
+		}
+		change_variable = { which = "global_chinese_manicheans" value = -30 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = EMF
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = khurmaztas_in_china
+		}
+		change_variable = { which = "global_chinese_khurmaztas" value = -30 }
+	}
+}
+
+kcc_zoro_overpersecute_mazdans_effect = {
+	1513 = { add_province_modifier = { name = kcc_zoro_china_persecuted_mazdans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = mazdakis_in_china
+		}
+		change_variable = { which = "global_chinese_mazdakis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = manicheans_in_china
+		}
+		change_variable = { which = "global_chinese_manicheans" value = -45 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = EMF
+			has_global_flag = yazidis_in_china
+		}
+		change_variable = { which = "global_chinese_yazidis" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = khurmaztas_in_china
+		}
+		change_variable = { which = "global_chinese_khurmaztas" value = -45 }
+	}
+}
+
+kcc_persecute_dharmans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_dharmans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = buddhists_in_china
+		}
+		change_variable = { which = "global_chinese_buddhists" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = jains_in_china
+		}
+		change_variable = { which = "global_chinese_jains" value = -30 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = hindus_in_china
+		}
+		change_variable = { which = "global_chinese_hindus" value = -30 }
+	}
+}
+
+kcc_overpersecute_dharmans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_dharmans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = buddhists_in_china
+		}
+		change_variable = { which = "global_chinese_buddhists" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = jains_in_china
+		}
+		change_variable = { which = "global_chinese_jains" value = -45 }
+	}
+	#Last Vanilla Religions
+	if = {
+		limit = {
+			has_global_flag = hindus_in_china
+		}
+		change_variable = { which = "global_chinese_hindus" value = -45 }
+	}
+}
+
+kcc_persecute_all_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_pagans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = norse_in_china
+		}
+		change_variable = { which = "global_chinese_norse_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = baltics_in_china
+		}
+		change_variable = { which = "global_chinese_baltic_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = finnish_in_china
+		}
+		change_variable = { which = "global_chinese_finnish_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = slavs_in_china
+		}
+		change_variable = { which = "global_chinese_slavic_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = tengri_in_china
+		}
+		change_variable = { which = "global_chinese_tengri_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zun_in_china
+		}
+		change_variable = { which = "global_chinese_zun_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bon_in_china
+		}
+		change_variable = { which = "global_chinese_bon_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = hellenics_in_china
+		}
+		change_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = prometheans_in_china
+		}
+		change_variable = { which = "global_chinese_promethean_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = celts_in_china
+		}
+		change_variable = { which = "global_chinese_druidic_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = britannics_in_china
+		}
+		change_variable = { which = "global_chinese_britannic_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = egyptians_in_china
+		}
+		change_variable = { which = "global_chinese_egyptian_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = atenics_in_china
+		}
+		change_variable = { which = "global_chinese_aten_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = africans_in_china
+		}
+		change_variable = { which = "global_chinese_west_african_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = aztecs_in_china
+		}
+		change_variable = { which = "global_chinese_aztec_reformeds" value = -30 }
+	}
+}
+
+kcc_overpersecute_all_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_pagans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = norse_in_china
+		}
+		change_variable = { which = "global_chinese_norse_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = baltics_in_china
+		}
+		change_variable = { which = "global_chinese_baltic_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = finnish_in_china
+		}
+		change_variable = { which = "global_chinese_finnish_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = slavs_in_china
+		}
+		change_variable = { which = "global_chinese_slavic_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = tengri_in_china
+		}
+		change_variable = { which = "global_chinese_tengri_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zun_in_china
+		}
+		change_variable = { which = "global_chinese_zun_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bon_in_china
+		}
+		change_variable = { which = "global_chinese_bon_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = hellenics_in_china
+		}
+		change_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = prometheans_in_china
+		}
+		change_variable = { which = "global_chinese_promethean_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = celts_in_china
+		}
+		change_variable = { which = "global_chinese_druidic_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = britannics_in_china
+		}
+		change_variable = { which = "global_chinese_britannic_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = egyptians_in_china
+		}
+		change_variable = { which = "global_chinese_egyptian_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = atenics_in_china
+		}
+		change_variable = { which = "global_chinese_aten_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = africans_in_china
+		}
+		change_variable = { which = "global_chinese_west_african_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = aztecs_in_china
+		}
+		change_variable = { which = "global_chinese_aztec_reformeds" value = -45 }
+	}
+}
+
+kcc_persecute_northern_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_northern_pagans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = norse_in_china
+		}
+		change_variable = { which = "global_chinese_norse_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = baltics_in_china
+		}
+		change_variable = { which = "global_chinese_baltic_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = finnish_in_china
+		}
+		change_variable = { which = "global_chinese_finnish_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = slavs_in_china
+		}
+		change_variable = { which = "global_chinese_slavic_pagan_reformeds" value = -30 }
+	}
+}
+
+kcc_overpersecute_northern_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_northern_pagans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = norse_in_china
+		}
+		change_variable = { which = "global_chinese_norse_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = baltics_in_china
+		}
+		change_variable = { which = "global_chinese_baltic_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = finnish_in_china
+		}
+		change_variable = { which = "global_chinese_finnish_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = slavs_in_china
+		}
+		change_variable = { which = "global_chinese_slavic_pagan_reformeds" value = -45 }
+	}
+}
+
+kcc_persecute_eastern_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_eastern_pagans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = tengri_in_china
+		}
+		change_variable = { which = "global_chinese_tengri_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zun_in_china
+		}
+		change_variable = { which = "global_chinese_zun_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bon_in_china
+		}
+		change_variable = { which = "global_chinese_bon_reformeds" value = -30 }
+	}
+}
+
+kcc_overpersecute_eastern_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_eastern_pagans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = tengri_in_china
+		}
+		change_variable = { which = "global_chinese_tengri_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = zun_in_china
+		}
+		change_variable = { which = "global_chinese_zun_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = bon_in_china
+		}
+		change_variable = { which = "global_chinese_bon_reformeds" value = -45 }
+	}
+}
+
+kcc_persecute_classical_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_classical_pagans years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = hellenics_in_china
+		}
+		change_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = prometheans_in_china
+		}
+		change_variable = { which = "global_chinese_promethean_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = celts_in_china
+		}
+		change_variable = { which = "global_chinese_druidic_reformeds" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = britannics_in_china
+		}
+		change_variable = { which = "global_chinese_britannic_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = egyptians_in_china
+		}
+		change_variable = { which = "global_chinese_egyptian_pagans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = atenics_in_china
+		}
+		change_variable = { which = "global_chinese_aten_pagans" value = -30 }
+	}
+}
+
+kcc_overpersecute_classical_pagans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_classical_pagans years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = hellenics_in_china
+		}
+		change_variable = { which = "global_chinese_hellenic_pagan_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = prometheans_in_china
+		}
+		change_variable = { which = "global_chinese_promethean_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = celts_in_china
+		}
+		change_variable = { which = "global_chinese_druidic_reformeds" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = britannics_in_china
+		}
+		change_variable = { which = "global_chinese_britannic_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = egyptians_in_china
+		}
+		change_variable = { which = "global_chinese_egyptian_pagans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = atenics_in_china
+		}
+		change_variable = { which = "global_chinese_aten_pagans" value = -45 }
+	}
+}
+
+kcc_persecute_africans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_africans years = 40 hidden = yes } }
+	change_variable = { which = "global_chinese_west_african_pagan_reformeds" value = -30 }
+}
+
+kcc_overpersecute_africans_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_africans years = 60 hidden = yes } }
+	change_variable = { which = "global_chinese_west_african_pagan_reformeds" value = -45 }
+}
+
+kcc_persecute_aztecs_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_aztecs years = 40 hidden = yes } }
+	change_variable = { which = "global_chinese_aztec_reformeds" value = -30 }
+}
+
+kcc_overpersecute_aztecs_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_aztecs years = 60 hidden = yes } }
+	change_variable = { which = "global_chinese_aztec_reformeds" value = -45 }
+}
+
+#Last Vanilla Religions
+kcc_persecute_jews_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_jews years = 40 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = jews_in_china
+		}
+		change_variable = { which = "global_chinese_jewishs" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = samaritans_in_china
+		}
+		change_variable = { which = "global_chinese_samaritans" value = -30 }
+	}
+	if = {
+		limit = {
+			has_global_flag = karaites_in_china
+		}
+		change_variable = { which = "global_chinese_karaites" value = -30 }
+	}
+}
+
+kcc_overpersecute_jews_effect = {
+	1513 = { add_province_modifier = { name = kcc_china_persecuted_jews years = 60 hidden = yes } }
+	if = {
+		limit = {
+			has_global_flag = jews_in_china
+		}
+		change_variable = { which = "global_chinese_jewishs" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = samaritans_in_china
+		}
+		change_variable = { which = "global_chinese_samaritans" value = -45 }
+	}
+	if = {
+		limit = {
+			has_global_flag = karaites_in_china
+		}
+		change_variable = { which = "global_chinese_karaites" value = -45 }
+	}
+}

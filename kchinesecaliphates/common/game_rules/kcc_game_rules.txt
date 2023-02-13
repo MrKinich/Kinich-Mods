@@ -1,0 +1,16 @@
+
+kcc_who_can_preach = {
+    name = kcc_preach_rule
+	dlc = "Jade Dragon"
+	group = "RULE_GROUP_DIPLOMACY"
+	option = {
+		name = kcc_preach_no
+		text = kcc_preach_no.text
+		desc = kcc_preach_no.desc
+	}
+	option = {
+		name = kcc_preach_yes
+		text = kcc_preach_yes.text
+		desc = kcc_preach_yes.desc
+	}
+}

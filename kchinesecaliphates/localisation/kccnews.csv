@@ -1,0 +1,309 @@
+#CODE;ENGLISH;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0001a;My [Root.GetTitle], there is dire news from the East! The tyrannical & intolerant [offmap_china.GetShortName] [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetDynName], has decreed that our faith is no longer welcome in the Middle Kingdom. Already countless innocent & pious [KCCGetPrimaryPersecutedReligion]s are being jailed, exiled, or worse. Their properties have been seized by the [offmap_china.GetName] and even now the evil [offmap_china.Ruler.GetTitle] is profiting from this heinous act of glorified thievery. Is this the work of [Root.Religion.GetRandomEvilGodNameCap], or could a mere [offmap_china.Ruler.GetManWoman] really be this malevolent?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0001b;My [Root.GetTitle], there is news from the East- apparently, the wise & just [offmap_china.GetShortName] [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetDynName], has finally realized the danger in allowing [KCCGetPrimaryPersecutedReligion]s to spread unchecked through the Middle Kingdom. Even now, those treacherous [KCCGetPrimaryPersecutedReligion]s are having their no-doubt ill-gotten gains seized and are being evicted from their assuredly stolen lands. Perhaps this is the best time to spread the [Root.Religion.GetName] faith into the Middle Kingdom?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0001c;My [Root.GetTitle], there is news from the East- apparently, the wise & just [offmap_china.GetShortName] [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetDynName], has finally realized the danger in allowing [KCCGetPrimaryPersecutedReligion]s to spread unchecked through the Middle Kingdom. Even now, those treacherous [KCCGetPrimaryPersecutedReligion]s are having their no-doubt ill-gotten gains seized and are being evicted from their assuredly stolen lands. Now that those vile [KCCGetPrimaryPersecutedReligion]s are no longer whispering poison into [offmap_china.Ruler.GetTitle] [offmap_china.Ruler.GetFirstName]'s ears, the [offmap_china.Ruler.GetTitle] can finally work on spreading our shared [Root.Religion.GetName] faith in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccpnews.0001a;May the [offmap_china.GetName] feel the wrath of [Root.Religion.GetHighGodNameCap]!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccpnews.0001b;The fate of the [KCCGetPrimaryPersecutedReligion]s in the [offmap_china.GetName] is no concern of ours.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccpnews.0001c;Good, it was about time!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0002a;My [Root.GetTitle], there is dire news from the East! The tyrannical & intolerant [offmap_china.GetShortName] [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetDynName], has decreed that our faith is no longer welcome in the Middle Kingdom. Already countless innocent & pious [Root.Religion.GetName]s are being jailed, exiled, or worse. Their properties have been seized by the [offmap_china.GetName] and even now the evil [offmap_china.Ruler.GetTitle] is profiting from this heinous act of glorified thievery. The sole bright spot is that this act of unprovoked cruelty has given the [offmap_china.Ruler.GetTitle] an excuse to purge the [KCCGetCollateralPersecutedReligion]s as well.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0002b;My [Root.GetTitle], there is terrible news from the East! In [offmap_china.Ruler.GetHerHis] understandable quest to rid the [offmap_china.GetName] of the immoral [KCCGetPrimaryPersecutedReligion]s, the ignorant [offmap_china.Ruler.GetTitle] [offmap_china.Ruler.GetDynName] has apparently decided that we righteous [KCCGetCollateralPersecutedReligion]s are no different from the [KCCGetPrimaryPersecutedReligion]s! Innocent [KCCGetCollateralPersecutedReligion]s are being rounded up & having their properties seized, all because [offmap_china.Ruler.GetFirstName] saw no difference between us & the [KCCGetPrimaryPersecutedReligion]s.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0002c;My [Root.GetTitle], there is news from the East- apparently, the wise & just [offmap_china.GetShortName] [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetDynName], has had enough with the trickery of the [KCCGetPrimaryPersecutedReligion]s, and has appropriated their lands- and for good measure, those of the equally untrustworthy [KCCGetCollateralPersecutedReligion]s as well. Perhaps this is the best time to spread the [Root.Religion.GetName] into the Middle Kingdom?;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0002d;My [Root.GetTitle], there is news from the East- apparently, the wise & just [offmap_china.GetShortName] [offmap_china.Ruler.GetTitle], [offmap_china.Ruler.GetDynName], has finally realized the danger in allowing [KCCGetPrimaryPersecutedReligion]s & [KCCGetCollateralPersecutedReligion]s to spread unchecked through the Middle Kingdom. Even now, the depraved & faithless [KCCGetPrimaryPersecutedReligion]s and [KCCGetCollateralPersecutedReligion]s are being deported en masse. It looks like the [offmap_china.GetName] is one step closer to religious purity.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccpnews.0002a;At least the [KCCGetCollateralPersecutedReligion]s had to suffer for this too.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTOPT_kccpnews.0002b;But we're nothing like those underhanded [KCCGetPrimaryPersecutedReligion]s!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0003;The [KCCGetGhostTownReligion] community has been heavily persecuted by [offmap_china.GetShortName] authorities for some time now, and it seems like that their efforts have finally paid off. The last [KCCGetGhostTownReligion] bastions in the middle kingdom have finally vanished. Perhaps one day the [KCCGetGhostTownReligion] faithful will return to the [offmap_china.GetName], but for now, the Chinese [KCCGetGhostTownReligion] community is but a ghost of a memory.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_check_chinese_religions_decision;Check [offmap_china.GetShortName] Religions;;;;;;;;;;;;;x
+kcc_check_chinese_religions_decision_desc;Check the status of the various religions practiced in the Middle Kingdom;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0008a;The [offmap_china.GetShortName] Catholic community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0008b;Catholics are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0008c;Catholics are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0008d;The [offmap_china.GetShortName] Catholic community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0008e;The majority of the [offmap_china.GetName] is Catholic.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0009a;The [offmap_china.GetShortName] Cathar community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0009b;Cathars are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0009c;Cathars are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0009d;The [offmap_china.GetShortName] Cathar community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0009e;The majority of the [offmap_china.GetName] is Cathar.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0010a;The [offmap_china.GetShortName] Fraticelli community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0010b;Fraticellis are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0010c;Fraticellis are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0010d;The [offmap_china.GetShortName] Fraticelli community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0010e;The majority of the [offmap_china.GetName] is Fraticelli.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0011a;The [offmap_china.GetShortName] Waldensian community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0011b;Waldensians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0011c;Waldensians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0011d;The [offmap_china.GetShortName] Waldensian community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0011e;The majority of the [offmap_china.GetName] is Waldensian.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0012a;The [offmap_china.GetShortName] Lollard community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0012b;Lollards are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0012c;Lollards are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0012d;The [offmap_china.GetShortName] Lollard community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0012e;The majority of the [offmap_china.GetName] is Lollard.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0013a;The [offmap_china.GetShortName] Orthodox community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0013b;The Orthodox are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0013c;The Orthodox are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0013d;The [offmap_china.GetShortName] Orthodox community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0013e;The majority of the [offmap_china.GetName] is Orthodox.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0014a;The [offmap_china.GetShortName] Bogomilist community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0014b;Bogomilists are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0014c;Bogomilists are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0014d;The [offmap_china.GetShortName] Bogomilist community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0014e;The majority of the [offmap_china.GetName] is Bogomilist.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0015a;The [offmap_china.GetShortName] Monothelite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0015b;Monothelites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0015c;Monothelites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0015d;The [offmap_china.GetShortName] Monothelite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0015e;The majority of the [offmap_china.GetName] is Monothelite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0016a;The [offmap_china.GetShortName] Iconoclast community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0016b;Iconoclasts are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0016c;Iconoclasts are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0016d;The [offmap_china.GetShortName] Iconoclast community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0016e;The majority of the [offmap_china.GetName] is Iconoclast.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0017a;The [offmap_china.GetShortName] Paulician community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0017b;Paulicians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0017c;Paulicians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0017d;The [offmap_china.GetShortName] Paulician community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0017e;The majority of the [offmap_china.GetName] is Paulician.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0018a;The [offmap_china.GetShortName] Miaphysite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0018b;Miaphysites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0018c;Miaphysites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0018d;The [offmap_china.GetShortName] Miaphysite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0018e;The majority of the [offmap_china.GetName] is Miaphysite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0019a;The [offmap_china.GetShortName] Monophysite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0019b;Monophysites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0019c;Monophysites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0019d;The [offmap_china.GetShortName] Monophysite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0019e;The majority of the [offmap_china.GetName] is Monophysite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0020a;The [offmap_china.GetShortName] Nestorian community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0020b;Nestorians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0020c;Nestorians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0020d;The [offmap_china.GetShortName] Nestorian community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0020e;The majority of the [offmap_china.GetName] is Nestorian.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0021a;The [offmap_china.GetShortName] Messalian community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0021b;Messalians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0021c;Messalians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0021d;The [offmap_china.GetShortName] Messalian community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0021e;The majority of the [offmap_china.GetName] is Messalian.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0022a;The [offmap_china.GetShortName] Sunni community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0022b;Sunnis are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0022c;Sunnis are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0022d;The [offmap_china.GetShortName] Sunni community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0022e;The majority of the [offmap_china.GetName] is Sunni.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0023a;The [offmap_china.GetShortName] Zikri community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0023b;Zikris are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0023c;Zikris are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0023d;The [offmap_china.GetShortName] Zikri community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0023e;The majority of the [offmap_china.GetName] is Zikri.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0024a;The [offmap_china.GetShortName] Shiite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0024b;Shiites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0024c;Shiites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0024d;The [offmap_china.GetShortName] Shiite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0024e;The majority of the [offmap_china.GetName] is Shiite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0025a;The [offmap_china.GetShortName] Qarmatian community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0025b;The Qarmatians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0025c;The Qarmatians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0025d;The [offmap_china.GetShortName] Qarmatian community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0025e;The majority of the [offmap_china.GetName] is Qarmatian.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0026a;The [offmap_china.GetShortName] Hurufi community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0026b;Hurufis are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0026c;Hurufis are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0026d;The [offmap_china.GetShortName] Hurufi community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0026e;The majority of the [offmap_china.GetName] is Hurufi.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0027a;The [offmap_china.GetShortName] Ibadi community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0027b;Ibadis are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0027c;Ibadis are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0027d;The [offmap_china.GetShortName] Ibadi community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0027e;The majority of the [offmap_china.GetName] is Ibadi.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0028a;The [offmap_china.GetShortName] Kharijite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0028b;Kharijites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0028c;Kharijites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0028d;The [offmap_china.GetShortName] Kharijite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0028e;The majority of the [offmap_china.GetName] is Kharijite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0029a;The [offmap_china.GetShortName] Zoroastrian community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0029b;Zoroastrians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0029c;Zoroastrians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0029d;The [offmap_china.GetShortName] Zoroastrian community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0029e;The majority of the [offmap_china.GetName] is Zoroastrian.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0030a;The [offmap_china.GetShortName] Mazdaki community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0030b;Mazdakis are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0030c;Mazdakis are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0030d;The [offmap_china.GetShortName] Mazdaki community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0030e;The majority of the [offmap_china.GetName] is Mazdaki.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0031a;The [offmap_china.GetShortName] Manichean community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0031b;Manicheans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0031c;Manicheans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0031d;The [offmap_china.GetShortName] Manichean community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0031e;The majority of the [offmap_china.GetName] is Manichean.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0032a;The [offmap_china.GetShortName] Buddhist community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0032b;Buddhists are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0032c;Buddhists are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0032d;The [offmap_china.GetShortName] Buddhist community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0032e;The majority of the [offmap_china.GetName] is Buddhist.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0033a;The [offmap_china.GetShortName] Jain community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0033b;Jains are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0033c;Jains are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0033d;The [offmap_china.GetShortName] Jain community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0033e;The majority of the [offmap_china.GetName] is Jain.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0034a;The [offmap_china.GetShortName] Asatru community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0034b;Asatrus are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0034c;Asatrus are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0034d;The [offmap_china.GetShortName] Asatru community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0034e;The majority of the [offmap_china.GetName] is Asatru.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0035a;The [offmap_china.GetShortName] Romuva community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0035b;Romuvas are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0035c;Romuvas are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0035d;The [offmap_china.GetShortName] Romuva community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0035e;The majority of the [offmap_china.GetName] is Romuva.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0036a;The [offmap_china.GetShortName] Rodnover community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0036b;Rodnovers are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0036c;Rodnovers are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0036d;The [offmap_china.GetShortName] Rodnover community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0036e;The majority of the [offmap_china.GetName] is Rodnover.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0037a;The [offmap_china.GetShortName] Suomenusko community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0037b;Suomenuskos are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0037c;Suomenuskos are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0037d;The [offmap_china.GetShortName] Suomenusko community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0037e;The majority of the [offmap_china.GetName] is Suomenusko.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0038a;The [offmap_china.GetShortName] Tengri community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0038b;Tengris are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0038c;Tengris are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0038d;The [offmap_china.GetShortName] Tengri community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0038e;The majority of the [offmap_china.GetName] is Tengri.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0039a;The [offmap_china.GetShortName] Zunist community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0039b;Zunists are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0039c;Zunists are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0039d;The [offmap_china.GetShortName] Zunist community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0039e;The majority of the [offmap_china.GetName] is Zunist.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0040a;The [offmap_china.GetShortName] Bon community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0040b;The Bon are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0040c;The Bon are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0040d;The [offmap_china.GetShortName] Bon community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0040e;The majority of the [offmap_china.GetName] is Bon.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0041a;The [offmap_china.GetShortName] African community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0041b;Africans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0041c;Africans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0041d;The [offmap_china.GetShortName] African community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0041e;The majority of the [offmap_china.GetName] is African.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0042a;The [offmap_china.GetShortName] Nahuatl community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0042b;Nahuatls are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0042c;Nahuatls are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0042d;The [offmap_china.GetShortName] Nahuatl community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0042e;The majority of the [offmap_china.GetName] is Nahuatl.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0043a;The [offmap_china.GetShortName] Hellenic community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0043b;Hellenics are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0043c;Hellenics are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0043d;The [offmap_china.GetShortName] Hellenic community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0043e;The majority of the [offmap_china.GetName] is Hellenic.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0044a;The [offmap_china.GetShortName] Promethean community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0044b;Prometheans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0044c;Prometheans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0044d;The [offmap_china.GetShortName] Promethean community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0044e;The majority of the [offmap_china.GetName] is Promethean.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0045a;The [offmap_china.GetShortName] Druidic community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0045b;Druidics are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0045c;Druidics are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0045d;The [offmap_china.GetShortName] Druidic community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0045e;The majority of the [offmap_china.GetName] is Druidic.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0046a;The [offmap_china.GetShortName] Britannic community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0046b;Britannics are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0046c;Britannics are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0046d;The [offmap_china.GetShortName] Britannic community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0046e;The majority of the [offmap_china.GetName] is Britannic.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0047a;The [offmap_china.GetShortName] Kemetic community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0047b;Kemetics are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0047c;Kemetics are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0047d;The [offmap_china.GetShortName] Kemetic community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0047e;The majority of the [offmap_china.GetName] is Kemetic.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0048a;The [offmap_china.GetShortName] Atenic community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0048b;Atenics are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0048c;Atenics are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0048d;The [offmap_china.GetShortName] Atenic community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0048e;The majority of the [offmap_china.GetName] is Atenic.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0050a;The [offmap_china.GetShortName] Emperor follows the [offmap_china.Ruler.Religion.GetName] faith, which is indigenous to China.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0050b;The Emperor is [offmap_china.Ruler.Religion.GetName], & will try to spread their religion in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0050c;The Emperor is [offmap_china.Ruler.Religion.GetName], & will not try to spread their religion in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0051a;The [offmap_china.GetName] is dealing with the aftermath of the Great Anti-Buddhist Persection. Buddhists, Jains, Mazdans, & Christians are being persecuted.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0051b;The [offmap_china.GetName] is dealing with the aftermath of the Great Anti-Buddhist Persection. Buddhists, Jains, & Christians are being persecuted.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0051c;The [offmap_china.GetName] is dealing with the aftermath of the Great Anti-Buddhist Persection. Buddhists, Jains, & Mazdans are being persecuted.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0051d;The [offmap_china.GetName] is dealing with the aftermath of a Great Persection. Mazdans & Christians are being persecuted.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0051e;[KCCGet1stCurrentPersecution]s are currently suffering persecution at the hands of [offmap_china.GetShortName] China.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0051f;[KCCGet1stCurrentPersecution]s & [KCCGet2ndCurrentPersecution]s are currently suffering persecution at the hands of [offmap_china.GetShortName] China.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+kcc_reset_religion_decision;Reset Religions in China;;;;;;;;;;;;;x
+kcc_reset_religion_decision_desc;Reset religions in the [offmap_china.GetName] to a historically accurate state. §RWARNING: This CANNOT be Undone§!;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Christian Immersion
+EVTDESC_kccpnews.0052a;The [offmap_china.GetShortName] Adoptionist community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0052b;Adoptionists are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0052c;Adoptionists are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0052d;The [offmap_china.GetShortName] Adoptionist community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0052e;The majority of the [offmap_china.GetName] is Adoptionist.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0053a;The [offmap_china.GetShortName] Free Spirits community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0053b;Free Spirits are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0053c;Free Spirits are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0053d;The [offmap_china.GetShortName] Free Spirits community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0053e;The majority of the [offmap_china.GetName] is Free Spirits.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0054a;The [offmap_china.GetShortName] Barlaamite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0054b;Barlaamites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0054c;Barlaamites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0054d;The [offmap_china.GetShortName] Barlaamite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0054e;The majority of the [offmap_china.GetName] is Barlaamite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0055a;The [offmap_china.GetShortName] Judaizer community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0055b;Judaizers are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0055c;Judaizers are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0055d;The [offmap_china.GetShortName] Judaizer community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0055e;The majority of the [offmap_china.GetName] is Judaizer.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0056a;The [offmap_china.GetShortName] Mandean community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0056b;Mandeans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0056c;Mandeans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0056d;The [offmap_china.GetShortName] Mandean community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0056e;The majority of the [offmap_china.GetName] is Mandean.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0057a;The [offmap_china.GetShortName] Chaldean community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0057b;Chaldeans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0057c;Chaldeans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0057d;The [offmap_china.GetShortName] Chaldean community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0057e;The majority of the [offmap_china.GetName] is Chaldean.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0058a;The [offmap_china.GetShortName] Apollinarian community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0058b;Apollinarians are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0058c;Apollinarians are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0058d;The [offmap_china.GetShortName] Apollinarian community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0058e;The majority of the [offmap_china.GetName] is Apollinarian.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0059a;The [offmap_china.GetShortName] Yarsan community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0059b;Yarsans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0059c;Yarsans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0059d;The [offmap_china.GetShortName] Yarsan community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0059e;The majority of the [offmap_china.GetName] is Yarsan.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+#Last Vanilla Religions
+EVTDESC_kccpnews.0060a;The [offmap_china.GetShortName] Yazidi community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0060b;Yazidis are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0060c;Yazidis are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0060d;The [offmap_china.GetShortName] Yazidi community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0060e;The majority of the [offmap_china.GetName] is Yazidi.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0061a;The [offmap_china.GetShortName] Druze community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0061b;Druze are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0061c;Druze are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0061d;The [offmap_china.GetShortName] Druze community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0061e;The majority of the [offmap_china.GetName] is Druze.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0062a;The [offmap_china.GetShortName] Khurmaztan community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0062b;Khurmaztans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0062c;Khurmaztans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0062d;The [offmap_china.GetShortName] Khurmaztan community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0062e;The majority of the [offmap_china.GetName] is Khurmaztan.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0063a;The [offmap_china.GetShortName] Jewish community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0063b;Jews are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0063c;Jews are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0063d;The [offmap_china.GetShortName] Jewish community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0063e;The majority of the [offmap_china.GetName] is Jewish.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0064a;The [offmap_china.GetShortName] Samaritan community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0064b;Samaritans are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0064c;Samaritans are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0064d;The [offmap_china.GetShortName] Samaritan community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0064e;The majority of the [offmap_china.GetName] is Samaritan.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0065a;The [offmap_china.GetShortName] Karaite community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0065b;Karaites are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0065c;Karaites are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0065d;The [offmap_china.GetShortName] Karaite community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0065e;The majority of the [offmap_china.GetName] is Karaite.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0066a;The [offmap_china.GetShortName] Hindu community is just starting out.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0066b;Hindus are a tiny minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0066c;Hindus are a sizeable minority in the [offmap_china.GetName].;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0066d;The [offmap_china.GetShortName] Hindu community is very large & influential.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x
+EVTDESC_kccpnews.0066e;The majority of the [offmap_china.GetName] is Hindu.;FRENCH;GERMAN;;SPANISH;;;;;;;;;x

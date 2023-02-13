@@ -1,0 +1,14 @@
+#############################################
+# CHARACTER NICKNAMES
+# Independent dukes, kings and emperors only
+#
+# 'factor' is the percentage per year of 
+# gaining the nickname
+#
+#############################################
+
+# GIVEN BY EVENT
+#################
+nick_the_dragontamer_kcc = {}
+nick_the_dragonslayer_kcc = {}
+nick_the_dragonlayer_kcc = {}

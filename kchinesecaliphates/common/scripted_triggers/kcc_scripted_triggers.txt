@@ -1,0 +1,2123 @@
+# kcc_china_has_persecuted_trigger
+# kcc_latin_christians_trigger
+# kcc_true_latin_trigger
+# kcc_byzantine_christians_trigger
+# kcc_true_byzantine_trigger
+# kcc_nonchalcedonian_christians_trigger
+# kcc_true_nonchalcedonian_trigger
+# kcc_true_sunni_trigger
+# kcc_true_shia_trigger
+# kcc_true_ibadi_trigger
+# kcc_true_no_zoro_madzan_trigger
+# kcc_true_dharman_trigger
+# kcc_true_northern_pagan_trigger
+# kcc_true_eastern_pagan_trigger
+# kcc_true_classical_pagan_trigger
+# kcc_can_persecute_christians_trigger
+# kcc_can_persecute_latins_trigger
+# kcc_can_persecute_byzantines_trigger
+# kcc_can_persecute_nonchalcedonians_trigger
+# kcc_can_persecute_muslims_trigger
+# kcc_can_persecute_sunnis_trigger
+# kcc_can_persecute_shias_trigger
+# kcc_can_persecute_mazdans_trigger
+# kcc_zoro_can_persecute_mazdans_trigger
+# kcc_can_persecute_dharmans_trigger
+# kcc_can_persecute_all_pagans_trigger
+# kcc_can_persecute_northern_pagans_trigger
+# kcc_can_persecute_eastern_pagans_trigger
+# kcc_can_persecute_classical_pagans_trigger
+# kcc_can_persecute_africans_trigger
+# kcc_can_persecute_aztecs_trigger
+# kcc_can_persecute_jews_trigger
+# kcc_china_went_after_you_trigger
+# kcc_china_caught_you_in_religious_crossfire_trigger
+# kcc_nontaoist_majority_trigger
+# kcc_unmonastic_china_trigger
+# kcc_waxwane_good_trigger
+# kcc_waxwane_bad_trigger
+# kcc_mission_spread_trigger
+# kcc_ghost_town_trigger
+
+kcc_china_has_persecuted_trigger = {
+	1513 = { 
+		OR = {
+			has_province_modifier = kcc_china_persecuted_christians
+			has_province_modifier = kcc_china_persecuted_latins
+			has_province_modifier = kcc_china_persecuted_byzantines
+			has_province_modifier = kcc_china_persecuted_nonchalcedonians
+			
+			has_province_modifier = kcc_china_persecuted_catholics
+			has_province_modifier = kcc_china_persecuted_cathars
+			has_province_modifier = kcc_china_persecuted_fraticellis
+			has_province_modifier = kcc_china_persecuted_waldensians
+			has_province_modifier = kcc_china_persecuted_lollards
+			has_province_modifier = kcc_china_persecuted_orthodoxy
+			has_province_modifier = kcc_china_persecuted_bogomilists
+			has_province_modifier = kcc_china_persecuted_monothelites
+			has_province_modifier = kcc_china_persecuted_iconoclasts
+			has_province_modifier = kcc_china_persecuted_paulicians
+			has_province_modifier = kcc_china_persecuted_miaphysites
+			has_province_modifier = kcc_china_persecuted_monophysites
+			has_province_modifier = kcc_china_persecuted_nestorians
+			has_province_modifier = kcc_china_persecuted_messalians
+			
+			has_province_modifier = kcc_china_persecuted_muslims
+			has_province_modifier = kcc_china_persecuted_sunnis
+			has_province_modifier = kcc_china_persecuted_shiites
+			has_province_modifier = kcc_china_persecuted_ibadis
+			
+			has_province_modifier = kcc_china_persecuted_mazdans
+			has_province_modifier = kcc_zoro_china_persecuted_mazdans
+			has_province_modifier = kcc_china_persecuted_zoroastrians
+			has_province_modifier = kcc_china_persecuted_mazdakis
+			has_province_modifier = kcc_china_persecuted_manicheans
+			
+			has_province_modifier = kcc_china_persecuted_dharmans
+			
+			has_province_modifier = kcc_china_persecuted_pagans
+			has_province_modifier = kcc_china_persecuted_northern_pagans
+			has_province_modifier = kcc_china_persecuted_eastern_pagans
+			has_province_modifier = kcc_china_persecuted_classical_pagans		
+			has_province_modifier = kcc_china_persecuted_africans
+			has_province_modifier = kcc_china_persecuted_aztecs
+			
+			#Christian Immersion
+			has_province_modifier = kcc_china_persecuted_adoptionists
+			has_province_modifier = kcc_china_persecuted_free_spirits
+			has_province_modifier = kcc_china_persecuted_judaizers
+			has_province_modifier = kcc_china_persecuted_mandeans
+			has_province_modifier = kcc_china_persecuted_barlaamites
+			has_province_modifier = kcc_china_persecuted_chaldeans
+			has_province_modifier = kcc_china_persecuted_apollinarians
+			
+			#Last Vanilla Religions
+			has_province_modifier = kcc_china_persecuted_yazidis
+			has_province_modifier = kcc_china_persecuted_khurmaztas
+			has_province_modifier = kcc_china_persecuted_jews
+		}
+	}
+}
+
+kcc_latin_christians_trigger = {
+	offmap_china = {
+		offmap_ruler = {
+			OR = {
+				religion = catholic
+				religion = cathar
+				religion = fraticelli
+				religion = waldensian
+				religion = lollard
+				religion = adoptionist
+				religion = free_spirits
+			}
+		}
+	}
+}
+
+kcc_true_latin_trigger = {
+	OR = {
+		true_religion = catholic
+		true_religion = cathar
+		true_religion = fraticelli
+		true_religion = waldensian
+		true_religion = lollard
+		true_religion = adoptionist
+		true_religion = free_spirits
+	}
+}
+
+kcc_byzantine_christians_trigger = {
+	offmap_china = {
+		offmap_ruler = {
+			OR = {
+				religion = orthodox
+				religion = bogomilist
+				religion = monothelite
+				religion = iconoclast
+				religion = paulician
+				religion = barlaamite
+			}
+		}
+	}
+}
+
+kcc_true_byzantine_trigger = {
+	OR = {
+		true_religion = orthodox
+		true_religion = bogomilist
+		true_religion = monothelite
+		true_religion = iconoclast
+		true_religion = paulician
+		true_religion = barlaamite
+	}
+}
+
+kcc_nonchalcedonian_christians_trigger = {
+	offmap_china = {
+		offmap_ruler = {
+			OR = {
+				religion = miaphysite
+				religion = monophysite
+				religion = nestorian
+				religion = messalian
+				religion = judaizer
+				religion = mandean
+				religion = chaldean
+				religion = apollinarian
+			}
+		}
+	}
+}
+
+kcc_true_nonchalcedonian_trigger = {
+	OR = {
+		true_religion = miaphysite
+		true_religion = monophysite
+		true_religion = nestorian
+		true_religion = messalian
+		true_religion = judaizer
+		true_religion = mandean
+		true_religion = chaldean
+		true_religion = apollinarian
+	}
+}
+
+kcc_true_sunni_trigger = {
+	OR = {
+		true_religion = sunni
+		true_religion = zikri
+		true_religion = yarsan
+		trigger_if = {
+			limit = {
+				has_game_rule = {
+					name = kcc_who_can_preach
+					value = kcc_preach_yes
+				}
+				NOT = { has_global_flag = EMF }
+			}
+			true_religion = yazidi
+		}
+	}
+}
+
+kcc_true_shia_trigger = {
+	OR = {
+		true_religion = shiite
+		true_religion = qarmatian
+		true_religion = hurufi
+		trigger_if = {
+			limit = {
+				has_game_rule = {
+					name = kcc_who_can_preach
+					value = kcc_preach_yes
+				}
+			}
+			true_religion = druze
+		}
+	}
+}
+
+kcc_true_ibadi_trigger = {
+	OR = {
+		true_religion = ibadi
+		true_religion = kharijite
+	}
+}
+
+kcc_true_no_zoro_madzan_trigger = {
+	OR = {
+		true_religion = mazdaki
+		true_religion = manichean
+		trigger_if = {
+			limit = {
+				has_game_rule = {
+					name = kcc_who_can_preach
+					value = kcc_preach_yes
+				}
+			}
+			true_religion = khurmazta
+		}
+		trigger_if = {
+			limit = {
+				has_game_rule = {
+					name = kcc_who_can_preach
+					value = kcc_preach_yes
+				}
+				has_global_flag = EMF
+			}
+			true_religion = yazidi
+		}
+	}
+}
+
+kcc_true_dharman_trigger = {
+	OR = {
+		true_religion = buddhist
+		true_religion = jain
+		trigger_if = {
+			limit = {
+				has_game_rule = {
+					name = kcc_who_can_preach
+					value = kcc_preach_yes
+				}
+			}
+			true_religion = hindu
+		}
+	}
+}
+
+kcc_true_northern_pagan_trigger = {
+	OR = {
+		true_religion = norse_pagan_reformed
+		true_religion = baltic_pagan_reformed
+		true_religion = finnish_pagan_reformed
+		true_religion = slavic_pagan_reformed
+	}
+}
+
+kcc_true_eastern_pagan_trigger = {
+	OR = {
+		true_religion = tengri_pagan_reformed
+		true_religion = zun_pagan_reformed
+		true_religion = bon_reformed
+	}
+}
+
+kcc_true_classical_pagan_trigger = {
+	OR = {
+		true_religion = hellenic_pagan_reformed
+		true_religion = promethean_pagan
+		true_religion = celtic_pagan_reformed
+		true_religion = britannic_pagan
+		true_religion = egyptian_pagan_reformed
+		true_religion = aten_pagan
+	}
+}
+
+kcc_can_persecute_christians_trigger = {
+	OR = {
+		has_global_flag = catholics_in_china
+		has_global_flag = cathars_in_china
+		has_global_flag = fraticellis_in_china
+		has_global_flag = waldensians_in_china
+		has_global_flag = lollards_in_china
+		has_global_flag = orthodoxy_in_china
+		has_global_flag = bogomilists_in_china
+		has_global_flag = monothelites_in_china
+		has_global_flag = iconoclasts_in_china
+		has_global_flag = paulicians_in_china
+		has_global_flag = miaphysites_in_china
+		has_global_flag = monophysites_in_china
+		has_global_flag = nestorians_in_china
+		has_global_flag = messalians_in_china
+		has_global_flag = adoptionists_in_china
+		has_global_flag = free_spirits_in_china
+		has_global_flag = judaizers_in_china
+		has_global_flag = mandeans_in_china
+		has_global_flag = barlaamites_in_china
+		has_global_flag = chaldeans_in_china
+		has_global_flag = apollinarians_in_china
+	}
+	NOR = {
+		has_global_flag = catholic_china_four
+		has_global_flag = cathar_china_four
+		has_global_flag = fraticelli_china_four
+		has_global_flag = waldensian_china_four
+		has_global_flag = lollard_china_four
+		has_global_flag = orthodoxy_china_four
+		has_global_flag = bogomilist_china_four
+		has_global_flag = monothelite_china_four
+		has_global_flag = iconoclast_china_four
+		has_global_flag = paulician_china_four
+		has_global_flag = miaphysite_china_four
+		has_global_flag = monophysite_china_four
+		has_global_flag = nestorian_china_four
+		has_global_flag = messalian_china_four
+		has_global_flag = adoptionist_china_four
+		has_global_flag = free_spirits_china_four
+		has_global_flag = judaizer_china_four
+		has_global_flag = mandean_china_four
+		has_global_flag = barlaamite_china_four
+		has_global_flag = chaldean_china_four
+		has_global_flag = apollinarian_china_four
+	}
+	offmap_china = { 
+		NOR = {
+			offmap_ruler = { religion_group = christian }
+			offmap_china = { offmap_has_like = likes_christians }
+		}
+	}
+}
+
+kcc_can_persecute_latins_trigger = {
+	OR = {
+		kcc_byzantine_christians_trigger = yes
+		kcc_nonchalcedonian_christians_trigger = yes
+	}
+	OR = {
+		has_global_flag = catholics_in_china
+		has_global_flag = cathars_in_china
+		has_global_flag = fraticellis_in_china
+		has_global_flag = waldensians_in_china
+		has_global_flag = lollards_in_china
+		has_global_flag = adoptionists_in_china
+		has_global_flag = free_spirits_in_china
+	}
+	NOR = {
+		has_global_flag = catholic_china_four
+		has_global_flag = cathar_china_four
+		has_global_flag = fraticelli_china_four
+		has_global_flag = waldensian_china_four
+		has_global_flag = lollard_china_four
+		has_global_flag = adoptionist_china_four
+		has_global_flag = free_spirits_china_four
+	}
+	NOT = { offmap_china = { offmap_has_like = likes_christians } }
+}
+
+kcc_can_persecute_byzantines_trigger = {
+	OR = {
+		kcc_latin_christians_trigger = yes
+		kcc_nonchalcedonian_christians_trigger = yes
+	}
+	OR = {
+		has_global_flag = orthodoxy_in_china
+		has_global_flag = bogomilists_in_china
+		has_global_flag = monothelites_in_china
+		has_global_flag = iconoclasts_in_china
+		has_global_flag = paulicians_in_china
+		has_global_flag = barlaamites_in_china
+	}
+	NOR = {
+		has_global_flag = orthodoxy_china_four
+		has_global_flag = bogomilist_china_four
+		has_global_flag = monothelite_china_four
+		has_global_flag = iconoclast_china_four
+		has_global_flag = paulician_china_four
+		has_global_flag = barlaamite_china_four
+	}
+	NOT = { offmap_china = { offmap_has_like = likes_christians } }
+}
+
+kcc_can_persecute_nonchalcedonians_trigger = {
+	OR = {
+		kcc_latin_christians_trigger = yes
+		kcc_byzantine_christians_trigger = yes
+	}
+	OR = {
+		has_global_flag = miaphysites_in_china
+		has_global_flag = monophysites_in_china
+		has_global_flag = nestorians_in_china
+		has_global_flag = messalians_in_china
+		has_global_flag = judaizers_in_china
+		has_global_flag = mandeans_in_china
+		has_global_flag = chaldeans_in_china
+		has_global_flag = apollinarians_in_china
+	}
+	NOR = {
+		has_global_flag = miaphysite_china_four
+		has_global_flag = monophysite_china_four
+		has_global_flag = nestorian_china_four
+		has_global_flag = messalian_china_four
+		has_global_flag = judaizer_china_four
+		has_global_flag = mandean_china_four
+		has_global_flag = chaldean_china_four
+		has_global_flag = apollinarian_china_four
+	}
+	NOT = { offmap_china = { offmap_has_like = likes_christians } }
+}
+
+kcc_can_persecute_muslims_trigger = {
+	OR = {
+		has_global_flag = sunnis_in_china
+		has_global_flag = zikris_in_china
+		has_global_flag = shiites_in_china
+		has_global_flag = qarmatian_in_china
+		has_global_flag = hurufis_in_china
+		has_global_flag = ibadis_in_china
+		has_global_flag = kharijites_in_china
+		has_global_flag = yarsans_in_china
+		has_global_flag = druze_in_china
+		trigger_if = {
+			limit = { NOT = { has_global_flag = EMF } }
+			has_global_flag = yazidis_in_china
+		}
+	}
+	NOR = {
+		has_global_flag = sunni_china_four
+		has_global_flag = zikri_china_four
+		has_global_flag = shiite_china_four
+		has_global_flag = qarmatian_china_four
+		has_global_flag = hurufi_china_four
+		has_global_flag = ibadi_china_four
+		has_global_flag = kharijite_china_four
+		has_global_flag = yarsan_china_four
+		has_global_flag = druze_china_four
+		trigger_if = {
+			limit = { NOT = { has_global_flag = EMF } }
+			has_global_flag = yazidi_china_four
+		}
+	}
+	offmap_china = { 
+		NOR = {
+			offmap_ruler = { religion_group = muslim }
+			offmap_china = { offmap_has_like = likes_muslims }
+		}
+	}
+}
+
+kcc_can_persecute_sunnis_trigger = {
+	OR = {
+		has_global_flag = sunnis_in_china
+		has_global_flag = zikris_in_china
+		has_global_flag = yarsans_in_china
+		trigger_if = {
+			limit = { NOT = { has_global_flag = EMF } }
+			has_global_flag = yazidis_in_china
+		}
+	}
+	NOR = {
+		has_global_flag = sunni_china_four
+		has_global_flag = zikri_china_four
+		has_global_flag = yarsan_china_four
+		trigger_if = {
+			limit = { NOT = { has_global_flag = EMF } }
+			has_global_flag = yazidi_china_four
+		}
+	}
+	offmap_china = {
+		offmap_ruler = {
+			OR = {
+				religion = shiite
+				religion = qarmatian
+				religion = hurufi
+				trigger_if = {
+					limit = {
+						has_game_rule = {
+							name = kcc_who_can_preach
+							value = kcc_preach_yes
+						}
+					}
+					religion = druze
+				}
+			}
+		}
+	}
+	NOT = { offmap_china = { offmap_has_like = likes_muslims } }
+}
+
+kcc_can_persecute_shias_trigger = {
+	OR = {
+		has_global_flag = shiites_in_china
+		has_global_flag = qarmatian_in_china
+		has_global_flag = hurufis_in_china
+		has_global_flag = druze_in_china
+	}
+	NOR = {
+		has_global_flag = shiite_china_four
+		has_global_flag = qarmatian_china_four
+		has_global_flag = hurufi_china_four
+		has_global_flag = druze_china_four
+	}
+	offmap_china = {
+		offmap_ruler = {
+			OR = {
+				religion = sunni
+				religion = zikri
+				religion = yarsan
+				trigger_if = {
+					limit = {
+						NOT = { has_global_flag = EMF }
+						has_game_rule = {
+							name = kcc_who_can_preach
+							value = kcc_preach_yes
+						}
+					}
+					religion = yazidi
+				}
+			}
+		}
+	}
+	NOT = { offmap_china = { offmap_has_like = likes_muslims } }
+}
+
+kcc_can_persecute_mazdans_trigger = {
+	OR = {
+		has_global_flag = zoroastrians_in_china
+		has_global_flag = mazdakis_in_china
+		has_global_flag = manicheans_in_china
+		has_global_flag = khurmaztas_in_china
+		trigger_if = {
+			limit = { has_global_flag = EMF }
+			has_global_flag = yazidis_in_china
+		}
+	}
+	NOR = {
+		has_global_flag = zoroastrian_china_four
+		has_global_flag = mazdaki_china_four
+		has_global_flag = manichean_china_four
+		has_global_flag = khurmazta_china_four
+		trigger_if = {
+			limit = { has_global_flag = EMF }
+			has_global_flag = yazidi_china_four
+		}
+	}
+	offmap_china = { 
+		NOR = {
+			offmap_ruler = { religion_group = zoroastrian_group }
+			offmap_china = { offmap_has_like = likes_mazdans }
+			offmap_china = { offmap_has_like = likes_zoroastrians }
+			offmap_china = { offmap_has_like = likes_mazdakis }
+			offmap_china = { offmap_has_like = likes_manicheans }
+			trigger_if = {
+				limit = {
+					has_game_rule = {
+						name = kcc_who_can_preach
+						value = kcc_preach_yes
+					}
+				}
+				offmap_china = { offmap_has_like = likes_khurmaztans }
+			}
+		}
+	}
+}
+
+kcc_zoro_can_persecute_mazdans_trigger = {
+	OR = {
+		has_global_flag = mazdakis_in_china
+		has_global_flag = manicheans_in_china
+		has_global_flag = khurmaztas_in_china
+		trigger_if = {
+			limit = { has_global_flag = EMF }
+			has_global_flag = yazidis_in_china
+		}
+	}
+	NOR = {
+		has_global_flag = mazdaki_china_four
+		has_global_flag = manichean_china_four
+		has_global_flag = khurmazta_china_four
+		trigger_if = {
+			limit = { has_global_flag = EMF }
+			has_global_flag = yazidi_china_four
+		}
+	}
+	offmap_china = {
+		offmap_ruler = { religion = zoroastrian }
+		NOR = {
+			offmap_china = { offmap_has_like = likes_mazdans }
+			offmap_china = { offmap_has_like = likes_mazdakis }
+			offmap_china = { offmap_has_like = likes_manicheans }
+			trigger_if = {
+				limit = {
+					has_game_rule = {
+						name = kcc_who_can_preach
+						value = kcc_preach_yes
+					}
+				}
+				offmap_china = { offmap_has_like = likes_khurmaztans }
+			}
+		}
+	}
+}
+
+kcc_can_persecute_dharmans_trigger = {
+	OR = {
+		trigger_if = {
+			limit = { has_global_flag = buddhists_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_buddhists } }
+		}
+		trigger_if = {
+			limit = { has_global_flag = jains_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_jains } }
+		}
+		trigger_if = {
+			limit = { has_global_flag = hindus_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_hindus } }
+		}
+	}
+	NOR = {
+		has_global_flag = buddhist_china_four
+		has_global_flag = jain_china_four
+		has_global_flag = hindu_china_four
+	}
+	offmap_china = { 
+		offmap_ruler = {
+			NOR = {
+				religion = buddhist
+				religion = jain
+				trigger_if = {
+					limit = {
+						has_game_rule = {
+							name = kcc_who_can_preach
+							value = kcc_preach_yes
+						}
+					}
+					religion = hindu
+				}
+			}
+		}
+	}
+}
+
+kcc_can_persecute_all_pagans_trigger = {
+	OR = {
+		has_global_flag = norse_in_china
+		has_global_flag = baltics_in_china
+		has_global_flag = finnish_in_china
+		has_global_flag = slavs_in_china
+		trigger_if = {
+			limit = { has_global_flag = tengri_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_tengris } }
+		}
+		trigger_if = {
+			limit = { has_global_flag = zun_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_zunists } }
+		}
+		trigger_if = {
+			limit = { has_global_flag = bon_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_bon } }
+		}
+		has_global_flag = hellenics_in_china
+		has_global_flag = prometheans_in_china
+		has_global_flag = celts_in_china
+		has_global_flag = britannics_in_china
+		has_global_flag = egyptians_in_china
+		has_global_flag = atenics_in_china
+		has_global_flag = africans_in_china
+		has_global_flag = aztecs_in_china
+	}
+	NOR = {
+		has_global_flag = norse_china_four
+		has_global_flag = baltic_china_four
+		has_global_flag = finnish_china_four
+		has_global_flag = slavic_china_four
+		has_global_flag = tengri_china_four
+		has_global_flag = zun_china_four
+		has_global_flag = bon_china_four
+		has_global_flag = hellenic_china_four
+		has_global_flag = promethean_china_four
+		has_global_flag = celtic_china_four
+		has_global_flag = britannic_china_four
+		has_global_flag = egyptian_china_four
+		has_global_flag = atenic_china_four
+		has_global_flag = african_china_four
+		has_global_flag = aztec_china_four
+	}
+	offmap_china = {
+		offmap_ruler = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+			}
+		}
+	}
+}
+
+kcc_can_persecute_northern_pagans_trigger = {
+	OR = {
+		has_global_flag = norse_in_china
+		has_global_flag = baltics_in_china
+		has_global_flag = finnish_in_china
+		has_global_flag = slavs_in_china
+	}
+	NOR = {
+		has_global_flag = norse_china_four
+		has_global_flag = baltic_china_four
+		has_global_flag = finnish_china_four
+		has_global_flag = slavic_china_four
+	}
+	offmap_china = {
+		offmap_ruler = {
+			NOR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+				religion = norse_pagan_reformed
+				religion = baltic_pagan_reformed
+				religion = finnish_pagan_reformed
+				religion = slavic_pagan_reformed
+			}
+		}
+	}
+}
+
+
+kcc_can_persecute_eastern_pagans_trigger = {
+	OR = {
+		trigger_if = {
+			limit = { has_global_flag = tengri_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_tengris } }
+		}
+		trigger_if = {
+			limit = { has_global_flag = zun_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_zunists } }
+		}
+		trigger_if = {
+			limit = { has_global_flag = bon_in_china }
+			NOT = { offmap_china = { offmap_has_like = likes_bon } }
+		}
+	}
+	NOR = {
+		has_global_flag = tengri_china_four
+		has_global_flag = zun_china_four
+		has_global_flag = bon_china_four
+	}
+	offmap_china = {
+		offmap_ruler = {
+			NOR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+				religion = tengri_pagan_reformed
+				religion = zun_pagan_reformed
+				religion = bon_reformed
+			}
+		}
+	}
+}
+
+kcc_can_persecute_classical_pagans_trigger = {
+	OR = {
+		has_global_flag = hellenics_in_china
+		has_global_flag = prometheans_in_china
+		has_global_flag = celts_in_china
+		has_global_flag = britannics_in_china
+		has_global_flag = egyptians_in_china
+		has_global_flag = atenics_in_china
+	}
+	NOR = {
+		has_global_flag = hellenic_china_four
+		has_global_flag = promethean_china_four
+		has_global_flag = celtic_china_four
+		has_global_flag = britannic_china_four
+		has_global_flag = egyptian_china_four
+		has_global_flag = atenic_china_four
+	}
+	offmap_china = {
+		offmap_ruler = {
+			NOR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+				religion = hellenic_pagan_reformed
+				religion = promethean_pagan
+				religion = celtic_pagan_reformed
+				religion = britannic_pagan
+				religion = egyptian_pagan_reformed
+				religion = aten_pagan
+			}
+		}
+	}
+}
+
+kcc_can_persecute_africans_trigger = {
+	has_global_flag = africans_in_china
+	NOT = { has_global_flag = african_china_four }
+	offmap_china = {
+		offmap_ruler = {
+			NOR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+				religion = west_african_pagan_reformed 
+			}
+		}
+	}
+}
+
+kcc_can_persecute_aztecs_trigger = {
+	has_global_flag = aztecs_in_china
+	NOT = { has_global_flag = african_china_four }
+	offmap_china = {
+		offmap_ruler = {
+			NOR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+				religion = aztec_reformed 
+			}
+		}
+	}
+}
+
+kcc_can_persecute_jews_trigger = {
+	OR = {
+		has_global_flag = jews_in_china
+		has_global_flag = samaritans_in_china
+		has_global_flag = karaites_in_china
+	}
+	NOR = {
+		has_global_flag = jewish_china_four
+		has_global_flag = samaritan_china_four
+		has_global_flag = karaite_china_four
+	}
+	offmap_china = { 
+		NOR = {
+			offmap_ruler = { religion_group = jewish_group }
+			offmap_ruler = { religion = taoist }
+			offmap_china = { offmap_has_like = likes_jews }
+		}
+	}
+}
+
+kcc_china_went_after_you_trigger = {
+	trigger_if = {
+		limit = { has_global_flag = kcc_china_bullseye_christians }
+		true_religion_group = christian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_latins }
+		kcc_true_latin_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_catholics }
+		true_religion = catholic
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_cathars }
+		true_religion = cathar
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_fraticellis }
+		true_religion = fraticelli
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_waldensians }
+		true_religion = waldensian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_lollards }
+		true_religion = lollard
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_byzantines }
+		kcc_true_byzantine_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_orthodoxy }
+		true_religion = orthodox
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_bogomilists }
+		true_religion = bogomilist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_monothelites }
+		true_religion = monothelite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_iconoclasts }
+		true_religion = iconoclast
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_paulicians }
+		true_religion = paulician
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_nonchalcedonians }
+		kcc_true_nonchalcedonian_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_miaphysites }
+		true_religion = miaphysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_monophysites }
+		true_religion = monophysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_nestorians }
+		true_religion = nestorian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_messalians }
+		true_religion = messalian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_muslims }
+		true_religion_group = muslim
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_sunnis }
+		kcc_true_sunni_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_shias }
+		kcc_true_shia_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_ibadis }
+		kcc_true_ibadi_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_mazdans }
+		true_religion_group = zoroastrian_group
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_zoro_china_bullseye_mazdans }
+		kcc_true_no_zoro_madzan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_zoroastrians }
+		true_religion = zoroastrian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_mazdakis }
+		true_religion = mazdaki
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_manicheans }
+		true_religion = manichean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_dharmans }
+		kcc_true_dharman_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_pagans }
+		true_religion_group = pagan_group
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_northern_pagans }
+		kcc_true_northern_pagan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_eastern_pagans }
+		kcc_true_eastern_pagan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_classical_pagans }
+		kcc_true_classical_pagan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_africans }
+		true_religion = west_african_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_aztecs }
+		true_religion = aztec_reformed
+	}
+	#Christian Immersion
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_adoptionists }
+		true_religion = adoptionist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_free_spiritss }
+		true_religion = free_spirits
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_judaizers }
+		true_religion = judaizer
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_mandeans }
+		true_religion = mandean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_barlaamites }
+		true_religion = barlaamite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_chaldeans }
+		true_religion = chaldean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_apollinarians }
+		true_religion = apollinarian
+	}
+	#Last Vanilla Religions
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_yazidis }
+		true_religion = yazidi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_druze }
+		true_religion = druze
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_khurmaztas }
+		true_religion = khurmazta
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_jews }
+		true_religion = jewish
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_bullseye_karaites }
+		true_religion = karaite
+	}
+	trigger_else = {
+		has_global_flag = kcc_china_bullseye_hindus
+		true_religion = hindu
+	}
+}
+
+kcc_china_caught_you_in_religious_crossfire_trigger = {
+	trigger_if = {
+		limit = { has_global_flag = kcc_china_collateral_christians }
+		true_religion_group = christian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_latins }
+		kcc_true_latin_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_byzantines }
+		kcc_true_byzantine_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_nonchalcedonians }
+		kcc_true_nonchalcedonian_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_muslims }
+		true_religion_group = muslim
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_sunnis }
+		kcc_true_sunni_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_shias }
+		kcc_true_shia_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_mazdans }
+		true_religion_group = zoroastrian_group
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_zoro_china_collateral_mazdans }
+		kcc_true_no_zoro_madzan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_dharmans }
+		kcc_true_dharman_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_pagans }
+		true_religion_group = pagan_group
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_northern_pagans }
+		kcc_true_northern_pagan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_eastern_pagans }
+		kcc_true_eastern_pagan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_classical_pagans }
+		kcc_true_classical_pagan_trigger = yes
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_africans }
+		true_religion = west_african_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_china_collateral_aztecs }
+		true_religion = aztec_reformed
+	}
+	trigger_else = {
+		has_global_flag = kcc_china_collateral_jews
+		true_religion_group = jewish_group
+	}
+}
+
+kcc_nontaoist_majority_trigger = {
+	OR = {
+		has_global_flag = catholic_china_four
+		has_global_flag = cathar_china_four
+		has_global_flag = fraticelli_china_four
+		has_global_flag = waldensian_china_four
+		has_global_flag = lollard_china_four
+		has_global_flag = orthodoxy_china_four
+		has_global_flag = bogomilist_china_four
+		has_global_flag = monothelite_china_four
+		has_global_flag = iconoclast_china_four
+		has_global_flag = paulician_china_four
+		has_global_flag = miaphysite_china_four
+		has_global_flag = monophysite_china_four
+		has_global_flag = nestorian_china_four
+		has_global_flag = messalian_china_four
+		has_global_flag = sunni_china_four
+		has_global_flag = zikri_china_four
+		has_global_flag = shiite_china_four
+		has_global_flag = qarmatian_china_four
+		has_global_flag = hurufi_china_four
+		has_global_flag = ibadi_china_four
+		has_global_flag = kharijite_china_four
+		has_global_flag = zoroastrian_china_four
+		has_global_flag = mazdaki_china_four
+		has_global_flag = manichean_china_four
+		has_global_flag = buddhist_china_four
+		has_global_flag = jain_china_four
+		has_global_flag = norse_china_four
+		has_global_flag = baltic_china_four
+		has_global_flag = finnish_china_four
+		has_global_flag = slavic_china_four
+		has_global_flag = tengri_china_four
+		has_global_flag = zun_china_four
+		has_global_flag = bon_china_four
+		has_global_flag = hellenic_china_four
+		has_global_flag = african_china_four
+		has_global_flag = aztec_china_four
+		#Ancient Religions Reborn
+		has_global_flag = promethean_china_four
+		has_global_flag = celtic_china_four
+		has_global_flag = britannic_china_four
+		has_global_flag = egyptian_china_four
+		has_global_flag = atenic_china_four
+		#Christian Immersion
+		has_global_flag = adoptionist_china_four
+		has_global_flag = free_spirits_china_four
+		has_global_flag = judaizer_china_four
+		has_global_flag = mandean_china_four
+		has_global_flag = barlaamite_china_four
+		has_global_flag = chaldean_china_four
+		has_global_flag = apollinarian_china_four
+		has_global_flag = yarsan_china_four
+		#Last Vanilla Religions
+		has_global_flag = yazidi_china_four
+		has_global_flag = druze_china_four
+		has_global_flag = khurmazta_china_four
+		has_global_flag = jewish_china_four
+		has_global_flag = samaritan_china_four
+		has_global_flag = karaite_china_four
+		has_global_flag = hindu_china_four
+	}
+}
+
+kcc_unmonastic_china_trigger = {
+	offmap_china = {
+		offmap_ruler = {
+			NOR = {
+				religion_group = christian
+				has_dharmic_religion_trigger = yes
+				religion = manichean
+				religion = promethean_pagan
+				religion_scope = {
+					persistent_event_target:religion_title = { has_title_flag = kcc_is_monastic_religion }
+				}
+			}
+		}
+	}
+}
+
+kcc_waxwane_good_trigger = {
+	trigger_if = {
+		limit = { has_global_flag = kcc_waxwane_catholics }
+		true_religion = catholic
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_cathars }
+		true_religion = cathar
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_fraticellis }
+		true_religion = fraticelli
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_waldensians }
+		true_religion = waldensian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_lollards }
+		true_religion = lollard
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_orthodoxy }
+		true_religion = orthodox
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_bogomilists }
+		true_religion = bogomilist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_monothelites }
+		true_religion = monothelite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_iconoclasts }
+		true_religion = iconoclast
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_paulicians }
+		true_religion = paulician
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_miaphysites }
+		true_religion = miaphysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_monophysites }
+		true_religion = monophysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_nestorians }
+		true_religion = nestorian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_messalians }
+		true_religion = messalian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_sunnis }
+		true_religion = sunni
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_zikris }
+		true_religion = zikri
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_shiites }
+		true_religion = shiite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_qarmatian }
+		true_religion = qarmatian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_hurufis }
+		true_religion = hurufi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_ibadis }
+		true_religion = ibadi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_kharijites }
+		true_religion = kharijite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_zoroastrians }
+		true_religion = zoroastrian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_mazdakis }
+		true_religion = mazdaki
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_manicheans }
+		true_religion = manichean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_buddhists }
+		true_religion = buddhist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_jains }
+		true_religion = jain
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_norse }
+		true_religion = norse_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_baltic }
+		true_religion = baltic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_slavic }
+		true_religion = slavic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_finnish }
+		true_religion = finnish_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_tengri }
+		true_religion = tengri_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_zun }
+		true_religion = zun_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_bon }
+		true_religion = bon_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_hellenics }
+		true_religion = hellenic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_prometheans }
+		true_religion = promethean_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_celtics }
+		true_religion = celtic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_britannics }
+		true_religion = britannic_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_egyptians }
+		true_religion = egyptian_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_atenics }
+		true_religion = aten_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_africans }
+		true_religion = west_african_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_aztecs }
+		true_religion = aztec_reformed
+	}
+	#Christian Immersion
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_adoptionists }
+		true_religion = adoptionist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_free_spirits }
+		true_religion = free_spirits
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_judaizers }
+		true_religion = judaizer
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_mandeans }
+		true_religion = mandean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_barlaamites }
+		true_religion = barlaamite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_chaldeans }
+		true_religion = chaldean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_apollinarians }
+		true_religion = apollinarian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_yarsans }
+		true_religion = yarsan
+	}
+	#Last Vanilla Religions
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_yazidis }
+		true_religion = yazidi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_druze }
+		true_religion = druze
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_khurmaztas }
+		true_religion = khurmazta
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_jews }
+		true_religion = jewish
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_samaritans }
+		true_religion = samaritan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_waxwane_karaites }
+		true_religion = karaite
+	}
+	trigger_else = {
+		has_global_flag = kcc_waxwane_hindus
+		true_religion = hindu
+	}
+}
+
+kcc_waxwane_bad_trigger = {
+	trigger_if = {
+		limit = { has_global_flag = kcc_wwdropped_catholics }
+		true_religion = catholic
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_cathars }
+		true_religion = cathar
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_fraticellis }
+		true_religion = fraticelli
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_waldensians }
+		true_religion = waldensian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_lollards }
+		true_religion = lollard
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_orthodoxy }
+		true_religion = orthodox
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_bogomilists }
+		true_religion = bogomilist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_monothelites }
+		true_religion = monothelite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_iconoclasts }
+		true_religion = iconoclast
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_paulicians }
+		true_religion = paulician
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_miaphysites }
+		true_religion = miaphysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_monophysites }
+		true_religion = monophysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_nestorians }
+		true_religion = nestorian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_messalians }
+		true_religion = messalian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_sunnis }
+		true_religion = sunni
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_zikris }
+		true_religion = zikri
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_shiites }
+		true_religion = shiite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_qarmatian }
+		true_religion = qarmatian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_hurufis }
+		true_religion = hurufi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_ibadis }
+		true_religion = ibadi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_kharijites }
+		true_religion = kharijite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_zoroastrians }
+		true_religion = zoroastrian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_mazdakis }
+		true_religion = mazdaki
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_manicheans }
+		true_religion = manichean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_buddhists }
+		true_religion = buddhist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_jains }
+		true_religion = jain
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_norse }
+		true_religion = norse_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_baltic }
+		true_religion = baltic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_slavic }
+		true_religion = slavic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_finnish }
+		true_religion = finnish_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_tengri }
+		true_religion = tengri_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_zun }
+		true_religion = zun_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_bon }
+		true_religion = bon_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_hellenics }
+		true_religion = hellenic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_prometheans }
+		true_religion = promethean_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_celtics }
+		true_religion = celtic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_britannics }
+		true_religion = britannic_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_egyptians }
+		true_religion = egyptian_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_atenics }
+		true_religion = aten_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_africans }
+		true_religion = west_african_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_aztecs }
+		true_religion = aztec_reformed
+	}
+	#Christian Immersion
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_adoptionists }
+		true_religion = adoptionist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_free_spirits }
+		true_religion = free_spirits
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_judaizers }
+		true_religion = judaizer
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_mandeans }
+		true_religion = mandean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_barlaamites }
+		true_religion = barlaamite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_chaldeans }
+		true_religion = chaldean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_apollinarians }
+		true_religion = apollinarian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_yarsans }
+		true_religion = yarsan
+	}
+	#Last Vanilla Religions
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_yazidis }
+		true_religion = yazidi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_druze }
+		true_religion = druze
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_khurmaztas }
+		true_religion = khurmazta
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_jews }
+		true_religion = jewish
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_samaritans }
+		true_religion = samaritan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_wwdropped_karaites }
+		true_religion = karaite
+	}
+	trigger_else = {
+		has_global_flag = kcc_wwdropped_hindus
+		true_religion = hindu
+	}
+}
+
+kcc_mission_spread_trigger = {
+	trigger_if = {
+		limit = { has_global_flag = kcc_missionspread_catholics }
+		true_religion = catholic
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_cathars }
+		true_religion = cathar
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_fraticellis }
+		true_religion = fraticelli
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_waldensians }
+		true_religion = waldensian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_lollards }
+		true_religion = lollard
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_orthodoxy }
+		true_religion = orthodox
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_bogomilists }
+		true_religion = bogomilist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_monothelites }
+		true_religion = monothelite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_iconoclasts }
+		true_religion = iconoclast
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_paulicians }
+		true_religion = paulician
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_miaphysites }
+		true_religion = miaphysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_monophysites }
+		true_religion = monophysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_nestorians }
+		true_religion = nestorian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_messalians }
+		true_religion = messalian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_sunnis }
+		true_religion = sunni
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_zikris }
+		true_religion = zikri
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_shiites }
+		true_religion = shiite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_qarmatian }
+		true_religion = qarmatian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_hurufis }
+		true_religion = hurufi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_ibadis }
+		true_religion = ibadi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_kharijites }
+		true_religion = kharijite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_zoroastrians }
+		true_religion = zoroastrian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_mazdakis }
+		true_religion = mazdaki
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_manicheans }
+		true_religion = manichean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_buddhists }
+		true_religion = buddhist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_jains }
+		true_religion = jain
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_norse }
+		true_religion = norse_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_baltic }
+		true_religion = baltic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_slavic }
+		true_religion = slavic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_finnish }
+		true_religion = finnish_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_tengri }
+		true_religion = tengri_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_zun }
+		true_religion = zun_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_bon }
+		true_religion = bon_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_hellenics }
+		true_religion = hellenic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_prometheans }
+		true_religion = promethean_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_celtics }
+		true_religion = celtic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_britannics }
+		true_religion = britannic_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_egyptians }
+		true_religion = egyptian_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_atenics }
+		true_religion = aten_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_africans }
+		true_religion = west_african_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_aztecs }
+		true_religion = aztec_reformed
+	}
+	#Christian Immersion
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_adoptionists }
+		true_religion = adoptionist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_free_spirits }
+		true_religion = free_spirits
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_judaizers }
+		true_religion = judaizer
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_mandeans }
+		true_religion = mandean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_barlaamites }
+		true_religion = barlaamite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_chaldeans }
+		true_religion = chaldean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_apollinarians }
+		true_religion = apollinarian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_yarsans }
+		true_religion = yarsan
+	}
+	#Last Vanilla Religions
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_yazidis }
+		true_religion = yazidi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_druze }
+		true_religion = druze
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_khurmaztas }
+		true_religion = khurmazta
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_jews }
+		true_religion = jewish
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_samaritans }
+		true_religion = samaritan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_missionspread_karaites }
+		true_religion = karaite
+	}
+	trigger_else = {
+		has_global_flag = kcc_missionspread_hindus
+		true_religion = hindu
+	}
+}
+
+kcc_ghost_town_trigger = {
+	trigger_if = {
+		limit = { has_global_flag = kcc_ghosttown_catholics }
+		true_religion = catholic
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_cathars }
+		true_religion = cathar
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_fraticellis }
+		true_religion = fraticelli
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_waldensians }
+		true_religion = waldensian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_lollards }
+		true_religion = lollard
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_orthodoxy }
+		true_religion = orthodox
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_bogomilists }
+		true_religion = bogomilist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_monothelites }
+		true_religion = monothelite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_iconoclasts }
+		true_religion = iconoclast
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_paulicians }
+		true_religion = paulician
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_miaphysites }
+		true_religion = miaphysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_monophysites }
+		true_religion = monophysite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_nestorians }
+		true_religion = nestorian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_messalians }
+		true_religion = messalian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_sunnis }
+		true_religion = sunni
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_zikris }
+		true_religion = zikri
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_shiites }
+		true_religion = shiite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_qarmatian }
+		true_religion = qarmatian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_hurufis }
+		true_religion = hurufi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_ibadis }
+		true_religion = ibadi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_kharijites }
+		true_religion = kharijite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_zoroastrians }
+		true_religion = zoroastrian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_mazdakis }
+		true_religion = mazdaki
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_manicheans }
+		true_religion = manichean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_buddhists }
+		true_religion = buddhist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_jains }
+		true_religion = jain
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_norse }
+		true_religion = norse_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_baltic }
+		true_religion = baltic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_slavic }
+		true_religion = slavic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_finnish }
+		true_religion = finnish_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_tengri }
+		true_religion = tengri_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_zun }
+		true_religion = zun_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_bon }
+		true_religion = bon_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_hellenics }
+		true_religion = hellenic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_prometheans }
+		true_religion = promethean_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_celtics }
+		true_religion = celtic_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_britannics }
+		true_religion = britannic_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_egyptians }
+		true_religion = egyptian_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_atenics }
+		true_religion = aten_pagan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_africans }
+		true_religion = west_african_pagan_reformed
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_aztecs }
+		true_religion = aztec_reformed
+	}
+	#Christian Immersion
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_adoptionists }
+		true_religion = adoptionist
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_free_spirits }
+		true_religion = free_spirits
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_judaizers }
+		true_religion = judaizer
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_mandeans }
+		true_religion = mandean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_barlaamites }
+		true_religion = barlaamite
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_chaldeans }
+		true_religion = chaldean
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_apollinarians }
+		true_religion = apollinarian
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_yarsans }
+		true_religion = yarsan
+	}
+	#Last Vanilla Religions
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_yazidis }
+		true_religion = yazidi
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_druze }
+		true_religion = druze
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_khurmaztas }
+		true_religion = khurmazta
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_jews }
+		true_religion = jewish
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_samaritans }
+		true_religion = samaritan
+	}
+	trigger_else_if = {
+		limit = { has_global_flag = kcc_ghosttown_karaites }
+		true_religion = karaite
+	}
+	trigger_else = {
+		has_global_flag = kcc_ghosttown_hindus
+		true_religion = hindu
+	}
+}

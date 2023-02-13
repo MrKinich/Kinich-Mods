@@ -1,0 +1,71 @@
+d_sunni = {
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = sunni_chinese_caliphate }
+			offmap_china = {
+				show_scope_change = no
+				offmap_ruler = { NOT = { religion = sunni } }
+			}
+		}
+	}
+}
+
+d_shiite = {
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = shiite_chinese_caliphate }
+			offmap_china = {
+				show_scope_change = no
+				offmap_ruler = { NOT = { religion = shiite } }
+			}
+		}
+	}
+}
+
+d_qarmatian = {
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = qarmatian_chinese_caliphate }
+			offmap_china = {
+				show_scope_change = no
+				offmap_ruler = { NOT = { religion = qarmatian } }
+			}
+		}
+	}
+}
+
+d_ibadi = {
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = ibadi_chinese_caliphate }
+			offmap_china = {
+				show_scope_change = no
+				offmap_ruler = { NOT = { religion = ibadi } }
+			}
+		}
+	}
+}
+
+d_kharijite = {
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = kharijite_chinese_caliphate }
+			offmap_china = {
+				show_scope_change = no
+				offmap_ruler = { NOT = { religion = kharijite } }
+			}
+		}
+	}
+}
+
+d_hurufi = {
+	allow = {
+		conditional_tooltip = {
+			trigger = { has_global_flag = hurufi_chinese_sheikhdom }
+			offmap_china = {
+				show_scope_change = no
+				offmap_ruler = { NOT = { religion = hurufi } }
+			}
+		}
+	}
+}

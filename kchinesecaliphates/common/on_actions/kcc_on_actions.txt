@@ -1,0 +1,294 @@
+on_startup = { 
+	events = {
+		kccspread.0016 # Initial Event to Set Status of Religions in China
+		kccspread.0019 # Boot from China cleanup
+		kccspread.0020 # Protector General Event Target
+	}
+	effect = {
+		if = {
+			limit = {
+				has_landed_title = e_china_west_governor
+				NOT = { has_global_flag = kcc_reformed_religion_scopes_setup }
+			}
+			set_global_flag = kcc_reformed_religion_scopes_setup
+			setup_reformed_religion_scope = yes
+		}
+		if = {
+			limit = {
+				has_global_flag = ancrel
+				has_landed_title = e_china_west_governor
+				NOT = { has_global_flag = kcc_ancrel_religion_scopes_setup }
+			}
+			set_global_flag = kcc_ancrel_religion_scopes_setup
+			setup_ancrel_religion_scope = yes
+		}
+		if = {
+			limit = {
+				has_global_flag = kcc_reformed_religion_scopes_setup
+				is_reformed_religion = yes
+				religion_scope = {
+					persistent_event_target:religion_title = { NOT = { has_title_flag = kcc_has_set_religion_flags } }
+				}
+			}
+			kcc_pagan_reformation_flags_effect = yes
+		}
+	}
+}
+
+#character
+on_yearly_pulse = {
+	events = {
+		kccmission.0026 # Mission over, how'd your heir do?
+		kccpersecute.0042 # Persecution Aftereffects
+		kccspread.0017 # Great Anti-Buddhist Persecution cleanup
+		kccspread.0019 # Boot from China cleanup
+	}
+	
+	random_events = {
+		kccmission_events = {
+			delay = 42
+			#Sending missionaries to China
+			300 = kccmission.0004 # Missionaries encounter starving peasants
+			300 = kccmission.0005 # Missionaries waylaid by bandits
+			300 = kccmission.0006 # Debate with Confucian Scholar
+			300 = kccmission.0007 # Fake a Miracle?
+			300 = kccmission.0008 # Help Peasants Build Stuff
+			300 = kccmission.0009 # Grieving Parent
+			300 = kccmission.0010 # Translate Holy Texts?
+			300 = kccmission.0011 # Convert Local Administrators
+			300 = kccmission.0012 # Convert Local Merchants
+			300 = kccmission.0013 # Display of Piety
+			300 = kccmission.0014 # Scapegoated!
+			300 = kccmission.0015 # Imperial Examination?
+			300 = kccmission.0016 # Drunken Brawl
+			300 = kccmission.0017 # Sinful Locals
+			300 = kccmission.0018 # Military patrol, mingle with soldiers
+			300 = kccmission.0019 # Military patrol, meet with officer
+			300 = kccmission.0020 # Traditionalist Encounter
+			300 = kccmission.0021 # Encounter Asian traveler in China
+			#Supernatural!
+		}
+		
+		kccwaxwane_events = {
+			delay = 17
+			800 = 0
+			#Wax & Wane of Religions in China
+			400 = kccwaxwane.0001 # Wax & Wane of Catholicism
+			400 = kccwaxwane.0002 # Wax & Wane of Catharism
+			400 = kccwaxwane.0003 # Wax & Wane of Fraticelli
+			400 = kccwaxwane.0004 # Wax & Wane of Waldensianism
+			400 = kccwaxwane.0005 # Wax & Wane of Lollardy
+			400 = kccwaxwane.0006 # Wax & Wane of Orthodoxy
+			400 = kccwaxwane.0007 # Wax & Wane of Miaphysitism
+			400 = kccwaxwane.0008 # Wax & Wane of Monophysitism
+			400 = kccwaxwane.0009 # Wax & Wane of Bogomilism
+			400 = kccwaxwane.0010 # Wax & Wane of Monothelite
+			400 = kccwaxwane.0011 # Wax & Wane of Iconoclasm
+			400 = kccwaxwane.0012 # Wax & Wane of Paulicianism
+			400 = kccwaxwane.0013 # Wax & Wane of Nestorianism
+			400 = kccwaxwane.0014 # Wax & Wane of Messalianism
+			400 = kccwaxwane.0015 # Wax & Wane of Sunni Islam
+			400 = kccwaxwane.0016 # Wax & Wane of Zikri Islam
+			400 = kccwaxwane.0017 # Wax & Wane of Shia Islam
+			400 = kccwaxwane.0018 # Wax & Wane of qarmatian Islam
+			400 = kccwaxwane.0019 # Wax & Wane of Hurufi Islam
+			400 = kccwaxwane.0020 # Wax & Wane of Ibadi Islam
+			400 = kccwaxwane.0021 # Wax & Wane of Kharijite Islam
+			400 = kccwaxwane.0022 # Wax & Wane of Zoroastrianism
+			400 = kccwaxwane.0023 # Wax & Wane of Mazdakism
+			400 = kccwaxwane.0024 # Wax & Wane of Manicheaism
+			400 = kccwaxwane.0025 # Wax & Wane of Buddhism
+			400 = kccwaxwane.0026 # Wax & Wane of Jainism
+			400 = kccwwpagan.0001 # Wax & Wane of Norse Paganism
+			400 = kccwwpagan.0002 # Wax & Wane of Tengri Paganism
+			400 = kccwwpagan.0003 # Wax & Wane of Baltic Paganism
+			400 = kccwwpagan.0004 # Wax & Wane of Finnish Paganism
+			400 = kccwwpagan.0005 # Wax & Wane of Aztec Paganism
+			400 = kccwwpagan.0006 # Wax & Wane of Slavic Paganism
+			400 = kccwwpagan.0007 # Wax & Wane of African Paganism
+			400 = kccwwpagan.0008 # Wax & Wane of Zun Paganism
+			400 = kccwwpagan.0009 # Wax & Wane of Hellenic Paganism
+			400 = kccwwpagan.0010 # Wax & Wane of Celtic Paganism
+			400 = kccwwpagan.0011 # Wax & Wane of Egyptian Paganism
+			400 = kccwwpagan.0012 # Wax & Wane of Bon Paganism
+			400 = kccwwpagan.0013 # Wax & Wane of Promethean Paganism
+			400 = kccwwpagan.0014 # Wax & Wane of Britannic Paganism
+			400 = kccwwpagan.0015 # Wax & Wane of Atenic Paganism
+			#Christian Immersion
+			400 = kcccimmersion.0001 # Wax & Wane of Adoptionism
+			400 = kcccimmersion.0002 # Wax & Wane of Free Spirits
+			400 = kcccimmersion.0003 # Wax & Wane of Barlaamite Christianity
+			400 = kcccimmersion.0004 # Wax & Wane of Judaizing Christianity
+			400 = kcccimmersion.0005 # Wax & Wane of Mandeanism
+			400 = kcccimmersion.0006 # Wax & Wane of Chaldean Christianity
+			400 = kcccimmersion.0007 # Wax & Wane of Apollinarianism
+			400 = kcccimmersion.0008 # Wax & Wane of Yarsan Islam
+			#Last Vanilla Religions
+			400 = kcclastvanilla.0001 # Wax & Wane of Yazidism
+			400 = kcclastvanilla.0002 # Wax & Wane of Druze Islam
+			400 = kcclastvanilla.0003 # Wax & Wane of Khurmatzas
+			400 = kcclastvanilla.0004 # Wax & Wane of Rabbinical Judaism
+			400 = kcclastvanilla.0005 # Wax & Wane of Samaritanism
+			400 = kcclastvanilla.0006 # Wax & Wane of Karaite Judaism
+			400 = kcclastvanilla.0007 # Wax & Wane of Hinduism
+		}
+	}
+}
+
+#character, every 2 years
+on_bi_yearly_pulse = {
+
+	events = {
+		kccmission.0033 # Immortality Cleanup
+	}
+}
+
+#character
+on_decade_pulse = {
+	events = {
+		kccaliphate.0009 # Check for 'X moved to China' conditions, Part 1
+	}
+	random_events = {
+		kccpersecute_events = {
+			delay = 153
+			650 = 0
+			#Religious Persecutions in China
+			50 = kccpersecute.0001 # Persecute Catholics?
+			50 = kccpersecute.0002 # Persecute Cathars?
+			50 = kccpersecute.0003 # Persecute Fraticellis?
+			50 = kccpersecute.0004 # Persecute Waldensians?
+			50 = kccpersecute.0005 # Persecute Lollards?
+			50 = kccpersecute.0006 # Persecute Orthodoxy?
+			50 = kccpersecute.0007 # Persecute Bogomilists?
+			50 = kccpersecute.0008 # Persecute Monothelites?
+			50 = kccpersecute.0009 # Persecute Iconoclast?
+			50 = kccpersecute.0010 # Persecute Paulicians?
+			50 = kccpersecute.0011 # Persecute Miaphysites?
+			50 = kccpersecute.0012 # Persecute Monophysites?
+			50 = kccpersecute.0013 # Persecute Nestorians?
+			50 = kccpersecute.0014 # Persecute Messalians?
+			50 = kccpersecute.0015 # Persecute Sunnis?
+			50 = kccpersecute.0016 # Persecute Zikris?
+			50 = kccpersecute.0017 # Persecute Shias?
+			50 = kccpersecute.0018 # Persecute Qarmatians?
+			50 = kccpersecute.0019 # Persecute Hurufis?
+			50 = kccpersecute.0020 # Persecute Ibadis?
+			50 = kccpersecute.0021 # Persecute Kharijites?
+			50 = kccpersecute.0022 # Persecute Zoroastrians?
+			50 = kccpersecute.0023 # Persecute Mazdakis?
+			50 = kccpersecute.0024 # Persecute Manicheans?
+			50 = kccpersecute.0025 # Persecute Buddhists?
+			50 = kccpersecute.0026 # Persecute Jains?
+			50 = kccpersecute.0027 # Persecute Norse?
+			50 = kccpersecute.0028 # Persecute Baltics?
+			50 = kccpersecute.0029 # Persecute Finnish?
+			50 = kccpersecute.0030 # Persecute Slavics?
+			50 = kccpersecute.0031 # Persecute Tengri?
+			50 = kccpersecute.0032 # Persecute Zun?
+			50 = kccpersecute.0033 # Persecute Bon?
+			50 = kccpersecute.0034 # Persecute Hellenics?
+			50 = kccpersecute.0035 # Persecute Prometheans?
+			50 = kccpersecute.0036 # Persecute Celtics?
+			50 = kccpersecute.0037 # Persecute Britannics?
+			50 = kccpersecute.0038 # Persecute Egyptians?
+			50 = kccpersecute.0039 # Persecute Atenics?
+			50 = kccpersecute.0040 # Persecute Africans?
+			50 = kccpersecute.0041 # Persecute Aztecs?
+			#Christian Immersion
+			50 = kcccimmersion.0009 # Persecute Adoptionists?
+			50 = kcccimmersion.0010 # Persecute Free Spirits?
+			50 = kcccimmersion.0011 # Persecute Barlaamites?
+			50 = kcccimmersion.0012 # Persecute Judaizers?
+			50 = kcccimmersion.0013 # Persecute Mandeans?
+			50 = kcccimmersion.0014 # Persecute Chaldeans?
+			50 = kcccimmersion.0015 # Persecute Apollinarians?
+			50 = kcccimmersion.0016 # Persecute Yarsans?
+			#Last Vanilla Religions
+			50 = kcclastvanilla.0008 # Persecute Yazidis?
+			50 = kcclastvanilla.0009 # Persecute Druze?
+			50 = kcclastvanilla.0010 # Persecute Khurmaztas?
+			75 = kcclastvanilla.0011 # Persecute Jews?
+			75 = kcclastvanilla.0012 # Persecute Samaritans?
+			75 = kcclastvanilla.0013 # Persecute Karaites?
+			50 = kcclastvanilla.0014 # Persecute Hindus?
+		}
+	}
+}
+
+on_adolescence_pulse = {
+	events = {
+		#kccdragontamer.2 # Give flag to teen who lacks it
+	}
+}
+
+#on combat pulse
+on_combat_pulse = {
+	random_events = {
+		30 = kccdragontamer.1 # Gain Chinese Commander trait
+	}
+}
+
+on_death = {
+	events = {
+		kccmission.0024 # Transfer missionary progress to heir
+		kccspread.0019 # Protector General Event Target
+	}
+}
+
+# When a pagan religion is reformed
+# ROOT is reformer
+on_reform_religion = {
+	effect = {
+		if = {
+			limit = { has_global_flag = kcc_reformed_religion_scopes_setup }
+			kcc_pagan_reformation_flags_effect = yes
+		}
+	}
+}
+
+on_character_convert_religion = {
+	events = {
+		kccmission.0027 # Cancel missionaries on religion change
+	}
+}
+
+# Character converts secret religion, for whatever reason. ROOT is the character after conversion and the FROM scope has the old religion. Note that this fires even when the secret religion is reset as a result of the character converting to it, or if the character didn't previously have a secret religion
+on_character_convert_secret_religion = {
+	events = {
+		kccmission.0027 # Cancel missionaries on religion change
+	}
+}
+
+# ROOT is the character
+# FROM is the title
+# FROMFROM is the old holder
+on_new_holder = {
+	events = {
+		kccspread.0020 # Protector General Event Target
+	}
+}
+
+# ROOT is the character, FROM is the title, FROMFROM is the old holder
+on_new_holder_usurpation = {
+	events = {
+		kccmission.0029 # Cleanup 1 if someone loses titles
+	}
+}
+
+# From = Attacker, Root = Defender
+on_war_ended_defeat = {
+	events = {
+		kccmission.0028 # Cancel missionaries if not a King or Emperor, or if too far from China
+	}
+}
+
+# Triggers when a change of employer has been detected. Note that the from scope is empty for newly created characters.
+# Root = character that got a new employer
+# From = previous employer
+# FromFrom = new employer
+on_employer_change = {
+	events = {
+		kccmission.0030 # Cleanup 2 if someone loses titles
+		kccaliphate.0005 # Add Sayyid/Saoshyant Descendant to new Chinese princes/princesses if a Caliphate/Saoshyant is proclaimed
+	}
+}

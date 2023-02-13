@@ -1,0 +1,15 @@
+kcc_dragontamer = {
+	inheritance = patrilineal
+	matrilineal_override = yes
+	allow_bastards = no
+	flags = { bloodline_kcc_chinese_command bloodline_female_marshal created_bloodline dunhuang_music }
+	picture = GFX_bloodlines_symbol_midgard
+	
+	combat_rating = 5
+	command_modifier = {
+		morale_offence = 0.05
+	}
+	bloodline_effect_kcc_chinese_command = 1
+	chinese_group_opinion = -10
+	monthly_character_prestige = 0.25
+}
